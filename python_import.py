@@ -1,48 +1,77 @@
+
+# 系统操作
 import os
 import sys
 import platform  # 可以查看终端信息（如版本状况）
-import re
-import codecs  # 读取文件时解决编码问题
-import tarfile
-import pickle
-import cPickle
-import functools
-import datetime
-import time
-import collections
-import dateutil  # 用来解析时间
-import itertools
-import warnings
-import copy
-import random
-import csv
-import math
-import threading
-import logging
+import psutil  # 查看内存占用情况
 
-import pymongo
-
+# 编码及解析
 import chardet
+import codecs
+import copy
+import cPickle
+import csv
+import pickle
+import re
+import tarfile
+
+
+
+# 内置工具箱
+import collections
+import functools
+import itertools
+
+# 对时间的操作
+import datetime
+import dateutil
+import time
+
+# 控制异常输出
+import warnings
+import tqdm  # 查看进度
+
+# 数据处理
+import random
+import math
 import numpy
 import numpy as np
 import pandas
 import pandas as pd
 import scipy
 import scipy as sp
+
+# 线程
+import threading
+
+
+# 日志记录
+import logging
+
+
+# 数据库操作
+import pymongo
+
+
+# 可视化
 import matplotlib.pyplot as plt
+
+# 金融指标以及时间序列
 import talib
-import pybrain
-import sklearn
 import arch
 import statsmodels
 
-import tqdm
-import psutil #查看内存占用情况
+# 机器学习及神经网络
+import pybrain
+import sklearn
 
+# http交互
 import request
 import bs4
 import urllib
 
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 warnings.filterwarnings('ignore')
 
