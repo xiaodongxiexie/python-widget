@@ -1,5 +1,6 @@
 import os
 import sys
+import platform
 import re
 import codecs
 import tarfile
@@ -16,6 +17,10 @@ import copy
 import random
 import csv
 import math
+
+import pymongo
+
+from pymongo import MongoClient
 
 import numpy 
 import numpy as np
