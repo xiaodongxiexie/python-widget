@@ -2,7 +2,7 @@
 
 #quick sort
 
-
+#method 1
 def quickSort(lists, left, right):
     
     if left >= right:
@@ -28,3 +28,26 @@ def quickSort(lists, left, right):
     quickSort(lists, left+1, high)
     
     return lists
+
+
+#method 2
+
+def quickSort(seq):
+    """
+    Takes a list of integers and sorts them in ascending order. This sorted
+    list is then returned.
+    :param seq: A list of integers
+    :rtype: A list of sorted integers
+    """
+    
+    if len(seq) <= 1:
+        return seq
+    else:
+        pivot = seq[0]
+        left, right = [], []
+        for x in seq[1:]:
+            if x < pivot:
+                left.append(x)
+            else:
+                right.append(x)
+    return sort(left) + [pivot] + sort(right)
