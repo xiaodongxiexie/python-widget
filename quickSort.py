@@ -22,7 +22,7 @@ def quickSort(lists, left, right):
             left += 1
         lists[right] = lists[left]
         
-    lists[right] = lists[left]
+    lists[right] = key
     
     quickSort(lists, low, left-1)
     quickSort(lists, left+1, high)
