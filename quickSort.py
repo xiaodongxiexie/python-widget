@@ -50,4 +50,4 @@ def quickSort(seq):
                 left.append(x)
             else:
                 right.append(x)
-    return sort(left) + [pivot] + sort(right)
+    return quickSort(left) + [pivot] + quickSort(right)
