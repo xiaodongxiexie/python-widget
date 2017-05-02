@@ -3,6 +3,7 @@
 #quick sort
 
 #method 1
+#原序列被改变
 def quickSort(lists, left, right):
     
     if left >= right:
@@ -31,7 +32,7 @@ def quickSort(lists, left, right):
 
 
 #method 2
-
+#原序列不变
 def quickSort(seq):
     """
     Takes a list of integers and sorts them in ascending order. This sorted
