@@ -5,21 +5,43 @@ import sys
 import platform  # 可以查看终端信息（如版本状况）
 import psutil  # 查看内存占用情况
 import inspect
+import operator
+import path
+import traceback
 
 #一些格式
 import string
+import pprint
+import readline
+import pep8
+import Queue
+import decorator
+import difflib
+import struct
+import this
+import new
+import keywords
+import glob
 
 
 # 编码及解析
 import chardet
+import code
 import codecs
 import copy
 import cPickle
 import csv
+import encodings
+
 import json
 import pickle
 import re
 import tarfile
+import gzip
+import parser
+import StringIO
+import cStringIO
+import ftplib
 
 
 
@@ -32,14 +54,23 @@ import itertools
 import datetime
 import dateutil
 import time
+import timeit
+import calendar
 
 # 控制异常输出
 import warnings
 import tqdm  # 查看进度
 
 # 数据处理
+import signal
 import random
+import numbers
+import nose
+import hashlib
 import math
+import cdemical
+import cmath
+import decimal
 import fractions
 import numpy
 import numpy as np
@@ -55,6 +86,8 @@ import threading
 # 日志记录
 import logging
 
+#垃圾回收
+import gc
 
 # 数据库操作
 import pymongo
@@ -77,7 +110,20 @@ import request
 import bs4
 import urllib
 import urllib2
+import socket
+import SimpleHTTPserver
+import contextlib2
+import Cookie
+import cookielib
+import email
+import htmllib
+import HTMLParser
+import httplib
+import io
+import lxml
 
+
+import future _builtins
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
