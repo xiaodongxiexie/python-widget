@@ -1,6 +1,10 @@
 #coding: utf-8
 
 
+#wrong 
+
+
+############################################
 def binary_search(lists, value):
     
     length = len(lists)
@@ -18,3 +22,20 @@ def binary_search(lists, value):
         return 
     else:
         return index
+############################################  
+
+
+
+#right
+def binary_search(lists, value):
+    low = 0
+    high = len(lists) - 1
+    
+    while high >= low:
+        mid = (high - low) // 2
+        if lists[mid] > value:
+            high -= 1
+        elif lists[mid] < value:
+            low += 1
+        else:
+            return mid
