@@ -4,6 +4,11 @@ import os
 import sys
 import platform  # 可以查看终端信息（如版本状况）
 import psutil  # 查看内存占用情况
+import inspect
+
+#一些格式
+import string
+
 
 # 编码及解析
 import chardet
@@ -35,6 +40,7 @@ import tqdm  # 查看进度
 # 数据处理
 import random
 import math
+import fractions
 import numpy
 import numpy as np
 import pandas
@@ -70,6 +76,7 @@ import sklearn
 import request
 import bs4
 import urllib
+import urllib2
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
