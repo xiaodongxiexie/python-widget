@@ -32,10 +32,10 @@ def binary_search(lists, value):
     high = len(lists) - 1
     
     while high >= low:
-        mid = (high - low) // 2
+        mid = (high + low) // 2
         if lists[mid] > value:
-            high -= 1
+            high = mid - 1
         elif lists[mid] < value:
-            low += 1
+            low = mid + 1
         else:
             return mid
