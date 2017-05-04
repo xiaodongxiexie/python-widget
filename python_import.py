@@ -12,7 +12,7 @@ import glob # 对文件进行查找
 
 #好用的工具
 #pip install pdir2
-import pdir
+import pdir  #dir的扩展
 
 
 #一些格式
@@ -28,21 +28,23 @@ import this
 import new
 import keywords
 import glob
+import colorams  #改变输出流背景、颜色等
 
 
 # 编码及解析
-import chardet
+import chardet  #检查编码
 import code
-import codecs
+import codecs   #与open一起使用，可以指定解码方式
 import copy
-import cPickle
+import cPickle #pickle的C版本，更快更好用
 import csv
 import encodings
+import shutil  #文件整体复制等操作
 
 import json
 import pickle
 import re
-import tarfile
+import tarfile  #解压压缩包
 import gzip
 import parser
 import StringIO
@@ -52,19 +54,19 @@ import ftplib
 
 
 # 内置工具箱
-import collections
-import functools
+import collections  #一些内置如OrderDict，defaultdict等
+import functools    #partial、wraps等
 import itertools
 
 # 对时间的操作
 import datetime
-import dateutil
+import dateutil  #强大的时间格式转换
 import time
-import timeit
+import timeit  #及时用
 import calendar
 
 # 控制异常输出
-import warnings
+import warnings  #结合filterwarnings('ignore')使用，专治强迫症
 import tqdm  # 查看进度
 
 # 数据处理
