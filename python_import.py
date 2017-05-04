@@ -10,6 +10,11 @@ import path
 import traceback
 import glob # 对文件进行查找
 
+#好用的工具
+#pip install pdir2
+import pdir
+
+
 #一些格式
 import string
 import pprint
