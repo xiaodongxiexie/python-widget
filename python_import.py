@@ -14,6 +14,10 @@ import glob # 对文件进行查找
 #pip install pdir2
 import pdir  #dir的扩展
 
+#错误忽略等
+import retrying  # pip install retrying
+#from retrying import retry   #忽略错误直到出现对的，这个很有用
+
 
 #一些格式
 import string
