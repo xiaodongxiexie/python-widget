@@ -30,7 +30,7 @@ import difflib
 import struct
 import this
 import new
-import keywords
+import keyword
 import glob
 import colorams  #改变输出流背景、颜色等
 
