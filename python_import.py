@@ -31,7 +31,6 @@ import struct
 import this
 import new
 import keyword
-import glob
 import colorams  #改变输出流背景、颜色等
 
 
@@ -49,6 +48,7 @@ import json
 import pickle
 import re
 import tarfile  #解压压缩包
+import zipfile
 import gzip
 import parser
 import StringIO
