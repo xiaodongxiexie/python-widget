@@ -24,5 +24,8 @@ http://www.statsmodels.org/stable/index.html
 
 ## 3、神经网络
 
+### 3.0 神经网络讲解
+http://neuralnetworksanddeeplearning.com/chap2.html
+
 ### 3.1 bp神经网络（pybrain）
 http://pybrain.org/docs/index.html
