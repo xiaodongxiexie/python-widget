@@ -1,8 +1,10 @@
 ## 1、python机器学习
 
-[!python机器学习资料]https://github.com/josephmisiti/awesome-machine-learning#python-general-purpose
-
-
+### 1.0、python机器学习资料
+https://github.com/josephmisiti/awesome-machine-learning#python-general-purpose
+http://www.thinkface.cn/thread-3601-1-1.html
+### 1.1、sklearn
+http://scikit-learn.org/
 
 ## 2、时间序列
 
