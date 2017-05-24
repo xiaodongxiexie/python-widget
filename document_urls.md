@@ -39,6 +39,7 @@ http://www.pyflux.com/arima-models/
 
 ### 2.1.1 pymc3 
 http://pymc-devs.github.io/pymc3/
+http://www.tuicool.com/articles/EjUVFzq  #参考资料（中文）
 
 ### 2.1.2 edward
 https://github.com/blei-lab/edward/
