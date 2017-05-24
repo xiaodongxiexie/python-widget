@@ -20,7 +20,7 @@ https://keras.io/#installation
 http://www.tensorfly.cn/
 http://www.tensorfly.cn/tfdoc/get_started/introduction.html  中文
 
-###1.4 遗传算法
+### 1.4 遗传算法
 http://deap.readthedocs.io/en/master/tutorials/basic/part1.html
 
 ## 2、时间序列
@@ -33,10 +33,17 @@ http://mrjbq7.github.io/ta-lib/func_groups/overlap_studies.html
 http://qtstalker.sourceforge.net/talib.html
 https://github.com/mrjbq7/ta-lib
 
-### 2.1 pyflux介绍及使用
+### 2.1.0 pyflux介绍及使用
 http://www.pyflux.com/
 http://www.pyflux.com/arima-models/
 
+### 2.1.1 pymc3 
+http://pymc-devs.github.io/pymc3/
+
+### 2.1.2 edward
+https://github.com/blei-lab/edward/
+### 2.1.3 stan
+http://mc-stan.org/
 ### 2.2 ARCH
 https://github.com/bashtage/arch
 
