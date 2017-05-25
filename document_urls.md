@@ -9,15 +9,15 @@
 > http://www.thinkface.cn/thread-3601-1-1.html 
 
 ### 1.1 sklearn
-> http://scikit-learn.org/
+> http://scikit-learn.org/  <br/>
 > https://github.com/lzjqsdd/scikit-learn-doc-cn   中文
 
 ### 1.2 keras
-> https://www.tensorflow.org/
+> https://www.tensorflow.org/    <br/>
 > https://keras.io/#installation
 
 ### 1.3 TensorFlow
-> http://www.tensorfly.cn/
+> http://www.tensorfly.cn/   <br/>
 > http://www.tensorfly.cn/tfdoc/get_started/introduction.html  中文
 
 ### 1.4 遗传算法
@@ -29,16 +29,16 @@
 > https://zhuanlan.zhihu.com/p/22113312
 
 #### 2.0.0 talib指标介绍
-> http://mrjbq7.github.io/ta-lib/func_groups/overlap_studies.html
-> http://qtstalker.sourceforge.net/talib.html
+> http://mrjbq7.github.io/ta-lib/func_groups/overlap_studies.html   <br/>
+> http://qtstalker.sourceforge.net/talib.html   <br/>
 > https://github.com/mrjbq7/ta-lib
 
 ### 2.1.0 pyflux介绍及使用
-> http://www.pyflux.com/
+> http://www.pyflux.com/   <br/>
 > http://www.pyflux.com/arima-models/
 
 ### 2.1.1 pymc3 
-> http://pymc-devs.github.io/pymc3/
+> http://pymc-devs.github.io/pymc3/   <br/>
 > http://www.tuicool.com/articles/EjUVFzq  #参考资料（中文）
 
 ### 2.1.2 edward
@@ -51,7 +51,7 @@
 > https://github.com/bashtage/arch
 
 ### 2.3 ARIMA（AR， MA， ARMA）基于Statsmodels
-> https://github.com/statsmodels/statsmodels
+> https://github.com/statsmodels/statsmodels   <br/>
 >  http://www.statsmodels.org/stable/index.html
 
 ## 3 神经网络
