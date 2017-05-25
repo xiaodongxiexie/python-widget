@@ -1,32 +1,32 @@
 ## 0 python官方总库
-https://pypi.python.org/pypi
+> https://pypi.python.org/pypi
 
 
 ## 1 python机器学习
 
 ### 1.0 python机器学习资料
-https://github.com/josephmisiti/awesome-machine-learning#python-general-purpose
-http://www.thinkface.cn/thread-3601-1-1.html 
+> https://github.com/josephmisiti/awesome-machine-learning#python-general-purpose  <br/>
+> http://www.thinkface.cn/thread-3601-1-1.html 
 
 ### 1.1 sklearn
-http://scikit-learn.org/
-https://github.com/lzjqsdd/scikit-learn-doc-cn   中文
+> http://scikit-learn.org/
+> https://github.com/lzjqsdd/scikit-learn-doc-cn   中文
 
 ### 1.2 keras
-https://www.tensorflow.org/
-https://keras.io/#installation
+> https://www.tensorflow.org/
+> https://keras.io/#installation
 
 ### 1.3 TensorFlow
-http://www.tensorfly.cn/
-http://www.tensorfly.cn/tfdoc/get_started/introduction.html  中文
+> http://www.tensorfly.cn/
+> http://www.tensorfly.cn/tfdoc/get_started/introduction.html  中文
 
 ### 1.4 遗传算法
-http://deap.readthedocs.io/en/master/tutorials/basic/part1.html
+> http://deap.readthedocs.io/en/master/tutorials/basic/part1.html
 
 ## 2、时间序列
 
 ### 2.0 时间序列模型介绍
-https://zhuanlan.zhihu.com/p/22113312
+> https://zhuanlan.zhihu.com/p/22113312
 
 #### 2.0.0 talib指标介绍
 > http://mrjbq7.github.io/ta-lib/func_groups/overlap_studies.html
