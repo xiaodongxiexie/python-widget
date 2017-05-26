@@ -64,6 +64,9 @@ import collections  #一些内置如OrderDict，defaultdict等
 import functools    #partial、wraps等
 import itertools
 
+import types
+import errno
+
 # 对时间的操作
 import datetime
 import dateutil  #强大的时间格式转换
