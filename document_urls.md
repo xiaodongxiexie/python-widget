@@ -23,6 +23,9 @@
 ### 1.4 遗传算法
 > http://deap.readthedocs.io/en/master/tutorials/basic/part1.html
 
+### 1.5 theano
+> http://deeplearning.net/software/theano/tutorial/gradients.html
+
 ## 2、时间序列
 
 ### 2.0 时间序列模型介绍
