@@ -121,6 +121,7 @@ import statsmodels
 # 机器学习及神经网络
 import pybrain
 import sklearn
+import theano   #一个基于Cpython的数学处理包
 
 # http交互
 import request
