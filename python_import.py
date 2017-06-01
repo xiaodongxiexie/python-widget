@@ -140,6 +140,8 @@ import httplib
 import io
 import lxml
 
+# token令牌等
+import uuid
 
 import future _builtins
 reload(sys)
