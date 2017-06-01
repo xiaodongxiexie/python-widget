@@ -77,3 +77,7 @@
 ## python学习手册
 ### 1. 在线手册中心
 > http://docs.pythontab.com/
+
+
+## python库汇总
+> https://github.com/vinta/awesome-python
