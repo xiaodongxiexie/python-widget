@@ -71,3 +71,9 @@
 
 ### n.1 H2O
 > http://docs.h2o.ai/h2o/latest-stable/h2o-py/docs/intro.html
+
+
+
+## python学习手册
+### 1. 在线手册中心
+> http://docs.pythontab.com/
