@@ -71,7 +71,7 @@ import errno
 import datetime
 import dateutil  #强大的时间格式转换
 import time
-import timeit  #及时用
+import timeit  #计时用
 import calendar
 
 # 控制异常输出
@@ -113,6 +113,9 @@ import pymongo
 # 可视化
 import matplotlib.pyplot as plt
 
+# 图形化
+import PIL
+
 # 金融指标以及时间序列
 import talib
 import arch
@@ -139,9 +142,16 @@ import HTMLParser
 import httplib
 import io
 import lxml
+import selenium
 
 # token令牌等
 import uuid
+
+
+# 数据库
+import sqlite3
+import pymongo
+
 
 import future _builtins
 reload(sys)
