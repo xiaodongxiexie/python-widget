@@ -14,7 +14,8 @@
 
 ### 1.2 keras
 > https://www.tensorflow.org/    <br/>
-> https://keras.io/#installation
+> https://keras.io/#installation   <br/>
+> http://keras-cn.readthedocs.io/en/latest/
 
 ### 1.3 TensorFlow
 > http://www.tensorfly.cn/   <br/>
