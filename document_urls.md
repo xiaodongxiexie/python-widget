@@ -4,6 +4,10 @@
 
 ## 1 python机器学习
 
+### 数据处理
+#### 正则化处理
+>http://charleshm.github.io/2016/03/Regularized-Regression/
+
 ### 1.0 python机器学习资料
 > https://github.com/josephmisiti/awesome-machine-learning#python-general-purpose  <br/>
 > http://www.thinkface.cn/thread-3601-1-1.html 
