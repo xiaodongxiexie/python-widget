@@ -67,6 +67,9 @@
 > http://pybrain.org/docs/index.html
 
 
+### 3.3 Neural Networks and Deep Learning (中文）
+> https://hit-scir.gitbooks.io/neural-networks-and-deep-learning-zh_cn/content/
+
 
 ## n 好玩的python库
 
