@@ -66,6 +66,9 @@
 
 ### 3.0 神经网络讲解
 
+### 零基础入门深度学习
+>https://www.zybuluo.com/hanbingtao/note/433855
+
 #### 从头构建3层神经网络
 > http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/   <br/>
 >https://github.com/dennybritz/nn-from-scratch
