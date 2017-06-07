@@ -68,6 +68,9 @@
 > http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/   <br/>
 >https://github.com/dennybritz/nn-from-scratch
 
+### 递归神经网络介绍
+>http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/
+
 ### 3.0 神经网络讲解
 > http://neuralnetworksanddeeplearning.com/chap2.html
 
