@@ -64,6 +64,10 @@
 
 ## 3 神经网络
 
+### 从头构建3层神经网络
+> http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/   <br/>
+>https://github.com/dennybritz/nn-from-scratch
+
 ### 3.0 神经网络讲解
 > http://neuralnetworksanddeeplearning.com/chap2.html
 
