@@ -78,7 +78,9 @@
 > http://neuralnetworksanddeeplearning.com/chap2.html
 
 ### 3.1 bp神经网络（pybrain）
-> http://pybrain.org/docs/index.html
+> http://pybrain.org/docs/index.html <br/>
+> http://pybrain.org/pages/features  <br/>
+> https://github.com/pybrain/pybrain/blob/master/examples/supervised/neuralnets%2Bsvm/example_rnn.py
 
 
 ### 3.3 Neural Networks and Deep Learning (中文）
