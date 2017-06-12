@@ -11,6 +11,7 @@ import traceback
 import glob # 对文件进行查找
 import fnmatch  #跟glob比较像，不过可以用(fnmatch.fnmatch(file, pattern),fnmatch.fnmatchcase(file,pattern)一个大小写敏感一个则不）
 import linecache   #读取任意文件的指定行  linecache.getline(file,line_number)
+import imp   #里面有reload些啥
 
 #好用的工具
 #pip install pdir2
