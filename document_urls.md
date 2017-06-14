@@ -8,6 +8,10 @@
 #### 正则化处理
 >http://charleshm.github.io/2016/03/Regularized-Regression/
 
+#### 降维（TSNE与PCA）
+> https://yq.aliyun.com/articles/70733 <br/>
+>http://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html
+
 ### 1.0 python机器学习资料
 > https://github.com/josephmisiti/awesome-machine-learning#python-general-purpose  <br/>
 > http://www.thinkface.cn/thread-3601-1-1.html 
