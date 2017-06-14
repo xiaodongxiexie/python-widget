@@ -99,6 +99,10 @@
 > http://docs.pythontab.com/
 
 
+### 2.Python学习资料集锦
+> http://sofar.blog.51cto.com/353572/1381685
+
+
 ## python库汇总
 > https://github.com/vinta/awesome-python
 
