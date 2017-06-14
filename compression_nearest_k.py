@@ -12,3 +12,7 @@ def compression(k,seq):
  #method 2
 def compression2(k, seq):
     return zip(*[seq[i::k] for i in range(k)])
+
+#method3
+def compression3(k, seq):
+    return [seq[i:i+k] for i in range(0, len(seq)+1, k)][:len(seq)/k]
