@@ -16,6 +16,7 @@
 > https://github.com/josephmisiti/awesome-machine-learning#python-general-purpose  <br/>
 > http://www.thinkface.cn/thread-3601-1-1.html   <br/>
 >  https://github.com/wepe/MachineLearning   <br/>
+>  http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning 视频教程
 
 ### 1.1 sklearn
 > http://scikit-learn.org/  <br/>
