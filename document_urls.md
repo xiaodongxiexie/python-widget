@@ -66,6 +66,9 @@
 > https://github.com/statsmodels/statsmodels   <br/>
 >  http://www.statsmodels.org/stable/index.html
 
+
+### 2.4  Prophet (Facebook)
+> https://facebookincubator.github.io/prophet/docs/quick_start.html#python-api
 ## 3 神经网络
 
 ### 3.0 神经网络讲解
