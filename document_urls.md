@@ -14,7 +14,8 @@
 
 ### 1.0 python机器学习资料
 > https://github.com/josephmisiti/awesome-machine-learning#python-general-purpose  <br/>
-> http://www.thinkface.cn/thread-3601-1-1.html 
+> http://www.thinkface.cn/thread-3601-1-1.html   <br/>
+>  https://github.com/wepe/MachineLearning   <br/>
 
 ### 1.1 sklearn
 > http://scikit-learn.org/  <br/>
@@ -23,7 +24,8 @@
 ### 1.2 keras
 > https://www.tensorflow.org/    <br/>
 > https://keras.io/#installation   <br/>
-> http://keras-cn.readthedocs.io/en/latest/
+> http://keras-cn.readthedocs.io/en/latest/   <br/>
+> https://github.com/fchollet/keras
 
 ### 1.3 TensorFlow
 > http://www.tensorfly.cn/   <br/>
@@ -34,6 +36,9 @@
 
 ### 1.5 theano
 > http://deeplearning.net/software/theano/tutorial/gradients.html
+
+### 1.6n  UFLDL
+> http://ufldl.stanford.edu/wiki/index.php/UFLDL%E6%95%99%E7%A8%8B
 
 ## 2、时间序列
 
@@ -108,6 +113,14 @@
 
 ### 2.Python学习资料集锦
 > http://sofar.blog.51cto.com/353572/1381685
+
+### 深度学习
+> http://www.kuqin.com/shuoit/20150409/345637.html
+
+### 强化学习
+> http://www.wildml.com/2016/10/learning-reinforcement-learning/   <br/>
+> https://www.nervanasys.com/demystifying-deep-reinforcement-learning/   <br/>
+> https://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks    <br/>
 
 
 ## python库汇总
