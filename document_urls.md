@@ -30,6 +30,7 @@
 
 ### 1.3 TensorFlow
 > http://www.tensorfly.cn/   <br/>
+> https://github.com/aymericdamien/TensorFlow-Examples <br/> 各种详细例子
 > http://www.tensorfly.cn/tfdoc/get_started/introduction.html  中文
 
 ### 1.4 遗传算法
