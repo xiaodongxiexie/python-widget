@@ -31,7 +31,7 @@
 ### 1.3 TensorFlow
 > http://www.tensorfly.cn/   <br/>
 > https://github.com/aymericdamien/TensorFlow-Examples <br/> 各种详细例子
-> http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=8,6&seed=0.22723&showTestData=false&discretize=false&percTrainData=50&x=false&y=true&xTimesY=false&xSquared=true&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false <br/>可视化
+> http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=8,6&seed=0.22723&showTestData=false&discretize=false&percTrainData=50&x=false&y=true&xTimesY=false&xSquared=true&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false  可视化训练<br/>
 > http://www.tensorfly.cn/tfdoc/get_started/introduction.html  中文
 
 ### 1.4 遗传算法
