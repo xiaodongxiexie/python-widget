@@ -127,6 +127,9 @@
 > https://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks    <br/>
 
 
+### 各领域公开数据集
+> https://zhuanlan.zhihu.com/p/25138563
+
 ## python库汇总
 > https://github.com/vinta/awesome-python
 
