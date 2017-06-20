@@ -130,6 +130,9 @@
 ### 各领域公开数据集
 > https://zhuanlan.zhihu.com/p/25138563
 
+### 注册Kaggle时需要翻墙
+> https://github.com/getlantern/forum 蓝灯
+
 ## python库汇总
 > https://github.com/vinta/awesome-python
 
