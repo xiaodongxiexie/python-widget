@@ -97,6 +97,8 @@ import pandas
 import pandas as pd
 import scipy
 import scipy as sp
+import dicom  #医疗数据处理包
+
 
 # 线程
 import threading
@@ -114,9 +116,15 @@ import pymongo
 
 # 可视化
 import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 
 # 图形化
 import PIL
+import cv2  # openCV
+import SimpleITK as sitk   #图像处理
+import skimage  
+
+
 
 # 金融指标以及时间序列
 import talib
@@ -127,6 +135,8 @@ import statsmodels
 import pybrain
 import sklearn
 import theano   #一个基于Cpython的数学处理包
+import tensorflow as tf
+
 
 # http交互
 import request
