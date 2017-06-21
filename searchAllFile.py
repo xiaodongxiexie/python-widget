@@ -6,12 +6,11 @@ import glob
 def searchFile(root_path,flag=0):
     if glob.glob(os.path.join(root_path, '*')):
         for x in glob.glob(os.path.join(root_path, '*')):
-            if flag >= 1:
-                print '\t'*flag, x
+            if flag == 1:
+                print '\t\t', x
             else:
                 print x
-            flag += 1
-            searchFile(x, flag=flag)
+            searchFile(x, flag=1)
 
 if __name__ == '__main__':
     searchFile('.')
