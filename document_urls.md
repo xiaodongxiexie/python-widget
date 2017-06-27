@@ -96,7 +96,9 @@
 ### 3.1 bp神经网络（pybrain）
 > http://pybrain.org/docs/index.html <br/>
 > http://pybrain.org/pages/features  <br/>
-> https://github.com/pybrain/pybrain/blob/master/examples/supervised/neuralnets%2Bsvm/example_rnn.py
+> https://github.com/pybrain/pybrain/blob/master/examples/supervised/neuralnets%2Bsvm/example_rnn.py <br/>
+> http://galaxy.agh.edu.pl/~vlsi/AI/backp_t_en/backprop.html <br/>
+> https://iamtrask.github.io/2015/07/12/basic-python-network/
 
 
 ### 3.3 Neural Networks and Deep Learning (中文）
