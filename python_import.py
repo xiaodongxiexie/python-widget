@@ -124,7 +124,9 @@ import cv2  # openCV
 import SimpleITK as sitk   #图像处理
 import skimage  
 
-
+#爬虫
+import fake-useragent # pip install fake-useragent  生成伪装头部等信息
+import requests
 
 # 金融指标以及时间序列
 import talib
