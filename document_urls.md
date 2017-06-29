@@ -138,7 +138,8 @@
 ## python库汇总
 > https://github.com/vinta/awesome-python
 
-
+## python 学习网址大全
+> https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh
 
 
 
