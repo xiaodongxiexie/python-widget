@@ -143,7 +143,8 @@ import tensorflow as tf
 
 
 # http交互
-import request
+import requests
+import cgi  # 通用网关接口
 import bs4
 import urllib
 import urllib2
