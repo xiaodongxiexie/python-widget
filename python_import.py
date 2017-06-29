@@ -106,6 +106,8 @@ import dicom  #医疗数据处理包
 
 # 线程
 import threading
+import subprocess
+import gevent  #协成
 
 
 # 日志记录
