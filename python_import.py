@@ -17,6 +17,8 @@ import importlib   #实现动态引入模块
 #好用的工具
 #pip install pdir2
 import pdir  #dir的扩展
+import tqdm #一个显示进度的小工具（bar）
+import fake-useragent  #自动生成伪装header等信息
 
 #错误忽略等
 import retrying  # pip install retrying
