@@ -135,6 +135,7 @@ import skimage
 import fake-useragent # pip install fake-useragent  生成伪装头部等信息
 import requests
 import base64   #编码
+import urlparse
 
 # 金融指标以及时间序列
 import talib
@@ -303,3 +304,5 @@ from threading import Thread
 
 from tqdm import tqdm
 from tqdm import trange
+
+from urlparse import urlparse
