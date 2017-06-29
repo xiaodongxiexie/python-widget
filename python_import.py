@@ -56,10 +56,12 @@ import re
 import tarfile  #解压压缩包
 import zipfile
 import gzip
+import zlib   #压缩，py2.7支持str，py3必须转换为bytes后才可用
 import parser
 import StringIO
 import cStringIO
 import ftplib
+
 
 
 
