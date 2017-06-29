@@ -49,6 +49,7 @@ import cPickle #pickle的C版本，更快更好用
 import csv
 import encodings
 import shutil  #文件整体复制等操作
+import base64
 
 import json
 import pickle
@@ -133,6 +134,7 @@ import skimage
 #爬虫
 import fake-useragent # pip install fake-useragent  生成伪装头部等信息
 import requests
+import base64   #编码
 
 # 金融指标以及时间序列
 import talib
