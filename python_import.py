@@ -171,6 +171,8 @@ import selenium
 # token令牌等
 import uuid
 
+# 单元测试
+import unittest
 
 # 数据库
 import sqlite3
