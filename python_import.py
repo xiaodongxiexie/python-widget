@@ -13,6 +13,7 @@ import fnmatch  #跟glob比较像，不过可以用(fnmatch.fnmatch(file, patter
 import linecache   #读取任意文件的指定行  linecache.getline(file,line_number)
 import imp   #里面有reload些啥
 import importlib   #实现动态引入模块
+import atexit  #一个蛮有意思的内置模块，执行函数退出时的回调函数，先进后出
 
 #好用的工具
 #pip install pdir2
