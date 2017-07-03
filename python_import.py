@@ -170,6 +170,8 @@ import selenium
 
 # token令牌等
 import uuid
+import hmac
+import hashlib
 
 # 单元测试
 import unittest
