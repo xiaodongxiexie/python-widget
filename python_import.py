@@ -32,7 +32,9 @@ import imghdr    #识别图像格式
 import PIL 
 
 #匹配
-import fuzzywuzzy  #字符串模糊匹配
+import fuzzywuzzy  #字符串模糊匹配  pip install fuzzywuzzy
+import pangu #分词处理 pip install pangu
+
 
 #一些格式
 import string
