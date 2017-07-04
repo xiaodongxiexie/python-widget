@@ -21,6 +21,7 @@ import atexit  #一个蛮有意思的内置模块，执行函数退出时的回�
 import pdir  #dir的扩展
 import tqdm #一个显示进度的小工具（bar）
 import fake-useragent  #自动生成伪装header等信息
+import faker #生成虚假信息，（可生成中文）
 
 #错误忽略等
 import retrying  # pip install retrying
