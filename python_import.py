@@ -42,7 +42,10 @@ import pangu #分词处理 pip install pangu
 #一些格式
 import string
 import pprint
+
 import uniout  #中文格式显示等，pip install uniout
+import xpinyin  #将汉字转换为拼音  # https://github.com/lxneng/xpinyin/
+
 import readline
 import pep8
 import Queue
