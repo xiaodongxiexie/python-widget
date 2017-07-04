@@ -31,6 +31,9 @@ import cv2   #openCV
 import imghdr    #识别图像格式
 import PIL 
 
+#匹配
+import fuzzywuzzy  #字符串模糊匹配
+
 #一些格式
 import string
 import pprint
