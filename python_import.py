@@ -26,6 +26,10 @@ import fake-useragent  #自动生成伪装header等信息
 import retrying  # pip install retrying
 #from retrying import retry   #忽略错误直到出现对的，这个很有用
 
+#图像识别
+import cv2   #openCV
+import imghdr    #识别图像格式
+import PIL 
 
 #一些格式
 import string
