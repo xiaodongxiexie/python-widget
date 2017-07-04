@@ -39,6 +39,9 @@ import pangu #分词处理 pip install pangu
 #pip install pyfiglet 
 #cmd使用，pyfiglet + 字母，显示为趣味文字
 
+#算法及排序
+import sortedcontainers #pip install sortedcontainers
+
 
 #一些格式
 import string
