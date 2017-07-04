@@ -187,6 +187,7 @@ import selenium
 import uuid
 import hmac
 import hashlib
+import shortuuid  # pip install shortuuid #https://github.com/skorokithakis/shortuuid
 
 # 单元测试
 import unittest
