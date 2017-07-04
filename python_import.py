@@ -197,6 +197,7 @@ import uuid
 import hmac
 import hashlib
 import shortuuid  # pip install shortuuid #https://github.com/skorokithakis/shortuuid
+import secrets  #py3 生成密令等
 
 # 单元测试
 import unittest
