@@ -11,6 +11,23 @@ def searchFile(root_path,flag=0):
             else:
                 print x
             searchFile(x, flag=1)
+            
+            
+#输出指定目录下所有文件大小总和，可选为MB或者GB
+def check_memory(path, style='M'):
+    i = 0
+    for dirpath, dirname, filename in os.walk(path):
+        for ii in filename:
+            i += os.path.getsize(os.path.join(dirpath,ii))
+    if style == 'M':
+        memory = i / 1024. / 1024.
+        print memory
+        return memory 
+    else:
+        memory = i / 1024. / 1024./ 1024.
+        print memory
+        return memory
 
 if __name__ == '__main__':
     searchFile('.')
+    check_memory('.', '')
