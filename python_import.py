@@ -210,12 +210,17 @@ import unittest
 import sqlite3
 import pymongo
 
+#抽象定义
+import abc
 
 import future_builtins
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
 warnings.filterwarnings('ignore')
+
+from abc import abstractmethod
+from abc import ABCMeta
 
 from bs4 import BeautifulSoup as bs
 
