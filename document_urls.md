@@ -133,6 +133,10 @@
 > https://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks    <br/>
 
 
+### sicpy学习（中文版）
+> https://www.kancloud.cn/wizardforcel/scipy-lecture-notes/129863
+
+
 ### 各领域公开数据集
 > https://zhuanlan.zhihu.com/p/25138563
 
