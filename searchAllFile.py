@@ -27,7 +27,25 @@ def check_memory(path, style='M'):
         memory = i / 1024. / 1024./ 1024.
         print memory
         return memory
+    
+import ctypes
+import os
+import platform
+import sys
+
+#获取剩余空间内存大小
+def get_free_space_mb(folder):
+    """ Return folder/drive free space (in bytes)
+    """
+    if platform.system() == 'Windows':
+        free_bytes = ctypes.c_ulonglong(0)
+        ctypes.windll.kernel32.GetDiskFreeSpaceExW(ctypes.c_wchar_p(folder), None, None, ctypes.pointer(free_bytes))
+        return free_bytes.value/1024/1024/1024 
+    else:
+        st = os.statvfs(folder)
+        return st.f_bavail * st.f_frsize/1024/1024
 
 if __name__ == '__main__':
     searchFile('.')
     check_memory('.', '')
+    get_free_space_mb('.')
