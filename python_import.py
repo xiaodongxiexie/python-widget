@@ -60,6 +60,7 @@ import this
 import new
 import keyword
 import colorams  #改变输出流背景、颜色等
+import ctypes
 
 
 # 编码及解析
@@ -137,6 +138,9 @@ import gevent  #协成
 
 # 日志记录
 import logging
+
+#监控运行内存等
+import pympler
 
 #垃圾回收
 import gc
@@ -282,6 +286,9 @@ from pybrain.tools.customxml.networkreader import NetworkReader
 
 
 from pymongo import MongoClient
+
+from pympler import asizeof
+from pympler import tracker
 
 from scipy.linalg import linalg
 from scipy.misc import derivative  # 求导数
