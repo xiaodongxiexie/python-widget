@@ -126,6 +126,7 @@ import pandas
 import pandas as pd
 import scipy
 import scipy as sp
+import tablib   #pip install tablib 类似于pandas中dataframe格式
 import dicom  #医疗数据处理包
 import statistics  #py3 一些处理中位数等数据统计包
 
