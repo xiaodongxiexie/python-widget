@@ -153,6 +153,7 @@ import pymongo
 # 可视化
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
+import seaborn   #基于matplotlib的一个美化
 
 # 图形化
 import PIL
