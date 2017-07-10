@@ -6,15 +6,15 @@
 
 ### 数据处理
 #### 正则化处理
->http://charleshm.github.io/2016/03/Regularized-Regression/
+> http://charleshm.github.io/2016/03/Regularized-Regression/
 
 #### 降维（TSNE与PCA）
 > https://yq.aliyun.com/articles/70733 <br/>
->http://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html
+> http://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html
 
 ### 1.0 python机器学习资料
-> https://github.com/josephmisiti/awesome-machine-learning#python-general-purpose  <br/>
-> http://www.thinkface.cn/thread-3601-1-1.html   <br/>
+>  https://github.com/josephmisiti/awesome-machine-learning#python-general-purpose  <br/>
+>  http://www.thinkface.cn/thread-3601-1-1.html   <br/>
 >  https://github.com/wepe/MachineLearning   <br/>
 >  http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning 视频教程
 
@@ -30,7 +30,7 @@
 
 ### 1.3 TensorFlow
 > http://www.tensorfly.cn/   <br/>
-> https://github.com/aymericdamien/TensorFlow-Examples   各种详细例子<br/> 
+> https://github.com/aymericdamien/TensorFlow-Examples   各种详细例子<br/>
 > http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=8,6&seed=0.22723&showTestData=false&discretize=false&percTrainData=50&x=false&y=true&xTimesY=false&xSquared=true&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false  可视化训练<br/>
 > http://www.tensorfly.cn/tfdoc/get_started/introduction.html  中文 <br/>
 > http://api.tensorflowjiaocheng.com/   tensorflow api
@@ -59,7 +59,7 @@
 > http://www.pyflux.com/   <br/>
 > http://www.pyflux.com/arima-models/
 
-### 2.1.1 pymc3 
+### 2.1.1 pymc3
 > http://pymc-devs.github.io/pymc3/   <br/>
 > http://www.tuicool.com/articles/EjUVFzq  #参考资料（中文）
 
@@ -74,7 +74,7 @@
 
 ### 2.3 ARIMA（AR， MA， ARMA）基于Statsmodels
 > https://github.com/statsmodels/statsmodels   <br/>
->  http://www.statsmodels.org/stable/index.html
+> http://www.statsmodels.org/stable/index.html
 
 
 ### 2.4  Prophet (Facebook)
@@ -84,14 +84,14 @@
 ### 3.0 神经网络讲解
 
 ### 零基础入门深度学习
->https://www.zybuluo.com/hanbingtao/note/433855
+> https://www.zybuluo.com/hanbingtao/note/433855
 
 #### 从头构建3层神经网络
 > http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/   <br/>
->https://github.com/dennybritz/nn-from-scratch
+> https://github.com/dennybritz/nn-from-scratch
 
 #### 递归神经网络介绍
->http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/
+> http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/
 > http://neuralnetworksanddeeplearning.com/chap2.html
 
 ### 3.1 bp神经网络（pybrain）
