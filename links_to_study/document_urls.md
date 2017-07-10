@@ -150,7 +150,8 @@
 > https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh
 > https://www.analyticsvidhya.com/blog/2017/02/top-28-cheat-sheets-for-machine-learning-data-science-probability-sql-big-data/  #cheat sheets
 
-
+## git中文手册
+> https://git-scm.com/book/zh/v2
 
 ### 好用的浏览器插件
 > https://greasyfork.org/zh-CN
