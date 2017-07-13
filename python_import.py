@@ -73,6 +73,7 @@ import csv
 import encodings
 import shutil  #文件整体复制等操作
 import base64
+import dis   #查看代码的编译
 
 import json
 import pickle
