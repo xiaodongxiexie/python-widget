@@ -8,47 +8,49 @@ import inspect
 import operator
 import path
 import traceback
-import glob # 对文件进行查找
-import fnmatch  #跟glob比较像，不过可以用(fnmatch.fnmatch(file, pattern),fnmatch.fnmatchcase(file,pattern)一个大小写敏感一个则不）
-import linecache   #读取任意文件的指定行  linecache.getline(file,line_number)
-import filecmp   #对文件或文件夹进行比较
-import imp   #里面有reload些啥
-import importlib   #实现动态引入模块
-import atexit  #一个蛮有意思的内置模块，执行函数退出时的回调函数，先进后出
+import glob  # 对文件进行查找
+# 跟glob比较像，不过可以用(fnmatch.fnmatch(file,
+# pattern),fnmatch.fnmatchcase(file,pattern)一个大小写敏感一个则不）
+import fnmatch
+import linecache  # 读取任意文件的指定行  linecache.getline(file,line_number)
+import filecmp  # 对文件或文件夹进行比较
+import imp  # 里面有reload些啥
+import importlib  # 实现动态引入模块
+import atexit  # 一个蛮有意思的内置模块，执行函数退出时的回调函数，先进后出
 
-#好用的工具
-#pip install pdir2
-import pdir  #dir的扩展
-import tqdm #一个显示进度的小工具（bar）
-import fake-useragent  #自动生成伪装header等信息
-import faker #生成虚假信息，（可生成中文）
+# 好用的工具
+# pip install pdir2
+import pdir  # dir的扩展
+import tqdm  # 一个显示进度的小工具（bar）
+import fake - useragent  # 自动生成伪装header等信息
+import faker  # 生成虚假信息，（可生成中文）
 
-#错误忽略等
+# 错误忽略等
 import retrying  # pip install retrying
-#from retrying import retry   #忽略错误直到出现对的，这个很有用
+# from retrying import retry   #忽略错误直到出现对的，这个很有用
 
-#图像识别
-import cv2   #openCV
-import imghdr    #识别图像格式
-import PIL 
+# 图像识别
+import cv2  # openCV
+import imghdr  # 识别图像格式
+import PIL
 
-#匹配
-import fuzzywuzzy  #字符串模糊匹配  pip install fuzzywuzzy
-import pangu #分词处理 pip install pangu
+# 匹配
+import fuzzywuzzy  # 字符串模糊匹配  pip install fuzzywuzzy
+import pangu  # 分词处理 pip install pangu
 
-#pip install pyfiglet 
-#cmd使用，pyfiglet + 字母，显示为趣味文字
+# pip install pyfiglet
+# cmd使用，pyfiglet + 字母，显示为趣味文字
 
-#算法及排序
-import sortedcontainers #pip install sortedcontainers
+# 算法及排序
+import sortedcontainers  # pip install sortedcontainers
 
 
-#一些格式
+# 一些格式
 import string
 import pprint
 
-import uniout  #中文格式显示等，pip install uniout
-import xpinyin  #将汉字转换为拼音  # https://github.com/lxneng/xpinyin/
+import uniout  # 中文格式显示等，pip install uniout
+import xpinyin  # 将汉字转换为拼音  # https://github.com/lxneng/xpinyin/
 
 import readline
 import pep8
@@ -59,40 +61,38 @@ import struct
 import this
 import new
 import keyword
-import colorams  #改变输出流背景、颜色等
+import colorams  # 改变输出流背景、颜色等
 import ctypes
 
 
 # 编码及解析
-import chardet  #检查编码
+import chardet  # 检查编码
 import code
-import codecs   #与open一起使用，可以指定解码方式
+import codecs  # 与open一起使用，可以指定解码方式
 import copy
-import cPickle #pickle的C版本，更快更好用
+import cPickle  # pickle的C版本，更快更好用
 import csv
 import encodings
-import shutil  #文件整体复制等操作
+import shutil  # 文件整体复制等操作
 import base64
-import dis   #查看代码的编译
+import dis  # 查看代码的编译
 
 import json
 import pickle
 import re
-import tarfile  #解压压缩包
+import tarfile  # 解压压缩包
 import zipfile
 import gzip
-import zlib   #压缩，py2.7支持str，py3必须转换为bytes后才可用
+import zlib  # 压缩，py2.7支持str，py3必须转换为bytes后才可用
 import parser
 import StringIO
 import cStringIO
 import ftplib
 
 
-
-
 # 内置工具箱
-import collections  #一些内置如OrderDict，defaultdict等
-import functools    #partial、wraps等
+import collections  # 一些内置如OrderDict，defaultdict等
+import functools  # partial、wraps等
 import itertools
 
 import types
@@ -100,14 +100,14 @@ import errno
 
 # 对时间的操作
 import datetime
-import dateutil  #强大的时间格式转换
+import dateutil  # 强大的时间格式转换
 import time
-import timeit  #计时用
+import timeit  # 计时用
 import calendar
-import arrow # pip install arrow  一个便捷处理时间的第三方库
+import arrow  # pip install arrow  一个便捷处理时间的第三方库
 
 # 控制异常输出
-import warnings  #结合filterwarnings('ignore')使用，专治强迫症
+import warnings  # 结合filterwarnings('ignore')使用，专治强迫症
 import tqdm  # 查看进度
 
 # 数据处理
@@ -127,24 +127,24 @@ import pandas
 import pandas as pd
 import scipy
 import scipy as sp
-import tablib   #pip install tablib 类似于pandas中dataframe格式
-import dicom  #医疗数据处理包
-import statistics  #py3 一些处理中位数等数据统计包
+import tablib  # pip install tablib 类似于pandas中dataframe格式
+import dicom  # 医疗数据处理包
+import statistics  # py3 一些处理中位数等数据统计包
 
 
 # 线程
 import threading
 import subprocess
-import gevent  #协成
+import gevent  # 协成
 
 
 # 日志记录
 import logging
 
-#监控运行内存等
+# 监控运行内存等
 import pympler
 
-#垃圾回收
+# 垃圾回收
 import gc
 
 # 数据库操作
@@ -154,18 +154,18 @@ import pymongo
 # 可视化
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-import seaborn   #基于matplotlib的一个美化
+import seaborn  # 基于matplotlib的一个美化
 
 # 图形化
 import PIL
 import cv2  # openCV
-import SimpleITK as sitk   #图像处理
-import skimage  
+import SimpleITK as sitk  # 图像处理
+import skimage
 
-#爬虫
-import fake-useragent # pip install fake-useragent  生成伪装头部等信息
+# 爬虫
+import fake - useragent  # pip install fake-useragent  生成伪装头部等信息
 import requests
-import base64   #编码
+import base64  # 编码
 import urlparse
 
 # 金融指标以及时间序列
@@ -176,7 +176,7 @@ import statsmodels
 # 机器学习及神经网络
 import pybrain
 import sklearn
-import theano   #一个基于Cpython的数学处理包
+import theano  # 一个基于Cpython的数学处理包
 import tensorflow as tf
 
 
@@ -204,10 +204,10 @@ import uuid
 import hmac
 import hashlib
 import shortuuid  # pip install shortuuid #https://github.com/skorokithakis/shortuuid
-import secrets  #py3 生成密令等
+import secrets  # py3 生成密令等
 
 
-#密码
+# 密码
 import getpass
 
 # 单元测试
@@ -217,7 +217,7 @@ import unittest
 import sqlite3
 import pymongo
 
-#抽象定义
+# 抽象定义
 import abc
 
 import future_builtins
@@ -299,7 +299,7 @@ from scipy import stats
 
 from sklearn.datasets import load_digits
 from sklearn.datasets import load_iris
-from sklearn.datasetsi import load_boston
+from sklearn.datasets import load_boston
 
 
 from sklearn.cross_validation import KFold
