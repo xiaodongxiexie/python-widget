@@ -76,6 +76,7 @@ import encodings
 import shutil  # 文件整体复制等操作
 import base64
 import dis  # 查看代码的编译
+import io
 
 import json
 import pickle
@@ -267,6 +268,7 @@ from itertools import (chain,
                        repeat,
                        starmap,
                        takewhile)
+from io import BytesIO
 
 from matplotlib import pyplot as plt
 from matplotlib.colors import cnames   #导入颜色名字
