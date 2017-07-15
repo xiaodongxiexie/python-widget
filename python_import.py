@@ -269,6 +269,7 @@ from itertools import (chain,
                        takewhile)
 
 from matplotlib import pyplot as plt
+from matplotlib.colors import cnames   #导入颜色名字
 
 from numpy import random
 from numpy import polyfit, std, subtract, sqrt, log
