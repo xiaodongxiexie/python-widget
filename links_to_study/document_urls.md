@@ -155,3 +155,9 @@
 
 ### 好用的浏览器插件
 > https://greasyfork.org/zh-CN
+
+### 值得逛的技术博客
+> http://pytlab.org/
+> http://lucida.me/categories/
+> https://xin053.github.io/categories/
+> http://xiyoumc.0x2048.com/
