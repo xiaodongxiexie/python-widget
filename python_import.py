@@ -275,7 +275,7 @@ from itertools import (chain,
 from io import BytesIO
 
 from matplotlib import pyplot as plt
-from matplotlib.colors import cnames   #导入颜色名字
+from matplotlib.colors import cnames  # 导入颜色名字
 
 from matplotlib import __version__, rcParams
 from matplotlib._pylab_helpers import Gcf
@@ -302,8 +302,6 @@ from math import ceil, cos, floor, pi, sin
 
 from numpy import random
 from numpy import polyfit, std, subtract, sqrt, log
-
-
 
 
 from pandas import Series, DataFrame
