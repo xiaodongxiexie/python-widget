@@ -43,6 +43,7 @@ import pangu  # 分词处理 pip install pangu
 
 # 算法及排序
 import sortedcontainers  # pip install sortedcontainers
+import bisect
 
 
 # 一些格式
