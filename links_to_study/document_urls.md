@@ -147,7 +147,7 @@
 > https://github.com/vinta/awesome-python
 
 ## python 学习网址大全
-> https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh
+> https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh    <br/>
 > https://www.analyticsvidhya.com/blog/2017/02/top-28-cheat-sheets-for-machine-learning-data-science-probability-sql-big-data/  #cheat sheets
 
 ## git中文手册
@@ -157,13 +157,13 @@
 > https://greasyfork.org/zh-CN
 
 ### 值得逛的技术博客
-> http://pytlab.org/
-> http://lucida.me/categories/
-> https://xin053.github.io/categories/
+> http://pytlab.org/    <br/>
+> http://lucida.me/categories/    <br/>
+> https://xin053.github.io/categories/    <br/>
 > http://xiyoumc.0x2048.com/
 
 ### windows下好用的小工具
-> http://www.voidtools.com/  #搜索神器
-> http://cmder.net/  #加强版的cmd，可执行linux下终端的操作
-> https://www.sourceinsight.com/ #源码阅读神器，可追踪import的代码路径
-> https://www.jianguoyun.com/   #坚果云，用来同步的云端
+> http://www.voidtools.com/  #搜索神器    <br/>
+> http://cmder.net/  #加强版的cmd，可执行linux下终端的操作    <br/>
+> https://www.sourceinsight.com/ #源码阅读神器，可追踪import的代码路径    <br/>
+> https://www.jianguoyun.com/   #坚果云，用来同步的云端    <br/>
