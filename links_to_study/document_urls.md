@@ -161,3 +161,9 @@
 > http://lucida.me/categories/
 > https://xin053.github.io/categories/
 > http://xiyoumc.0x2048.com/
+
+### windows下好用的小工具
+> http://www.voidtools.com/  #搜索神器
+> http://cmder.net/  #加强版的cmd，可执行linux下终端的操作
+> https://www.sourceinsight.com/ #源码阅读神器，可追踪import的代码路径
+> https://www.jianguoyun.com/   #坚果云，用来同步的云端
