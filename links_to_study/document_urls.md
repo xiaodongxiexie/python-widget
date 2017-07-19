@@ -150,17 +150,21 @@
 > https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh    <br/>
 > https://www.analyticsvidhya.com/blog/2017/02/top-28-cheat-sheets-for-machine-learning-data-science-probability-sql-big-data/  #cheat sheets
 
+## web开发
+> http://webpy.org/docs/0.3/tutorial.zh-cn # web.py 轻量级web开发 <br/>
+
+
 ## git中文手册
-> https://git-scm.com/book/zh/v2
+> https://git-scm.com/book/zh/v2 <br/>
 
 ### 好用的浏览器插件
-> https://greasyfork.org/zh-CN
+> https://greasyfork.org/zh-CN <br/>
 
 ### 值得逛的技术博客
 > http://pytlab.org/    <br/>
 > http://lucida.me/categories/    <br/>
 > https://xin053.github.io/categories/    <br/>
-> http://xiyoumc.0x2048.com/
+> http://xiyoumc.0x2048.com/ <br/>
 
 ### windows下好用的小工具
 > http://www.voidtools.com/  #搜索神器    <br/>
