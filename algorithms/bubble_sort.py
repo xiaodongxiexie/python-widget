@@ -10,11 +10,3 @@ def bubble_sort(seq):
     return seq
     
     
-#
-def bb(seq):
-    length = len(seq)
-    for i in range(length):
-        for j in range(i):
-            if seq[j] > seq[j+1]:
-                seq[j+1], seq[j] = seq[j], seq[j+1]
-    return seq
