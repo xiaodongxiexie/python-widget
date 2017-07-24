@@ -139,6 +139,15 @@ import dicom  # 医疗数据处理包
 import statistics  # py3 一些处理中位数等数据统计包
 
 
+#计算相关性
+from minepy import MINE
+import numpy as np
+m = MINE()
+x = np.random.uniform(-1, 1, 10000)
+m.compute_score(x, x**2)
+print m.mic()
+
+
 # 线程
 import threading
 import subprocess
