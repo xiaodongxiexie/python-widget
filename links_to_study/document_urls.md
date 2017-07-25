@@ -162,6 +162,7 @@
 
 ### 好用的浏览器插件
 > https://greasyfork.org/zh-CN <br/>
+> http://www.geeksense.cn/plugin/   github阅读代码帮手<br/>
 
 ### 值得逛的技术博客
 > http://pytlab.org/    <br/>
