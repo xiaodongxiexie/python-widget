@@ -2,7 +2,7 @@
 # @Author: xiaodong
 # @Date:   2017-07-27 22:50:22
 # @Last Modified by:   xiaodong
-# @Last Modified time: 2017-07-27 23:58:15
+# @Last Modified time: 2017-07-28 00:02:44
 import pandas as pd
 
 def calc_rate(start, end, price):
@@ -16,6 +16,7 @@ def calc_rate(start, end, price):
 	return int(price) * (( end - start).days)
 
 def calc_quick(seq, price):
+	assert len(seq) - 1 == len(price), '是不是忘了输入今天的日期！'
 	init = 0.0
 	for index, time in enumerate(seq[:-1]):
 		start = pd.to_datetime('2017%s' % time)
