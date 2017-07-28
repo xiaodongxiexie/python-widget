@@ -44,6 +44,8 @@ import pangu  # 分词处理 pip install pangu
 # 算法及排序
 import sortedcontainers  # pip install sortedcontainers
 import bisect
+import compiler   #from compiler.ast import flatten 可以将镶嵌列表展开，py3已舍弃该包
+from funcy import flatten, isa  #pip install funcy
 
 
 # 一些格式
