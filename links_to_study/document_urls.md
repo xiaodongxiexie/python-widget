@@ -5,11 +5,11 @@
 ## 1 python机器学习
 
 ### 数据处理
-#### [正则化处理](http://charleshm.github.io/2016/03/Regularized-Regression/)    <br/>
+> [正则化处理](http://charleshm.github.io/2016/03/Regularized-Regression/)    <br/>
 
 #### 降维（TSNE与PCA）
-> https://yq.aliyun.com/articles/70733 <br/>
-> http://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html    <br/>
+> [PCA](https://yq.aliyun.com/articles/70733) <br/>
+> [TSNE](http://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html)    <br/>
 
 ### 1.0 python机器学习资料
 >  https://github.com/josephmisiti/awesome-machine-learning#python-general-purpose  <br/>
