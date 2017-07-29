@@ -158,7 +158,8 @@
 
 ## python 学习网址大全
 > https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh    <br/>
-> https://www.analyticsvidhya.com/blog/2017/02/top-28-cheat-sheets-for-machine-learning-data-science-probability-sql-big-data/  #cheat sheets
+> https://www.analyticsvidhya.com/blog/2017/02/top-28-cheat-sheets-for-machine-learning-data-science-probability-sql-big-data/  #cheat sheets  <br/>
+> http://pycoders-weekly-chinese.readthedocs.io/en/latest/index.html   #python PyCoder’s Weekly 中文翻译
 
 ## web开发
 > http://webpy.org/docs/0.3/tutorial.zh-cn # web.py 轻量级web开发 <br/>
