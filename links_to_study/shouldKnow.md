@@ -1,1 +1,1 @@
-> [Markdown语法] (http://www.appinn.com/markdown/#link)   <br/>
+> [Markdown语法](http://www.appinn.com/markdown/#link) <br/>
