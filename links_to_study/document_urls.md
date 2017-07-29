@@ -1,12 +1,11 @@
 ## 0 python官方总库
-> https://pypi.python.org/pypi    <br/>
+> [Python官方总库](https://pypi.python.org/pypi)   <br/>
 
 
 ## 1 python机器学习
 
 ### 数据处理
-#### 正则化处理
-> http://charleshm.github.io/2016/03/Regularized-Regression/    <br/>
+#### [正则化处理](http://charleshm.github.io/2016/03/Regularized-Regression/)    <br/>
 
 #### 降维（TSNE与PCA）
 > https://yq.aliyun.com/articles/70733 <br/>
