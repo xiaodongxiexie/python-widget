@@ -13,5 +13,22 @@ example:
     to_transform(test)
     Out[2]: [1, 2, 3, 2, 3, 4, 5, 6, 2, 1]
 '''
+
+#method 1:
+#attention: 若嵌套列表中存在嵌套空列表，则该方法失效
 def to_transform(seq):
     return list(map(int, str(seq).replace('[', '').replace(']', '').split(',')))
+
+
+#method 2:
+#source code: python 2.7 compiler.ast.flatten
+def flatten(seq):
+    l = []
+    for elt in seq:
+        t = type(elt)
+        if t is tuple or t is list:
+            for elt2 in flatten(elt):
+                l.append(elt2)
+        else:
+            l.append(elt)
+    return l
