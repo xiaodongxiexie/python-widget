@@ -12,20 +12,20 @@
 > [TSNE](http://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html)    <br/>
 
 ### 1.0 python机器学习资料
->  https://github.com/josephmisiti/awesome-machine-learning#python-general-purpose  <br/>
->  http://www.thinkface.cn/thread-3601-1-1.html   <br/>
->  https://github.com/wepe/MachineLearning   <br/>
->  http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning 视频教程    <br/>
+>  [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning#python-general-purpose)  <br/>
+>  [近200篇机器学习&深度学习资料分享（含各种文档，视频，源码等）](http://www.thinkface.cn/thread-3601-1-1.html)   <br/>
+>  [MachineLearning](https://github.com/wepe/MachineLearning)   <br/>
+>  [Machine Learning视频教程](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning) <br/>
 
 ### 1.1 sklearn
-> http://scikit-learn.org/  <br/>
-> https://github.com/lzjqsdd/scikit-learn-doc-cn   中文
+> [sklearn官网](http://scikit-learn.org/)  <br/>
+> [sklearn中文文档](https://github.com/lzjqsdd/scikit-learn-doc-cn)
 
 ### 1.2 keras
-> https://www.tensorflow.org/    <br/>
-> https://keras.io/#installation   <br/>
-> http://keras-cn.readthedocs.io/en/latest/   <br/>
-> https://github.com/fchollet/keras
+> [tensorflow官网](https://www.tensorflow.org/)    <br/>
+> [keras文档](https://keras.io/#installation)   <br/>
+> [keras中文文档](http://keras-cn.readthedocs.io/en/latest/)   <br/>
+> [keras github地址](https://github.com/fchollet/keras)
 
 ### 1.3 TensorFlow
 > http://www.tensorfly.cn/   <br/>
