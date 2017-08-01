@@ -181,6 +181,8 @@ import pymongo
 import anydbm  #python2可用  value和key必须是字符串，其中value可为空
 import whichdb  #python2可用
 
+#事件调度
+import sched
 
 # 可视化
 import matplotlib.pyplot as plt
