@@ -175,6 +175,8 @@ import gc
 
 # 数据库操作
 import pymongo
+import anydbm  #python2可用
+import whichdb  #python2可用
 
 
 # 可视化
