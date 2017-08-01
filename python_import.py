@@ -175,7 +175,7 @@ import gc
 
 # 数据库操作
 import pymongo
-import anydbm  #python2可用
+import anydbm  #python2可用  value和key必须是字符串，其中value可为空
 import whichdb  #python2可用
 
 
