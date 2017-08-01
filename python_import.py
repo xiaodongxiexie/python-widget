@@ -224,6 +224,7 @@ import httplib
 import io
 import lxml
 import selenium
+import webbrowser #打开指定web页面
 
 # token令牌等
 import uuid
