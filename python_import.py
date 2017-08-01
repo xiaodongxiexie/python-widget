@@ -82,6 +82,7 @@ import base64
 import dis  # 查看代码的编译
 import io
 import temfile  #创建临时文件，关闭即销毁
+import shelve  #存入存出操作，数据库
 
 import json
 import pickle
