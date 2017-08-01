@@ -81,6 +81,7 @@ import shutil  # 文件整体复制等操作
 import base64
 import dis  # 查看代码的编译
 import io
+import temfile  #创建临时文件，关闭即销毁
 
 import json
 import pickle
