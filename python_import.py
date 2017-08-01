@@ -8,6 +8,7 @@ import inspect
 import operator
 import path
 import traceback
+import trace
 import glob  # 对文件进行查找
 # 跟glob比较像，不过可以用(fnmatch.fnmatch(file,
 # pattern),fnmatch.fnmatchcase(file,pattern)一个大小写敏感一个则不）
