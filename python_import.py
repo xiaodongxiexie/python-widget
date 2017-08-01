@@ -51,6 +51,7 @@ from funcy import flatten, isa  #pip install funcy
 # 一些格式
 import string
 import pprint
+import textwrap   #可以修饰字符串输出格式
 
 import uniout  # 中文格式显示等，pip install uniout
 import xpinyin  # 将汉字转换为拼音  # https://github.com/lxneng/xpinyin/
