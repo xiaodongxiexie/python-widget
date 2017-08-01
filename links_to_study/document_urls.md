@@ -78,32 +78,6 @@
 
 ### 2.4  Prophet (Facebook)
 > https://facebookincubator.github.io/prophet/docs/quick_start.html#python-api    <br/>
-## 3 神经网络
-
-### 3.0 神经网络讲解
-
-### 零基础入门深度学习
-> https://www.zybuluo.com/hanbingtao/note/433855    <br/>
-
-#### 从头构建3层神经网络
-> http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/   <br/>
-> https://github.com/dennybritz/nn-from-scratch    <br/>
-
-#### 递归神经网络介绍
-> http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/    <br/>
-> http://neuralnetworksanddeeplearning.com/chap2.html    <br/>    <br/>
-
-### 3.1 bp神经网络（pybrain）
-> http://pybrain.org/docs/index.html <br/>
-> http://pybrain.org/pages/features  <br/>
-> https://github.com/pybrain/pybrain/blob/master/examples/supervised/neuralnets%2Bsvm/example_rnn.py <br/>
-> http://galaxy.agh.edu.pl/~vlsi/AI/backp_t_en/backprop.html <br/>
-> https://iamtrask.github.io/2015/07/12/basic-python-network/    <br/>
-
-
-### 3.3 Neural Networks and Deep Learning (中文）
-> https://hit-scir.gitbooks.io/neural-networks-and-deep-learning-zh_cn/content/    <br/>
-
 
 ## n 好玩的python库
 
