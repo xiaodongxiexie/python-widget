@@ -100,6 +100,9 @@ import ftplib
 import ast
 from ast import liter_eval #比eval更安全，只执行一些安全的操作
 
+#本地化
+import locale
+
 
 # 内置工具箱
 import collections  # 一些内置如OrderDict，defaultdict等
