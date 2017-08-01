@@ -96,6 +96,8 @@ import parser
 import StringIO
 import cStringIO
 import ftplib
+import binascii
+
 
 
 #安全
