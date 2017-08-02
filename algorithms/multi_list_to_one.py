@@ -43,3 +43,6 @@ def flat2(seq):
         else:
             L.append(ele)
     return L
+
+#method 3: 这个没看懂。。。不过确实能实现
+flat=lambda L: sum(map(flat,L),[]) if isinstance(L,list) else [L]
