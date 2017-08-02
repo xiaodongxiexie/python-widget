@@ -27,8 +27,19 @@ def flatten(seq):
     for elt in seq:
         t = type(elt)
         if t is tuple or t is list:
+       #if isinstance(t, (tuple, list)):
             for elt2 in flatten(elt):
                 l.append(elt2)
         else:
             l.append(elt)
     return l
+
+#method2 变形：
+def flat2(seq):
+    L = []
+    for ele in seq:
+        if isinstance(ele, (list, tuple)):
+            L.extend(flat2(ele))
+        else:
+            L.append(ele)
+    return L
