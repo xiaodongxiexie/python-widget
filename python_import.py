@@ -169,6 +169,7 @@ print m.mic()
 import threading
 import subprocess
 import gevent  # 协成
+import tomorrow  #pip install tomorrow, @thread(10) 一个30行的多线程代码修饰，灰常好用
 
 
 # 日志记录
