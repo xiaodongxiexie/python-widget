@@ -101,7 +101,8 @@ import cStringIO
 import ftplib
 import binascii
 
-
+#py3
+import builtins   #一些内置的range，map，zip等在该包中，可通过引用该包进行覆盖定义
 
 #安全
 import ast
