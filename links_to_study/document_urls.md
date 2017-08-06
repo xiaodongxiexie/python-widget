@@ -36,10 +36,10 @@
 > http://tflearn.org/ # TFlearn 基于tensorflow的封装    <br/>
 
 ### 1.4 遗传算法
-> http://deap.readthedocs.io/en/master/tutorials/basic/part1.html    <br/>
+> [deap遗传算法](http://deap.readthedocs.io/en/master/tutorials/basic/part1.html)    <br/>
 
 ### 1.5 theano
-> http://deeplearning.net/software/theano/tutorial/gradients.html    <br/>
+> [Theano](http://deeplearning.net/software/theano/tutorial/gradients.html)    <br/>
 
 ### 1.6n  UFLDL
 > http://ufldl.stanford.edu/wiki/index.php/UFLDL%E6%95%99%E7%A8%8B    <br/>
@@ -82,16 +82,16 @@
 ## n 好玩的python库
 
 ### n.1 H2O
-> http://docs.h2o.ai/h2o/latest-stable/h2o-py/docs/intro.html        <br/>
+> [H2O](http://docs.h2o.ai/h2o/latest-stable/h2o-py/docs/intro.html)        <br/>
 
 ## n.2 funcy
-> http://funcy.readthedocs.io/en/stable/overview.html  #各种小功能集总 <br/>
+> [funcy](http://funcy.readthedocs.io/en/stable/overview.html)  #各种小功能集总 <br/>
 
 
 
 ## python学习手册
 ### 1. 在线手册中心
-> http://docs.pythontab.com/    <br/>
+> [Python在线学习手册}(http://docs.pythontab.com/)    <br/>
 
 ### 1.0 python 一些内置库详解
 > https://greentreesnakes.readthedocs.io/en/latest/index.html      <br/>
