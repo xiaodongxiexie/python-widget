@@ -91,7 +91,7 @@
 
 ## python学习手册
 ### 1. 在线手册中心
-> [Python在线学习手册}(http://docs.pythontab.com/)    <br/>
+> [Python在线学习手册](http://docs.pythontab.com/)    <br/>
 
 ### 1.0 python 一些内置库详解
 > https://greentreesnakes.readthedocs.io/en/latest/index.html      <br/>
