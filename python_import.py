@@ -72,6 +72,9 @@ import keyword
 import colorams  # 改变输出流背景、颜色等
 import ctypes
 
+#特殊的split格式
+import shlex
+
 
 # 编码及解析
 import chardet  # 检查编码
