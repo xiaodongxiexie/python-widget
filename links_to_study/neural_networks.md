@@ -20,4 +20,5 @@
 
 > 6.1[Neural Networks and Deep Learning](https://hit-scir.gitbooks.io/neural-networks-and-deep-learning-zh_cn/content/)    <br/>
 
-> 7.1[tensorflow入门](https://mp.weixin.qq.com/s?__biz=MzI1NTcxNjcyNg==&mid=2247483947&idx=1&sn=7a8ade5399d131d059534bfbdbcb50f4&chksm=ea30fe32dd477724cc1ec77090a1ef382c5279b8053772a64683f42b65a187acab6ea8086537&mpshare=1&scene=23&srcid=080749VQzSdovt5sfL2PJKix#rd)
+> 7.1[tensorflow入门](https://mp.weixin.qq.com/s?__biz=MzI1NTcxNjcyNg==&mid=2247483947&idx=1&sn=7a8ade5399d131d059534bfbdbcb50f4&chksm=ea30fe32dd477724cc1ec77090a1ef382c5279b8053772a64683f42b65a187acab6ea8086537&mpshare=1&scene=23&srcid=080749VQzSdovt5sfL2PJKix#rd) <br/>
+> 7.2[tensorflow中文文档](http://tensorlayercn.readthedocs.io/zh/latest/)
