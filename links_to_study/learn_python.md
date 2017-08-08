@@ -18,3 +18,7 @@
 
 #### 4.1 funcy 
 >[funcy](http://funcy.readthedocs.io/en/stable/overview.html)   一个python 实现的工具包，适合看看源码
+
+
+#### 5.1 python 好用的库
+>[Python 库](https://segmentfault.com/a/1190000010103386)
