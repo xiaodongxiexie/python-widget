@@ -16,6 +16,7 @@
 >  [近200篇机器学习&深度学习资料分享（含各种文档，视频，源码等）](http://www.thinkface.cn/thread-3601-1-1.html)   <br/>
 >  [MachineLearning](https://github.com/wepe/MachineLearning)   <br/>
 >  [Machine Learning视频教程](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning) <br/>
+> [一大批资料](https://github.com/ty4z2008/Qix/blob/master/dl.md)  <br/>
 
 ### 1.1 sklearn
 > [sklearn官网](http://scikit-learn.org/)  <br/>
