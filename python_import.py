@@ -26,6 +26,7 @@ import pdir  # dir的扩展
 import tqdm  # 一个显示进度的小工具（bar）
 import fake - useragent  # 自动生成伪装header等信息
 import faker  # 生成虚假信息，（可生成中文）
+import xpinyin  #将汉字转换为拼音（甚至可以加声调）
 
 # 错误忽略等
 import retrying  # pip install retrying
@@ -425,3 +426,5 @@ from tqdm import tqdm
 from tqdm import trange
 
 from urlparse import urlparse
+
+from xpinyin import Pinyin
