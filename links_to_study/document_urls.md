@@ -51,9 +51,9 @@
 > https://zhuanlan.zhihu.com/p/22113312    <br/>
 
 #### 2.0.0 talib指标介绍
-> http://mrjbq7.github.io/ta-lib/func_groups/overlap_studies.html   <br/>
-> http://qtstalker.sourceforge.net/talib.html   <br/>
-> https://github.com/mrjbq7/ta-lib    <br/>
+> [talib 1](http://mrjbq7.github.io/ta-lib/func_groups/overlap_studies.html)   <br/>
+> [talib 2](http://qtstalker.sourceforge.net/talib.html)   <br/>
+> [talib 3](https://github.com/mrjbq7/ta-lib)    <br/>
 
 ### 2.1.0 pyflux介绍及使用
 > http://www.pyflux.com/   <br/>
