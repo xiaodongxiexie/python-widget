@@ -79,6 +79,7 @@ import shlex
 
 
 # 编码及解析
+import encodings # help(encodings) 关于所有Python内置编码方式
 import chardet  # 检查编码
 import code
 import codecs  # 与open一起使用，可以指定解码方式
