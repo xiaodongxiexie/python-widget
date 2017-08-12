@@ -46,3 +46,26 @@ def flat2(seq):
 
 #method 3: 这个没看懂。。。不过确实能实现
 flat=lambda L: sum(map(flat,L),[]) if isinstance(L,list) else [L]
+
+
+#python 3
+from collections import Iterable
+
+def flatten(items, ignore_types=(str, bytes)):
+    for x in items:
+        if isinstance(x, Iterable) and not isinstance(x, ignore_types):
+            yield from flatten(x)
+        else:
+            yield x
+            
+'''
+#防止字符串被继续展开
+>>> items = ['Dave', 'Paula', ['Thomas', 'Lewis']]
+>>> for x in flatten(items):
+...     print(x)
+...
+Dave
+Paula
+Thomas
+Lewis
+'''
