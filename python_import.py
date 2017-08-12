@@ -96,6 +96,9 @@ import shelve  #存入存出操作，数据库
 
 import json
 import pickle
+import shelve
+import marshal
+
 import re
 import tarfile  # 解压压缩包
 import zipfile
