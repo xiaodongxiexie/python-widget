@@ -317,7 +317,7 @@ from itertools import (chain,
                        ifilter,
                        ifilterfalse,
                        imap,
-                       islice,
+                       islice,  #可用于迭代器的切片
                        imap,
                        izip,
                        izip_longest,
