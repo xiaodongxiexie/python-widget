@@ -149,9 +149,9 @@ import random
 import numbers
 import nose
 import hashlib
-import math
+import math  #不支持负数的开方
 import cdemical
-import cmath
+import cmath  #支持负数的开方
 import decimal
 import fractions
 import numpy
