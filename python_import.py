@@ -192,7 +192,12 @@ import gc
 
 # 数据库操作
 import pymongo
+
+#python 2
 import anydbm  #python2可用  value和key必须是字符串，其中value可为空
+#python 3
+import dbm
+
 import whichdb  #python2可用
 
 #事件调度
