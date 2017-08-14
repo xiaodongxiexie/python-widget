@@ -219,6 +219,7 @@ import fake - useragent  # pip install fake-useragent  生成伪装头部等信�
 import requests
 import base64  # 编码
 import urlparse
+import xml
 
 # 金融指标以及时间序列
 import talib
@@ -439,5 +440,7 @@ from tqdm import tqdm
 from tqdm import trange
 
 from urlparse import urlparse
+
+from xml.etree.ElementTree import parse #解析xml
 
 from xpinyin import Pinyin
