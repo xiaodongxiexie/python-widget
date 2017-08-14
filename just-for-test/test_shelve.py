@@ -11,7 +11,7 @@ with shelve.open('test.db', writeback=True) as s:
 
 #python 2
 #利用contextlib.closing 实现with管理
-with contextlib.closing(shelve.open('test.db', writeback=True) as s:
+with contextlib.closing(shelve.open('test.db', writeback=True)) as s:
     s['key1'] = {'int': 10, 'float': 10.24, 'string': 'just for test'}
     
     
