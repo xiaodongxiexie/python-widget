@@ -17,7 +17,7 @@ import linecache  # 读取任意文件的指定行  linecache.getline(file,line_
 import filecmp  # 对文件或文件夹进行比较
 import imp  # 里面有reload些啥
 import fileinput   #有点像是input
-import importlib  # 实现动态引入模块
+import importlib  # 实现动态引入模块  #math = importlib.import_module('math')
 import atexit  # 一个蛮有意思的内置模块，执行函数退出时的回调函数，先进后出
 
 # 好用的工具
