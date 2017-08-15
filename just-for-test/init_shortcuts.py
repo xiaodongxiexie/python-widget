@@ -97,3 +97,14 @@ if __name__ == '__main__':
 
     s1 = Stock('ACME', 50, 91.1)
     s2 = Stock('ACME', 50, 91.1, date='8/2/2012')
+    
+    
+class Structure:
+    # Class variable that specifies expected fields
+    _fields= []
+    def __init__(self, *args):
+        if len(args) != len(self._fields):
+            raise TypeError('Expected {} arguments'.format(len(self._fields)))
+
+        # Set the arguments (alternate)
+        self.__dict__.update(zip(self._fields,args))
