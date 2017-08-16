@@ -18,6 +18,8 @@
 >  [Machine Learning视频教程](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning) <br/>
 > [一大批资料](https://github.com/ty4z2008/Qix/blob/master/dl.md)  <br/>
 > [Kaggle攻略](https://dnc1994.com/2016/04/rank-10-percent-in-first-kaggle-competition/) <br/>
+> [值得收藏的 27 个机器学习的小抄 ](https://unsupervisedmethods.com/cheat-sheet-of-machine-learning-and-python-and-math-cheat-sheets-a4afe4e791b6) <br/>
+> [值得收藏的 27 个机器学习的小抄 ](https://linux.cn/article-8754-3.html) <br/>
 
 ### 1.1 sklearn
 > [sklearn官网](http://scikit-learn.org/)  <br/>
