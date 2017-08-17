@@ -105,6 +105,7 @@ import zipfile
 import gzip
 import zlib  # 压缩，py2.7支持str，py3必须转换为bytes后才可用
 import parser
+import bz2
 
 import StringIO  #这两个python3已删除，可以通过io.StringIO来调用
 import cStringIO
