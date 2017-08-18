@@ -12,3 +12,5 @@
 
 
 > [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md) <br/>
+
+> [MySQL 21min教程](http://www.cnblogs.com/mr-wid/archive/2013/05/09/3068229.html) <br/>
