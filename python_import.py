@@ -58,6 +58,7 @@ import string
 import pprint
 import textwrap   #可以修饰字符串输出格式
 import fileinput
+import weakref  #弱引用
 
 import uniout  # 中文格式显示等，pip install uniout
 import xpinyin  # 将汉字转换为拼音  # https://github.com/lxneng/xpinyin/
