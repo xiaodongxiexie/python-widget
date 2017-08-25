@@ -335,6 +335,7 @@ from itertools import (chain,
                        starmap,
                        takewhile)
 from io import BytesIO
+from inspect import signature
 
 from matplotlib import pyplot as plt
 from matplotlib.colors import cnames  # 导入颜色名字
