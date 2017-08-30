@@ -18,3 +18,6 @@
 > [Python 描述符](https://pyzh.readthedocs.io/en/latest/Descriptor-HOW-TO-Guide.html) <br/>
 
 > [Requests](http://doc.iplaypy.com/requests/)   <br/>
+
+
+> [python web](http://python-web-guide.readthedocs.io/zh/latest/)
