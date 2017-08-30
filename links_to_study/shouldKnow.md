@@ -16,3 +16,5 @@
 > [MySQL 21min教程](http://www.cnblogs.com/mr-wid/archive/2013/05/09/3068229.html) <br/>
 
 > [Python 描述符](https://pyzh.readthedocs.io/en/latest/Descriptor-HOW-TO-Guide.html) <br/>
+
+> [Requests](http://doc.iplaypy.com/requests/)   <br/>
