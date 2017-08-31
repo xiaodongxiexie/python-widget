@@ -63,14 +63,14 @@
 > http://www.pyflux.com/arima-models/    <br/>
 
 ### 2.1.1 pymc3
-> http://pymc-devs.github.io/pymc3/   <br/>
-> http://www.tuicool.com/articles/EjUVFzq  #参考资料（中文）    <br/>
+> [pymc3](http://pymc-devs.github.io/pymc3/)   <br/>
+> [pymc3](http://www.tuicool.com/articles/EjUVFzq)  #参考资料（中文）    <br/>
 
 ### 2.1.2 edward
-> https://github.com/blei-lab/edward/    <br/>
+> [edward](https://github.com/blei-lab/edward/)    <br/>
 
 ### 2.1.3 stan
-> http://mc-stan.org/    <br/>
+> [stan](http://mc-stan.org/)    <br/>
 
 ### 2.2 ARCH
 > https://github.com/bashtage/arch    <br/>
