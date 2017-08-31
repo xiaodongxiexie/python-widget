@@ -46,12 +46,12 @@
 > [Theano](http://deeplearning.net/software/theano/tutorial/gradients.html)    <br/>
 
 ### 1.6n  UFLDL
-> http://ufldl.stanford.edu/wiki/index.php/UFLDL%E6%95%99%E7%A8%8B    <br/>
+> [UFLDL](http://ufldl.stanford.edu/wiki/index.php/UFLDL%E6%95%99%E7%A8%8B)    <br/>
 
 ## 2、时间序列
 
 ### 2.0 时间序列模型介绍
-> https://zhuanlan.zhihu.com/p/22113312    <br/>
+> [时间序列介绍（知乎）](https://zhuanlan.zhihu.com/p/22113312)    <br/>
 
 #### 2.0.0 talib指标介绍
 > [talib 1](http://mrjbq7.github.io/ta-lib/func_groups/overlap_studies.html)   <br/>
@@ -59,8 +59,8 @@
 > [talib 3](https://github.com/mrjbq7/ta-lib)    <br/>
 
 ### 2.1.0 pyflux介绍及使用
-> http://www.pyflux.com/   <br/>
-> http://www.pyflux.com/arima-models/    <br/>
+> [pyflux](http://www.pyflux.com/)   <br/>
+> [pyflux](http://www.pyflux.com/arima-models/)    <br/>
 
 ### 2.1.1 pymc3
 > [pymc3](http://pymc-devs.github.io/pymc3/)   <br/>
