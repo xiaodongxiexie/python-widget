@@ -73,15 +73,15 @@
 > [stan](http://mc-stan.org/)    <br/>
 
 ### 2.2 ARCH
-> https://github.com/bashtage/arch    <br/>
+> [ARCH](https://github.com/bashtage/arch)    <br/>
 
 ### 2.3 ARIMA（AR， MA， ARMA）基于Statsmodels
-> https://github.com/statsmodels/statsmodels   <br/>
-> http://www.statsmodels.org/stable/index.html    <br/>
+> [Statsmodels]( https://github.com/statsmodels/statsmodels)   <br/>
+> [Statsmodels](http://www.statsmodels.org/stable/index.html)    <br/>
 
 
 ### 2.4  Prophet (Facebook)
-> https://facebookincubator.github.io/prophet/docs/quick_start.html#python-api    <br/>
+> [Prophet](https://facebookincubator.github.io/prophet/docs/quick_start.html#python-api)    <br/>
 
 ## n 好玩的python库
 
