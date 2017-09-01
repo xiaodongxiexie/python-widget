@@ -33,7 +33,7 @@
 
 ### 1.3 TensorFlow
 > [tensorflow](http://www.tensorfly.cn/)   <br/>
-> https://github.com/aymericdamien/TensorFlow-Examples   各种详细例子<br/>
+> [tensorflow 各种例子](https://github.com/aymericdamien/TensorFlow-Examples)   各种详细例子<br/>
 > [可视化训练](http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=8,6&seed=0.22723&showTestData=false&discretize=false&percTrainData=50&x=false&y=true&xTimesY=false&xSquared=true&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=fals)  可视化训练<br/>
 > [tensorflow 中文](http://www.tensorfly.cn/tfdoc/get_started/introduction.html)  中文 <br/>
 > http://api.tensorflowjiaocheng.com/   tensorflow api   <br/>
@@ -98,8 +98,8 @@
 > [Python在线学习手册](http://docs.pythontab.com/)    <br/>
 
 ### 1.0 python 一些内置库详解
-> https://greentreesnakes.readthedocs.io/en/latest/index.html      <br/>
-> http://pycoders-weekly-chinese.readthedocs.io/en/latest/issue3/static-modification-of-python-with-python-the-ast-module.html#cpython # 中文<br/>
+> [python 内置库](https://greentreesnakes.readthedocs.io/en/latest/index.html)      <br/>
+> [python 内置库](http://pycoders-weekly-chinese.readthedocs.io/en/latest/issue3/static-modification-of-python-with-python-the-ast-module.html#cpython) # 中文<br/>
 
 ### 1.1 python小知识汇总
 > [Python小知识汇总](https://mp.weixin.qq.com/s?__biz=MzA4MjEyNTA5Mw==&mid=2652565527&idx=1&sn=840c1ce854afc29bea9aaced35e4f78d&chksm=8464d85db313514b67d4bf7e559844f548fdc867346561b194ad065f9f2425a60d6646e43703&mpshare=1&scene=23&srcid=0702h1t9mLl3r39jo3c7wFQP#rd)    <br/>
