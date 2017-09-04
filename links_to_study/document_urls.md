@@ -106,10 +106,10 @@
 
 
 ### 2.Python学习资料集锦
-> http://sofar.blog.51cto.com/353572/1381685    <br/>
+> [学习资料集锦](http://sofar.blog.51cto.com/353572/1381685) <br/>
 
 ### 深度学习
-> http://www.kuqin.com/shuoit/20150409/345637.html    <br/>
+> [深度学习](http://www.kuqin.com/shuoit/20150409/345637.html)  <br/>
 
 ### 强化学习
 > http://www.wildml.com/2016/10/learning-reinforcement-learning/   <br/>
