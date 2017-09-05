@@ -23,7 +23,7 @@
 > [python web](http://python-web-guide.readthedocs.io/zh/latest/)    <br/>
 
 
->[图像图例](https://pythonguidecn.readthedocs.io/zh/latest/scenarios/imaging.html) <br/>
+>[Python 图像处理](https://pythonguidecn.readthedocs.io/zh/latest/scenarios/imaging.html) <br/>
 
 
 <br/>
