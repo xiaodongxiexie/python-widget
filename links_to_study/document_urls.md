@@ -154,6 +154,7 @@
 > http://lucida.me/categories/    <br/>
 > https://xin053.github.io/categories/    <br/>
 > http://xiyoumc.0x2048.com/ <br/>
+> https://jizhi.im/blog  <br/>
 
 ### windows下好用的小工具
 > http://www.voidtools.com/  #搜索神器    <br/>
