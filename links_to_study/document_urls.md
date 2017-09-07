@@ -128,7 +128,7 @@
 > https://zhuanlan.zhihu.com/p/25138563    <br/>
 
 ### 注册Kaggle时需要翻墙
-> https://github.com/getlantern/forum 蓝灯    <br/>
+> [蓝灯](https://github.com/getlantern/forum) 蓝灯   <br/>
 
 ## python库汇总
 > https://github.com/vinta/awesome-python    <br/>
