@@ -121,8 +121,8 @@
 > [Scipy学习 中文版](https://www.kancloud.cn/wizardforcel/scipy-lecture-notes/129863)     <br/>
 
 ### sklearn score相关
-> http://d0evi1.com/sklearn/model_evaluation/ <br/>中文
-> http://scikit-learn.org/stable/modules/model_evaluation.html            <br/>
+> [sklearn score相关1](http://d0evi1.com/sklearn/model_evaluation/) <br/>中文
+> [sklearn score相关1](http://scikit-learn.org/stable/modules/model_evaluation.html)            <br/>
 
 ### 各领域公开数据集
 > https://zhuanlan.zhihu.com/p/25138563    <br/>
