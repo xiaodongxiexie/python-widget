@@ -118,7 +118,7 @@
 
 
 ### sicpy学习（中文版）
-> https://www.kancloud.cn/wizardforcel/scipy-lecture-notes/129863    <br/>
+> [Scipy学习 中文版](https://www.kancloud.cn/wizardforcel/scipy-lecture-notes/129863)     <br/>
 
 ### sklearn score相关
 > http://d0evi1.com/sklearn/model_evaluation/ <br/>中文
