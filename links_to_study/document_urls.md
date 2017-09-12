@@ -112,9 +112,9 @@
 > [深度学习](http://www.kuqin.com/shuoit/20150409/345637.html)  <br/>
 
 ### 强化学习
-> http://www.wildml.com/2016/10/learning-reinforcement-learning/   <br/>
-> https://www.nervanasys.com/demystifying-deep-reinforcement-learning/   <br/>
-> https://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks    <br/>
+> [强化学习 1](http://www.wildml.com/2016/10/learning-reinforcement-learning/) <br/>
+> [强化学习 2](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/) <br/>
+> [强化学习 3](https://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks)  <br/>
 
 
 ### sicpy学习（中文版）
