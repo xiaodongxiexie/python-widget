@@ -369,6 +369,8 @@ from numpy import polyfit, std, subtract, sqrt, log
 
 from pandas import Series, DataFrame
 
+from PIL import Image
+
 from pybrain.tools.shortcuts import buildNetwork
 from pybrain.structure import (FeedForwardNetwork,
                                LinearLayer, SigmoidLayer,
