@@ -125,7 +125,7 @@
 > [sklearn score相关1](http://scikit-learn.org/stable/modules/model_evaluation.html)            <br/>
 
 ### 各领域公开数据集
-> https://zhuanlan.zhihu.com/p/25138563    <br/>
+> [公开数据集](https://zhuanlan.zhihu.com/p/25138563)  <br/>
 
 ### 注册Kaggle时需要翻墙
 > [蓝灯](https://github.com/getlantern/forum)   <br/>
