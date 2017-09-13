@@ -131,7 +131,7 @@
 > [蓝灯](https://github.com/getlantern/forum)   <br/>
 
 ## python库汇总
-> https://github.com/vinta/awesome-python    <br/>
+> [Python 库](https://github.com/vinta/awesome-python)    <br/>
 
 ## python 学习网址大全
 > https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh    <br/>
