@@ -282,6 +282,10 @@ import pymongo
 # 抽象定义
 import abc
 
+#IPython
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = 'all'  #全部显示（不需要print）
+
 import future_builtins
 reload(sys)
 sys.setdefaultencoding('utf-8')
