@@ -139,7 +139,7 @@
 > http://pycoders-weekly-chinese.readthedocs.io/en/latest/index.html   #python PyCoder’s Weekly 中文翻译
 
 ## web开发
-> [轻量级Web开发](http://webpy.org/docs/0.3/tutorial.zh-cn # web.py)  <br/>
+> [轻量级Web开发](http://webpy.org/docs/0.3/tutorial.zh-cn) # web.py  <br/>
 
 
 ## git中文手册
