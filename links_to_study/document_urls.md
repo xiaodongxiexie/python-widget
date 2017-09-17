@@ -48,6 +48,9 @@
 ### 1.6n  UFLDL
 > [UFLDL](http://ufldl.stanford.edu/wiki/index.php/UFLDL%E6%95%99%E7%A8%8B)    <br/>
 
+### 1.7 Caffe
+> [Caffe 上手教程](http://suanfazu.com/t/caffe/13577) <br/>
+
 ## 2、时间序列
 
 ### 2.0 时间序列模型介绍
