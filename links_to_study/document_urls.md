@@ -36,8 +36,8 @@
 > [tensorflow 各种例子](https://github.com/aymericdamien/TensorFlow-Examples)   各种详细例子<br/>
 > [可视化训练](http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=8,6&seed=0.22723&showTestData=false&discretize=false&percTrainData=50&x=false&y=true&xTimesY=false&xSquared=true&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=fals)  可视化训练<br/>
 > [tensorflow 中文](http://www.tensorfly.cn/tfdoc/get_started/introduction.html)  中文 <br/>
-> http://api.tensorflowjiaocheng.com/   tensorflow api   <br/>
-> http://tflearn.org/ # TFlearn 基于tensorflow的封装    <br/>
+> [tensorflow api](http://api.tensorflowjiaocheng.com/)   tensorflow api   <br/>
+> [tflearn](http://tflearn.org/) # TFlearn 基于tensorflow的封装    <br/>
 
 ### 1.4 遗传算法
 > [deap遗传算法](http://deap.readthedocs.io/en/master/tutorials/basic/part1.html)    <br/>
