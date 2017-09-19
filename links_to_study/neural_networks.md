@@ -31,7 +31,7 @@
 > [Ensemble Learning Framework](http://elf-project.sourceforge.net/) <br/>
 > [Decision Trees](https://www.autonlab.org/_media/tutorials/dtree18.pdf)   <br/>
 > [图解机器学习](http://www.r2d3.us/%E5%9B%BE%E8%A7%A3%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/)  <br/>
-     <br/>
+> [深入机器学习](https://github.com/hangtwenty/dive-into-machine-learning)   <br/>
       <br/>
        <br/>
         <br/>
