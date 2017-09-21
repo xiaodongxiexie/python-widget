@@ -33,7 +33,7 @@
 > [图解机器学习](http://www.r2d3.us/%E5%9B%BE%E8%A7%A3%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/)  <br/>
 > [深入机器学习](https://github.com/hangtwenty/dive-into-machine-learning)   <br/>
 >[xgboost 参数](https://xgboost.readthedocs.io/en/latest/parameter.html)<br/>
-       <br/>
+> [xgboost 参数2](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)      <br/>
         <br/>
          <br/>
           <br/>
