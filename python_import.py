@@ -395,6 +395,9 @@ from pympler import tracker
 from scipy.linalg import linalg
 from scipy.misc import derivative  # 求导数
 from scipy import stats
+from scipy.stats import pearsonr  #皮尔森系数，可以用来检测线性相关
+from scipy.stats import entropy #计算乡农熵
+
 
 from sklearn.datasets import load_digits
 from sklearn.datasets import load_iris
