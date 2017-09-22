@@ -10,6 +10,8 @@
 #### 降维（TSNE与PCA）
 > [PCA](https://yq.aliyun.com/articles/70733) <br/>
 > [TSNE](http://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html)    <br/>
+> LDA <br/>
+> MDS <br/>
 
 ### 1.0 python机器学习资料
 >  [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning#python-general-purpose)  <br/>
