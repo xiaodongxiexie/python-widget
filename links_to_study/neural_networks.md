@@ -39,7 +39,7 @@
           <br/>
            <br/>
             <br/>
-             <br/>
+> [深度学习视频](http://mooc.study.163.com/smartSpec/detail/1001319001.htm) <br/>
               <br/>
                <br/>
                 <br/>
