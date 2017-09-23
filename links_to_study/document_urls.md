@@ -161,6 +161,7 @@
 > https://xin053.github.io/categories/    <br/>
 > http://xiyoumc.0x2048.com/ <br/>
 > https://jizhi.im/blog  <br/>
+> http://www.cnblogs.com/vamei/ <br/>
 > [deep learning](http://www.cnblogs.com/bzjia-blog/tag/Deep%20Learning/) <br/>
 
 ### windows下好用的小工具
