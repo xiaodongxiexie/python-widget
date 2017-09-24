@@ -163,6 +163,7 @@
 > https://jizhi.im/blog  <br/>
 > http://www.cnblogs.com/vamei/ <br/>
 > [deep learning](http://www.cnblogs.com/bzjia-blog/tag/Deep%20Learning/) <br/>
+> [看起来还不错的](http://www.54tianzhisheng.cn/page/6/) <br/>
 
 ### windows下好用的小工具
 > http://www.voidtools.com/  #搜索神器    <br/>
