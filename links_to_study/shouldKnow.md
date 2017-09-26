@@ -26,8 +26,8 @@
 >[Python 图像处理](https://pythonguidecn.readthedocs.io/zh/latest/scenarios/imaging.html) <br/>
 
 
-<br/>
-<br/>
+>[符号数学](http://docs.sympy.org/latest/tutorial/index.html)<br/>
+>[作图](http://code.enthought.com/projects/traits/)<br/>
 <br/>
 <br/>
 <br/>
