@@ -27,8 +27,12 @@
 
 
 >[符号数学](http://docs.sympy.org/latest/tutorial/index.html)<br/>
+
+
 >[作图](http://code.enthought.com/projects/traits/)<br/>
-<br/>
+
+
+>[Scipy](https://scipy-cookbook.readthedocs.io/index.html)<br/>
 <br/>
 <br/>
 <br/>
