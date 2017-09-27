@@ -164,6 +164,7 @@
 > http://www.cnblogs.com/vamei/ <br/>
 > [deep learning](http://www.cnblogs.com/bzjia-blog/tag/Deep%20Learning/) <br/>
 > [看起来还不错的](http://www.54tianzhisheng.cn/page/6/) <br/>
+> [算法面试100题](http://blog.csdn.net/v_JULY_v/article/details/6015165) <br/>
 
 ### windows下好用的小工具
 > [everything](http://www.voidtools.com/)  #搜索神器    <br/>
