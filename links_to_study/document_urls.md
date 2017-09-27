@@ -166,6 +166,10 @@
 > [看起来还不错的](http://www.54tianzhisheng.cn/page/6/) <br/>
 > [算法面试100题](http://blog.csdn.net/v_JULY_v/article/details/6015165) <br/>
 > [算法面试100题](http://blog.csdn.net/v_JULY_v/article/details/6057286) <br/>
+> [十道海量数据面试题](http://blog.csdn.net/v_JULY_v/article/details/6279498) <br/>
+> [海量数据处理](http://blog.csdn.net/v_july_v/article/details/6685962) <br/>
+> [海量数据处理](http://blog.csdn.net/v_july_v/article/details/7382693) <br/>
+> [编程之法](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/Readme.md) <br/>
 
 ### windows下好用的小工具
 > [everything](http://www.voidtools.com/)  #搜索神器    <br/>
