@@ -12,6 +12,8 @@
 > [TSNE](http://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html)    <br/>
 > LDA <br/>
 > MDS <br/>
+> 筛选法，封装法
+> scipy.stats.pearsonr
 
 ### 1.0 python机器学习资料
 >  [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning#python-general-purpose)  <br/>
