@@ -177,8 +177,8 @@
 ### windows下好用的小工具
 > [everything](http://www.voidtools.com/)  #搜索神器    <br/>
 > [cmder](http://cmder.net/  #加强版的cmd，可执行linux下终端的操作)    <br/>
-> https://www.sourceinsight.com/ #源码阅读神器，可追踪import的代码路径    <br/>
-> https://www.jianguoyun.com/   #坚果云，用来同步的云端    <br/>
+> [sourceinsight](https://www.sourceinsight.com/) #源码阅读神器，可追踪import的代码路径    <br/>
+> [坚果云](https://www.jianguoyun.com/   #坚果云，用来同步的云端)    <br/>
 
 
 
