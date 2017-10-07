@@ -163,7 +163,7 @@
 > https://xin053.github.io/categories/    <br/>
 > http://xiyoumc.0x2048.com/ <br/>
 > https://jizhi.im/blog  <br/>
-> http://www.cnblogs.com/vamei/ <br/>
+> [博客](http://www.cnblogs.com/vamei/) <br/>
 > [deep learning](http://www.cnblogs.com/bzjia-blog/tag/Deep%20Learning/) <br/>
 > [看起来还不错的](http://www.54tianzhisheng.cn/page/6/) <br/>
 > [算法面试100题](http://blog.csdn.net/v_JULY_v/article/details/6015165) <br/>
