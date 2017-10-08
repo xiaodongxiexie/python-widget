@@ -162,7 +162,7 @@
 > http://lucida.me/categories/    <br/>
 > https://xin053.github.io/categories/    <br/>
 > http://xiyoumc.0x2048.com/ <br/>
-> https://jizhi.im/blog  <br/>
+> [集智专栏](https://jizhi.im/blog)  <br/>
 > [博客](http://www.cnblogs.com/vamei/) <br/>
 > [deep learning](http://www.cnblogs.com/bzjia-blog/tag/Deep%20Learning/) <br/>
 > [看起来还不错的](http://www.54tianzhisheng.cn/page/6/) <br/>
