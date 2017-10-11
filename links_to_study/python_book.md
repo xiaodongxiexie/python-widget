@@ -3,3 +3,6 @@
 
 ### Python 进阶
 > [Python CookBook](https://python3-cookbook.readthedocs.io/zh_CN/latest/) <br/>
+
+### 编程数据推荐
+> [编程书籍](https://www.widlabs.com/article/program-books-featured-list) <br/>

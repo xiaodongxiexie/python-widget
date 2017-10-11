@@ -53,11 +53,15 @@ import compiler   #from compiler.ast import flatten 可以将镶嵌列表展开�
 from funcy import flatten, isa  #pip install funcy
 
 
+#缓存
+from functools import lru_cache   #python3.2以后支持，一个用于缓存给定大小（可设置）的装饰器
+
 # 一些格式
 import string
 import pprint
 import textwrap   #可以修饰字符串输出格式
 import fileinput
+import weakref  #弱引用
 
 import uniout  # 中文格式显示等，pip install uniout
 import xpinyin  # 将汉字转换为拼音  # https://github.com/lxneng/xpinyin/
@@ -105,8 +109,11 @@ import zipfile
 import gzip
 import zlib  # 压缩，py2.7支持str，py3必须转换为bytes后才可用
 import parser
-import StringIO
+import bz2
+
+import StringIO  #这两个python3已删除，可以通过io.StringIO来调用
 import cStringIO
+
 import ftplib
 import binascii
 
@@ -275,6 +282,10 @@ import pymongo
 # 抽象定义
 import abc
 
+#IPython
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = 'all'  #全部显示（不需要print）
+
 import future_builtins
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -328,6 +339,7 @@ from itertools import (chain,
                        starmap,
                        takewhile)
 from io import BytesIO
+from inspect import signature
 
 from matplotlib import pyplot as plt
 from matplotlib.colors import cnames  # 导入颜色名字
@@ -361,6 +373,8 @@ from numpy import polyfit, std, subtract, sqrt, log
 
 from pandas import Series, DataFrame
 
+from PIL import Image
+
 from pybrain.tools.shortcuts import buildNetwork
 from pybrain.structure import (FeedForwardNetwork,
                                LinearLayer, SigmoidLayer,
@@ -381,6 +395,9 @@ from pympler import tracker
 from scipy.linalg import linalg
 from scipy.misc import derivative  # 求导数
 from scipy import stats
+from scipy.stats import pearsonr  #皮尔森系数，可以用来检测线性相关
+from scipy.stats import entropy #计算乡农熵
+
 
 from sklearn.datasets import load_digits
 from sklearn.datasets import load_iris
