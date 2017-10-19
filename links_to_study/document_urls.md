@@ -175,11 +175,10 @@
 > [数据挖掘十大经典算法](http://blog.csdn.net/v_july_v/article/details/6142146) <br/>
 
 ### windows下好用的小工具
-> [everything](http://www.voidtools.com/)  #搜索神器    <br/>
+> [Everything](http://www.voidtools.com/)  #搜索神器    <br/>
 > [cmder](http://cmder.net/  #加强版的cmd，可执行linux下终端的操作)    <br/>
 > [sourceinsight](https://www.sourceinsight.com/) #源码阅读神器，可追踪import的代码路径    <br/>
 > [坚果云](https://www.jianguoyun.com/   #坚果云，用来同步的云端)    <br/>
-
 
 
 ### 前端学习
