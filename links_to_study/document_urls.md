@@ -144,7 +144,8 @@
 ## python 学习网址大全
 > [程序员应该访问的最佳网站中文版原版](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh)   <br/>
 > [Top 28 Cheat Sheets for Machine Learning, Data Science, Probability, SQL & Big Data](https://www.analyticsvidhya.com/blog/2017/02/top-28-cheat-sheets-for-machine-learning-data-science-probability-sql-big-data/)  #cheat sheets  <br/>
-> http://pycoders-weekly-chinese.readthedocs.io/en/latest/index.html   #python PyCoder’s Weekly 中文翻译
+> http://pycoders-weekly-chinese.readthedocs.io/en/latest/index.html   #python PyCoder’s Weekly 中文翻译 <br/>
+> [Python 树的实现](http://python.jobbole.com/85336/?utm_source=blog.jobbole.com&utm_medium=relatedPosts)
 
 ## web开发
 > [轻量级Web开发](http://webpy.org/docs/0.3/tutorial.zh-cn) # web.py  <br/>
