@@ -159,7 +159,7 @@
 > [git 阅读代码帮手](http://www.geeksense.cn/plugin/)   github阅读代码帮手<br/>
 
 ### 值得逛的技术博客
-> http://pytlab.org/    <br/>
+> [PytLab](http://pytlab.org/)    <br/>
 > http://lucida.me/categories/    <br/>
 > https://xin053.github.io/categories/    <br/>
 > http://xiyoumc.0x2048.com/ <br/>
