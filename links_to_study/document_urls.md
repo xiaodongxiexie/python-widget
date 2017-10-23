@@ -192,3 +192,7 @@
 
 ### work—flow
 > [repoze(work-flow)](http://docs.repoze.org/workflow/#)
+
+
+### Jupyter notebook配置
+> [配置Jupyter](https://github.com/ipython-contrib/jupyter_contrib_nbextensions)
