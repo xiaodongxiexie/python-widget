@@ -196,3 +196,7 @@
 
 ### Jupyter notebook配置
 > [配置Jupyter](https://github.com/ipython-contrib/jupyter_contrib_nbextensions)
+
+
+### 数据挖掘
+> [数据挖掘指南](https://github.com/litaotao/guidetodatamining)
