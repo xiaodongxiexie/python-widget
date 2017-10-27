@@ -144,7 +144,8 @@
 ## python 学习网址大全
 > [程序员应该访问的最佳网站中文版原版](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh)   <br/>
 > [Top 28 Cheat Sheets for Machine Learning, Data Science, Probability, SQL & Big Data](https://www.analyticsvidhya.com/blog/2017/02/top-28-cheat-sheets-for-machine-learning-data-science-probability-sql-big-data/)  #cheat sheets  <br/>
-> http://pycoders-weekly-chinese.readthedocs.io/en/latest/index.html   #python PyCoder’s Weekly 中文翻译
+> http://pycoders-weekly-chinese.readthedocs.io/en/latest/index.html   #python PyCoder’s Weekly 中文翻译 <br/>
+> [Python 树的实现](http://python.jobbole.com/85336/?utm_source=blog.jobbole.com&utm_medium=relatedPosts)
 
 ## web开发
 > [轻量级Web开发](http://webpy.org/docs/0.3/tutorial.zh-cn) # web.py  <br/>
@@ -158,7 +159,7 @@
 > [git 阅读代码帮手](http://www.geeksense.cn/plugin/)   github阅读代码帮手<br/>
 
 ### 值得逛的技术博客
-> http://pytlab.org/    <br/>
+> [PytLab](http://pytlab.org/)    <br/>
 > http://lucida.me/categories/    <br/>
 > https://xin053.github.io/categories/    <br/>
 > http://xiyoumc.0x2048.com/ <br/>
@@ -175,11 +176,10 @@
 > [数据挖掘十大经典算法](http://blog.csdn.net/v_july_v/article/details/6142146) <br/>
 
 ### windows下好用的小工具
-> [everything](http://www.voidtools.com/)  #搜索神器    <br/>
+> [Everything](http://www.voidtools.com/)  #搜索神器    <br/>
 > [cmder](http://cmder.net/  #加强版的cmd，可执行linux下终端的操作)    <br/>
 > [sourceinsight](https://www.sourceinsight.com/) #源码阅读神器，可追踪import的代码路径    <br/>
 > [坚果云](https://www.jianguoyun.com/   #坚果云，用来同步的云端)    <br/>
-
 
 
 ### 前端学习
@@ -192,3 +192,15 @@
 
 ### work—flow
 > [repoze(work-flow)](http://docs.repoze.org/workflow/#)
+
+
+### Jupyter notebook配置
+> [配置Jupyter](https://github.com/ipython-contrib/jupyter_contrib_nbextensions)
+
+
+### 数据挖掘
+> [数据挖掘指南](https://github.com/litaotao/guidetodatamining)
+
+
+### 多线程
+> [多线程面试概念问答](http://blog.csdn.net/wolenski/article/details/7969908)
