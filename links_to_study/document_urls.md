@@ -115,7 +115,7 @@
 
 ### 2.Python学习资料集锦
 > [学习资料集锦](http://sofar.blog.51cto.com/353572/1381685) <br/>
-
+> [Python 资料全汇总](https://www.urlteam.org/2017/03/python资源全汇总-中文版/) <br/>
 ### 深度学习
 > [深度学习](http://www.kuqin.com/shuoit/20150409/345637.html)  <br/>
 
