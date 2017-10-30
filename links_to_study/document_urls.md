@@ -24,9 +24,22 @@
 > [Kaggle攻略](https://dnc1994.com/2016/04/rank-10-percent-in-first-kaggle-competition/) <br/>
 > [值得收藏的 27 个机器学习的小抄 ](https://unsupervisedmethods.com/cheat-sheet-of-machine-learning-and-python-and-math-cheat-sheets-a4afe4e791b6) <br/>
 > [值得收藏的 27 个机器学习的小抄 ](https://linux.cn/article-8754-3.html) <br/>
-> [boosting and stacking](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650730238&idx=2&sn=18239d7ea90de70c939d704f3f8482d8&chksm=871b2a80b06ca396e3a71fdfdf9574886a776ef99971bf0be4e818c568424c2a337c6e1cd14b&scene=21#wechat_redirect) < br/>
+> [boosting and stacking](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650730238&idx=2&sn=18239d7ea90de70c939d704f3f8482d8&chksm=871b2a80b06ca396e3a71fdfdf9574886a776ef99971bf0be4e818c568424c2a337c6e1cd14b&scene=21#wechat_redirect) <br/>
 > [机器学习入门](https://yq.aliyun.com/articles/67218?utm_content=m_33114) <br/>
 > [特征工程](http://www.cnblogs.com/jasonfreak/p/5448385.html) <br/>
+> [神经网络与深度学习之激活函数](http://www.cnblogs.com/dudumiaomiao/p/6014205.html) <br/>
+> [模型评估与选择](http://www.cnblogs.com/kuotian/p/6151541.html) <br/>
+> [机器学习评价指标大汇总](http://www.cnblogs.com/zhaokui/p/ml-metric.html) <br/>
+> [机器学习中距离和相似度量](http://www.cnblogs.com/daniel-D/p/3244718.html) <br/>
+> [不均匀样本分布下的机器学习](http://www.cnblogs.com/ljygoodgoodstudydaydayup/p/6485152.html) <br/>
+> [如何选择机器学习分类器](http://blog.jobbole.com/67671/) <br/>
+> [机器学习中的正则化](http://m.blog.csdn.net/jinping_shi/article/details/52433975) <br/>
+
+
+
+
+
+
 
 ### 1.1 sklearn
 > [sklearn官网](http://scikit-learn.org/)  <br/>
