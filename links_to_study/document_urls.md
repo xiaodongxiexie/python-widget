@@ -34,6 +34,7 @@
 > [不均匀样本分布下的机器学习](http://www.cnblogs.com/ljygoodgoodstudydaydayup/p/6485152.html) <br/>
 > [如何选择机器学习分类器](http://blog.jobbole.com/67671/) <br/>
 > [机器学习中的正则化](http://m.blog.csdn.net/jinping_shi/article/details/52433975) <br/>
+> [机器学习面试题目](https://www.huxiu.com/article/175046/1.html?f=member_article) <br/>
 
 
 
