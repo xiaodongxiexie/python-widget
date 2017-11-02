@@ -36,6 +36,7 @@
 > [机器学习中的正则化](http://m.blog.csdn.net/jinping_shi/article/details/52433975) <br/>
 > [机器学习面试题目](https://www.huxiu.com/article/175046/1.html?f=member_article) <br/>
 > [机器学习只是体系](http://www.cnblogs.com/wdsunny/p/6362582.html) <br/>
+> [机器学习中的损失函数](http://blog.csdn.net/rosenor1/article/details/52302217) <br/>
 
 
 
