@@ -225,6 +225,7 @@
 
 ### 爬虫类
 > [反反爬虫](https://github.com/luyishisi/Anti-Anti-Spider) </br>
+> [Scrapy](https://docs.scrapy.org/en/latest/) <br>
 
 ### 正则表达式
 > [正则表达式记录](https://zhuanlan.zhihu.com/p/30573054) </br>
