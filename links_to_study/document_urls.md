@@ -224,7 +224,8 @@
 
 
 ### 多线程
-> [多线程面试概念问答](http://blog.csdn.net/wolenski/article/details/7969908)
+> [多线程面试概念问答](http://blog.csdn.net/wolenski/article/details/7969908) <br/>
+> [操作系统、进程与线程](https://liam0205.me/2017/01/17/layers-and-operation-system/) <br/>
 
 
 ### 爬虫类
