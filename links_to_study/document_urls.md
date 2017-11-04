@@ -235,3 +235,8 @@
 ### 正则表达式
 > [正则表达式记录](https://zhuanlan.zhihu.com/p/30573054) </br>
 > [正则表达式教程](http://www.jb51.net/tools/zhengze.html) </br>
+
+
+### 数据库
+> [十步完全理解SQL](http://blog.jobbole.com/55086/) </br>
+> [画图解释SQL join语句](http://blog.jobbole.com/40443/) </br>
