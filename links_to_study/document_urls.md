@@ -195,6 +195,7 @@
 > [海量数据处理](http://blog.csdn.net/v_july_v/article/details/7382693) <br/>
 > [编程之法](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/Readme.md) <br/>
 > [数据挖掘十大经典算法](http://blog.csdn.net/v_july_v/article/details/6142146) <br/>
+> [机器学习](https://liam0205.me/series/) <br/>
 
 ### windows下好用的小工具
 > [Everything](http://www.voidtools.com/)  #搜索神器    <br/>
