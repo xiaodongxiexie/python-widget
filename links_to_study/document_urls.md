@@ -241,3 +241,4 @@
 ### 数据库
 > [十步完全理解SQL](http://blog.jobbole.com/55086/) </br>
 > [画图解释SQL join语句](http://blog.jobbole.com/40443/) </br>
+> navicate 数据库操作
