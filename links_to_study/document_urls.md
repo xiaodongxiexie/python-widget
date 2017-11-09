@@ -243,5 +243,6 @@
 > [画图解释SQL join语句](http://blog.jobbole.com/40443/) </br>
 > [数据库](http://www.yiibai.com/mysql/primary-key.html) </br>
 > [数据库常用函数](http://www.jb51.net/article/40179.htm) </br>
+> [数据库常用函数](http://www.jb51.net/article/40179.htm) </br>
 
 > navicate 数据库操作
