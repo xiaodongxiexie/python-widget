@@ -136,6 +136,7 @@ import functools  # partial、wraps等
 import itertools
 
 import types
+#from types import MappingProxyType
 import errno
 
 # 对时间的操作
