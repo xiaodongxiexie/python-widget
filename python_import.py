@@ -87,6 +87,11 @@ import encodings # help(encodings) 关于所有Python内置编码方式
 import chardet  # 检查编码
 import code
 import codecs  # 与open一起使用，可以指定解码方式
+
+#+++++++++++++++++编码问题
+from unicodedata import normalize, name
+#+++++++++++++++++
+
 import copy
 import cPickle  # pickle的C版本，更快更好用
 import csv
