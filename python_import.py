@@ -6,6 +6,7 @@ import platform  # 可以查看终端信息（如版本状况）
 import psutil  # 查看内存占用情况
 import inspect
 import operator
+# from operator import mathodcaller
 import path
 import traceback
 import trace
