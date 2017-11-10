@@ -18,6 +18,7 @@
 
 #### 4.1 funcy 
 >[funcy](http://funcy.readthedocs.io/en/stable/overview.html)   一个python 实现的工具包，适合看看源码
+> (http://funcy.readthedocs.io/en/stable/cheatsheet.html)
 
 
 #### 5.1 python 好用的库
