@@ -13,7 +13,8 @@
 
 
 #### 3.1 python学习网站
->[编程派](http://codingpy.com/)
+>[编程派](http://codingpy.com/) </br>
+>[引用可视化显示]( http://www.pythontutor.com)</br>
 
 
 #### 4.1 funcy 
