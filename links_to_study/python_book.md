@@ -6,3 +6,6 @@
 
 ### 编程数据推荐
 > [编程书籍](https://www.widlabs.com/article/program-books-featured-list) <br/>
+
+### 电子书下载
+> [百度云下载](http://www.sobaidupan.com) <br/>
