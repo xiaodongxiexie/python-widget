@@ -286,6 +286,7 @@ import unittest
 # 数据库
 import sqlite3
 import pymongo
+import pymysql 
 
 # 抽象定义
 import abc
