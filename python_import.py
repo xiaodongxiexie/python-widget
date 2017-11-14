@@ -78,6 +78,7 @@ import new
 import keyword
 import colorams  # 改变输出流背景、颜色等
 import ctypes
+import configparser   #python3读取配置
 
 #特殊的split格式
 import shlex
