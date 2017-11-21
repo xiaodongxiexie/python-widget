@@ -278,3 +278,203 @@ import hmac
 import hashlib
 import shortuuid  # pip install shortuuid #https://github.com/skorokithakis/shortuuid
 import secrets  # py3 生成
+
+from types import MappingProxyType  #字典代理
+
+
+import secrets  # py3 生成密令等
+ -
+ -
+ -# 密码
+ -import getpass
+ -
+ -# 单元测试
+ -import unittest
+ -
+ -# 数据库
+ -import sqlite3
+ -import pymongo
+ -import pymysql 
+ -
+ -# 抽象定义
+ -import abc
+ -
+ -#IPython
+ -from IPython.core.interactiveshell import InteractiveShell
+ -InteractiveShell.ast_node_interactivity = 'all'  #全部显示（不需要print）
+ -
+ -import future_builtins
+ -reload(sys)
+ -sys.setdefaultencoding('utf-8')
+ -
+ -warnings.filterwarnings('ignore')
+ -
+ -from abc import abstractmethod
+ -from abc import ABCMeta
+ -
+ -from bs4 import BeautifulSoup as bs
+ -
+ -from chardet.universaldetector import UniversalDetector
+ -
+ -from collections import Counter
+ -from collections import defaultdict
+ -from collections import OrderedDict
+ -from collections import deque
+ -from collections import namedtuple
+ -from collections import ChainMap
+ -
+ -from copy import deepcopy
+ -
+ -from datetime import datetime
+ -from datetime import timedelta
+ -
+ -
+ -from dateutil.parser import parse
+ -
+ -from __future__ import division
+ -from __future__ import unicode_literals
+ -from __future__ import print_function
+ -from __future__ import absolute_import
+ -
+ -from functools import partial
+ -from functools import wraps
+ -from itertools import (chain,
+ -                       compress,
+ -                       count,
+ -                       cycle,
+ -                       dropwhile,
+ -                       ifilter,
+ -                       ifilterfalse,
+ -                       imap,
+ -                       islice,  #可用于迭代器的切片
+ -                       imap,
+ -                       izip,
+ -                       izip_longest,
+ -                       permutations,
+ -                       product,
+ -                       repeat,
+ -                       starmap,
+ -                       takewhile)
+ -from io import BytesIO
+ -from inspect import signature
+ -
+ -from matplotlib import pyplot as plt
+ -from matplotlib.colors import cnames  # 导入颜色名字
+ -
+ -from matplotlib import __version__, rcParams
+ -from matplotlib._pylab_helpers import Gcf
+ -from matplotlib.backend_bases import (RendererBase, GraphicsContextBase,
+ -                                      FigureManagerBase, FigureCanvasBase)
+ -from matplotlib.backends.backend_mixed import MixedModeRenderer
+ -from matplotlib.cbook import (Bunch, is_string_like, get_realpath_and_stat,
+ -                              is_writable_file_like, maxdict)
+ -from matplotlib.figure import Figure
+ -from matplotlib.font_manager import findfont, is_opentype_cff_font, get_font
+ -from matplotlib.afm import AFM
+ -import matplotlib.type1font as type1font
+ -import matplotlib.dviread as dviread
+ -from matplotlib.ft2font import (FIXED_WIDTH, ITALIC, LOAD_NO_SCALE,
+ -                                LOAD_NO_HINTING, KERNING_UNFITTED)
+ -from matplotlib.mathtext import MathTextParser
+ -from matplotlib.transforms import Affine2D, BboxBase
+ -from matplotlib.path import Path
+ -from matplotlib import _path
+ -from matplotlib import _png
+ -from matplotlib import ttconv
+ -
+ -from math import ceil, cos, floor, pi, sin
+ -
+ -from numpy import random
+ -from numpy import polyfit, std, subtract, sqrt, log
+ -
+ -
+ -from pandas import Series, DataFrame
+ -
+ -from PIL import Image
+ -
+ -from pybrain.tools.shortcuts import buildNetwork
+ -from pybrain.structure import (FeedForwardNetwork,
+ -                               LinearLayer, SigmoidLayer,
+ -                               TanhLayer, SoftmaxLayer,
+ -                               FullConnection)
+ -
+ -from pybrain.supervied.trainers import BackpropTrainer
+ -from pybrain.datasets import SupervisedDataSet
+ -from pybrain.tools.customxml.networkwriter import NetworkWriter
+ -from pybrain.tools.customxml.networkreader import NetworkReader
+ -
+ -
+ -from pymongo import MongoClient
+ -
+ -from pympler import asizeof
+ -from pympler import tracker
+ -
+ -from scipy.linalg import linalg
+ -from scipy.misc import derivative  # 求导数
+ -from scipy import stats
+ -from scipy.stats import pearsonr  #皮尔森系数，可以用来检测线性相关
+ -from scipy.stats import entropy #计算乡农熵
+ -
+ -
+ -from sklearn.datasets import load_digits
+ -from sklearn.datasets import load_iris
+ -from sklearn.datasets import load_boston
+ -
+ -
+ -from sklearn.cross_validation import KFold
+ -
+ -from sklearn.linear_model import LinearRegression, LogisticRegression
+ -from sklearn.linear_model import Ridge, Lasso
+ -from sklearn.linear_model import Hinge
+ -
+ -from sklearn.svm import SVC, SVR, LinearSVC, LinearSVR, libsvm
+ -
+ -from sklearn.naive_bayes import GaussianNB, BaseNB
+ -
+ -from sklearn.cluster import KMeans
+ -
+ -from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
+ -
+ -from sklearn.neighbors import KDTree,
+ -    KNeighborsClassifier, KNeighborsRegressor,
+ -    RadiusNeighborsClassifier, RadiusNeighborsRegressor
+ -
+ -from sklearn.ensemble import AdaBoostClassifier, AdaBoostRegressor
+ -from sklearn.ensemble import bagging, BaggingClassifier, BaseEnsemble
+ -from sklearn.ensemble import ExtraTreesClassifier, ExtraTreesRegressor
+ -from sklearn.ensemble import gradient_boosting, GradientBoostingClassifier
+ -from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor, RandomTreesEmbedding
+ -from sklearn.ensemble import voting_classifier, VotingClassifier
+ -
+ -from sklearn.preprocessing import (MaxAbsScaler,
+ -                                   MinMaxScaler,
+ -                                   normalize,
+ -                                   PolynomialFeatures)
+ -from sklearn.preprocessing import StandardScaler, scale
+ -
+ -from sklearn.grid_search import RandomizedSearchCV, GridSearchCV
+ -
+ -from sklearn.decomposition import PCA
+ -
+ -from sklearn.externals import joblib
+ -
+ -from sklearn.preprocessing import MinMaxScaler
+ -
+ -from statsmodels import api as sm
+ -from statsmodels.graphics.api import qqplot
+ -from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
+ -from statsmodels.tsa.arima_model import ARMA, ARIMA
+ -from statsmodels.tsa.seasonal import seasonal_decompose
+ -from statsmodels.tsa.stattools import adfuller, acf, pacf
+ -
+ -
+ -from threading import Thread
+ -
+ -from tqdm import tqdm
+ -from tqdm import trange
+ -
+ -from urlparse import urlparse
+ -
+ -from xml.etree.ElementTree import parse #解析xml
+ -
+ -from xpinyin import Pinyin
