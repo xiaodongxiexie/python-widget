@@ -1,5 +1,6 @@
 import math
 
+
 class Structure1:
     # Class variable that specifies expected fields
     _fields = []
@@ -10,20 +11,24 @@ class Structure1:
         # Set the arguments
         for name, value in zip(self._fields, args):
             setattr(self, name, value)
-            
+
 # Example class definitions
+
+
 class Stock(Structure1):
     _fields = ['name', 'shares', 'price']
 
+
 class Point(Structure1):
     _fields = ['x', 'y']
+
 
 class Circle(Structure1):
     _fields = ['radius']
 
     def area(self):
         return math.pi * self.radius ** 2
-        
+
 '''
 >>> s = Stock('ACME', 50, 91.1)
 >>> p = Point(2, 3)
@@ -64,7 +69,6 @@ if __name__ == '__main__':
     s2 = Stock('ACME', 50, price=91.1)
     s3 = Stock('ACME', shares=50, price=91.1)
     # s3 = Stock('ACME', shares=50, price=91.1, aa=1)
-
 
 
 class Structure3:
