@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # @Author: xiaodong
 # @Date:   2017-11-21 16:34:12
-# @Last Modified by:   liangxiaodong
-# @Last Modified time: 2017-11-21 17:11:25
+# @Last Modified by:   xiaodong
+# @Last Modified time: 2017-11-22 12:00:26
 from collections import abc
 from keyword import iskeyword
 
@@ -12,7 +12,7 @@ class DictAddProperty:
 		for key, value in mapping.items():
 			if iskeyword(key):
 				key += '_'
-			self.__data[key] = value
+			mapping[key] = value
 
 	def __getattr__(self, name):
 		if hasattr(self.__data, name):
