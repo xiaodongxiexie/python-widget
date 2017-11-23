@@ -2,17 +2,17 @@
 # @Author: xiaodong
 # @Date:   2017-11-21 16:34:12
 # @Last Modified by:   xiaodong
-# @Last Modified time: 2017-11-22 12:00:26
+# @Last Modified time: 2017-11-23 16:24:03
 from collections import abc
 from keyword import iskeyword
 
 class DictAddProperty:
 	def __init__(self, mapping):
-		self.__data = dict(mapping)
+		self.__data = {}
 		for key, value in mapping.items():
 			if iskeyword(key):
 				key += '_'
-			mapping[key] = value
+			self.__data[key] = value
 
 	def __getattr__(self, name):
 		if hasattr(self.__data, name):
