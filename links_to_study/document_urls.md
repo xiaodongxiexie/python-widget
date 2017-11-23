@@ -256,3 +256,7 @@
 
 ### Web 
 > [werkzeug](http://werkzeug-docs-cn.readthedocs.io/zh_CN/latest/) </br>
+
+
+### 工具类
+> [tqdm](https://tqdm.github.io) </br>
