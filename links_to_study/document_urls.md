@@ -261,3 +261,7 @@
 ### 工具类
 > [tqdm](https://tqdm.github.io) </br>
 > [tqdm](https://github.com/tqdm/tqdm) </br>
+
+
+### 图像处理
+> [openCV](https://docs.opencv.org/3.1.0/d0/de3/tutorial_py_intro.html) </br>
