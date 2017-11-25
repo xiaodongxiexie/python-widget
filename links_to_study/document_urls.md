@@ -207,7 +207,10 @@
 > [cmder](http://cmder.net/  #加强版的cmd，可执行linux下终端的操作)    <br/>
 > [sourceinsight](https://www.sourceinsight.com/) #源码阅读神器，可追踪import的代码路径    <br/>
 > [坚果云](https://www.jianguoyun.com/   #坚果云，用来同步的云端)    <br/>
-
+> [snipaste 好用的截图软件](https://www.snipaste.com) </br>
+> [强大的管理软件，与everything联用有奇效](https://github.com/Wox-launcher/Wox)</br>
+> [SpaceSniffer  可视化文件占用空间大小，太好用](http://www.uderzo.it/main_products/space_sniffer/download.html) </br>
+> [给本地文件增加书签](https://sourceforge.net/projects/ccseer/) </br>
 
 ### 前端学习
 > [前端学习](http://getbootstrap.com/)  #Bootstrap <br/>
