@@ -3,6 +3,7 @@
 
 
 > 2.[零基础入门深度学习](https://www.zybuluo.com/hanbingtao/note/433855)    <br/>
+> 2.1 [从神经元到深度学习](http://www.cnblogs.com/subconscious/p/5058741.html?utm_source=qq&utm_medium=social) <br/>
 
 
 > 3.1[从头构建3层神经网络](http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/)   <br/>
