@@ -277,5 +277,6 @@
 
 ### 算法
 > [数据结构可视化](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html?utm_source=qq&utm_medium=social) <br/>
+> [读懂概率图模型：从基本概念和参数估计开始](https://zhuanlan.zhihu.com/p/31527050?group_id=919227703556460544) <br/>
 
 
