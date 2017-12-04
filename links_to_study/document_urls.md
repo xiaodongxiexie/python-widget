@@ -281,3 +281,7 @@
 > [读懂概率图模型：从基本概念和参数估计开始](https://zhuanlan.zhihu.com/p/31527050?group_id=919227703556460544) <br/>
 
 
+### 设计模式
+> [Python与设计模式
+阿里云云栖社区](https://zhuanlan.zhihu.com/p/31675841?utm_source=qq&utm_medium=social) <br/>
+
