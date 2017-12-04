@@ -42,7 +42,8 @@
 > [机器学习中防止过拟合的处理方法](http://blog.csdn.net/rosenor1/article/details/52280044) <br/>
 > [掌握机器学习数学基础之优化1](https://zhuanlan.zhihu.com/p/30383127)<br/>
 > [掌握机器学习数学基础之优化2](https://zhuanlan.zhihu.com/p/30486793?group_id=912779130635513856) <br/>
-> [一文读完GitHub30+篇顶级机器学习论文](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652008598&idx=1&sn=c67ca078f0629b343dfb4dd484dd5387&chksm=f1210467c6568d712609e0eb34f5d7515354b5a4895bb0b8c724930af0f1d26ee0f090724d71&mpshare=1&scene=1&srcid=11214QBPVL588HGHGYFxBqEU&pass_ticket=y8Cb6OU%2FIBa4WCFSUf%2FZMj8KWmqHxQ%2FOrX80x3dODg4jw%2FbNSmT46I9inGqi98rs#rd)
+> [一文读完GitHub30+篇顶级机器学习论文](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652008598&idx=1&sn=c67ca078f0629b343dfb4dd484dd5387&chksm=f1210467c6568d712609e0eb34f5d7515354b5a4895bb0b8c724930af0f1d26ee0f090724d71&mpshare=1&scene=1&srcid=11214QBPVL588HGHGYFxBqEU&pass_ticket=y8Cb6OU%2FIBa4WCFSUf%2FZMj8KWmqHxQ%2FOrX80x3dODg4jw%2FbNSmT46I9inGqi98rs#rd) <br/>
+[循环神经网络（RNN）为什么能够记忆历史信息](https://zhuanlan.zhihu.com/p/31598054?group_id=920266609914933248) <br/>
 
 
 
@@ -207,7 +208,12 @@
 > [cmder](http://cmder.net/  #加强版的cmd，可执行linux下终端的操作)    <br/>
 > [sourceinsight](https://www.sourceinsight.com/) #源码阅读神器，可追踪import的代码路径    <br/>
 > [坚果云](https://www.jianguoyun.com/   #坚果云，用来同步的云端)    <br/>
+> [snipaste 好用的截图软件](https://www.snipaste.com) </br>
+> [强大的管理软件，与everything联用有奇效](https://github.com/Wox-launcher/Wox)</br>
+> [SpaceSniffer  可视化文件占用空间大小，太好用](http://www.uderzo.it/main_products/space_sniffer/download.html) </br>
+> [给本地文件增加书签](https://sourceforge.net/projects/ccseer/) </br>
 
+>[油猴](https://tampermonkey.net </br>
 
 ### 前端学习
 > [前端学习](http://getbootstrap.com/)  #Bootstrap <br/>
@@ -252,3 +258,26 @@
 > [MySQL数据表中有自增长主键时如何插入数据](http://blog.csdn.net/Weicleer/article/details/47608289) </br>
 
 > navicate 数据库操作
+
+
+### Web 
+> [werkzeug](http://werkzeug-docs-cn.readthedocs.io/zh_CN/latest/) </br>
+
+
+### 工具类
+> [tqdm](https://tqdm.github.io) </br>
+> [tqdm](https://github.com/tqdm/tqdm) </br>
+
+
+### 图像处理
+> [openCV](https://docs.opencv.org/3.1.0/d0/de3/tutorial_py_intro.html) </br>
+
+
+
+
+
+### 算法
+> [数据结构可视化](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html?utm_source=qq&utm_medium=social) <br/>
+> [读懂概率图模型：从基本概念和参数估计开始](https://zhuanlan.zhihu.com/p/31527050?group_id=919227703556460544) <br/>
+
+
