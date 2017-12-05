@@ -285,3 +285,6 @@
 > [Python与设计模式
 阿里云云栖社区](https://zhuanlan.zhihu.com/p/31675841?utm_source=qq&utm_medium=social) <br/>
 
+
+###图书
+> [Python for Probability](http://dlx.b-ok.org/genesis/1533000/e844412dcaceb5a9bf29267fa244e908/_as/[José_Unpingco_(auth.)]_Python_for_Probability,_S(b-ok.org).pdf)  </br>
