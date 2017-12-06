@@ -288,3 +288,7 @@
 
 ###图书
 > [Python for Probability](http://dlx.b-ok.org/genesis/1533000/e844412dcaceb5a9bf29267fa244e908/_as/[José_Unpingco_(auth.)]_Python_for_Probability,_S(b-ok.org).pdf)  </br>
+
+
+### Python 面试题
+> [Python知识点](https://github.com/taizilongxu/interview_python) <br/>
