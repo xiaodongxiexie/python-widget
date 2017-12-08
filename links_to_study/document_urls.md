@@ -173,10 +173,11 @@
 > http://pycoders-weekly-chinese.readthedocs.io/en/latest/index.html   #python PyCoder’s Weekly 中文翻译 <br/>
 > [Python 树的实现](http://python.jobbole.com/85336/?utm_source=blog.jobbole.com&utm_medium=relatedPosts) <br/>
 > [树结构](https://zhuanlan.zhihu.com/p/30918614) <br/>
+> [看看](http://docs.python-guide.org/en/latest/) </br>
 
 ## web开发
 > [轻量级Web开发](http://webpy.org/docs/0.3/tutorial.zh-cn) # web.py  <br/>
-
+> [web 入坑指南](http://python-web-guide.readthedocs.io/zh/latest/) <br/>
 
 ## git中文手册
 > [git中文手册](https://git-scm.com/book/zh/v2) <br/>
