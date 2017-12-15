@@ -184,7 +184,7 @@
 ## git中文手册
 > [git中文手册](https://git-scm.com/book/zh/v2) <br/>
 
-### 好用的浏览器插件
+# 好用的浏览器插件
 > [浏览器插件](https://greasyfork.org/zh-CN) <br/>
 > [git 阅读代码帮手](http://www.geeksense.cn/plugin/)   github阅读代码帮手<br/>
 
@@ -288,8 +288,8 @@
 
 
 ### 设计模式
-> [Python与设计模式
-> 阿里云云栖社区](https://zhuanlan.zhihu.com/p/31675841?utm_source=qq&utm_medium=social) <br/>
+> Python与设计模式
+> [阿里云云栖社区](https://zhuanlan.zhihu.com/p/31675841?utm_source=qq&utm_medium=social) <br/>
 
 
 ###图书
@@ -311,4 +311,3 @@
 
 ### 全栈
 > [全栈指南](https://github.com/phodal/growth-ebook)<br/>
-
