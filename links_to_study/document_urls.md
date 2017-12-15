@@ -142,6 +142,8 @@
 ### 2.Python学习资料集锦
 > [学习资料集锦](http://sofar.blog.51cto.com/353572/1381685) <br/>
 > [Python 资料全汇总](https://www.urlteam.org/2017/03/python资源全汇总-中文版/) <br/>
+-------------------
+
 ### 深度学习
 > [深度学习](http://www.kuqin.com/shuoit/20150409/345637.html)  <br/>
 
@@ -278,6 +280,8 @@
 
 
 
+--------------
+
 ### 算法
 > [数据结构可视化](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html?utm_source=qq&utm_medium=social) <br/>
 > [读懂概率图模型：从基本概念和参数估计开始](https://zhuanlan.zhihu.com/p/31527050?group_id=919227703556460544) <br/>
@@ -297,7 +301,9 @@
 
 
 ### 问答
-> [stackexchange](https://stackexchange.com)
+> [stackexchange](https://stackexchange.com) <br/>
+
+-----------------
 
 
 ### 计算机硬件
@@ -305,3 +311,4 @@
 
 ### 全栈
 > [全栈指南](https://github.com/phodal/growth-ebook)<br/>
+
