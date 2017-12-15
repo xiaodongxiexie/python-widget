@@ -20,30 +20,30 @@
 >  [近200篇机器学习&深度学习资料分享（含各种文档，视频，源码等）](http://www.thinkface.cn/thread-3601-1-1.html)   <br/>
 >  [MachineLearning](https://github.com/wepe/MachineLearning)   <br/>
 >  [Machine Learning视频教程](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=MachineLearning) <br/>
-> [一大批资料](https://github.com/ty4z2008/Qix/blob/master/dl.md)  <br/>
-> [Kaggle攻略](https://dnc1994.com/2016/04/rank-10-percent-in-first-kaggle-competition/) <br/>
-> [值得收藏的 27 个机器学习的小抄 ](https://unsupervisedmethods.com/cheat-sheet-of-machine-learning-and-python-and-math-cheat-sheets-a4afe4e791b6) <br/>
-> [值得收藏的 27 个机器学习的小抄 ](https://linux.cn/article-8754-3.html) <br/>
-> [boosting and stacking](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650730238&idx=2&sn=18239d7ea90de70c939d704f3f8482d8&chksm=871b2a80b06ca396e3a71fdfdf9574886a776ef99971bf0be4e818c568424c2a337c6e1cd14b&scene=21#wechat_redirect) <br/>
-> [机器学习入门](https://yq.aliyun.com/articles/67218?utm_content=m_33114) <br/>
-> [特征工程](http://www.cnblogs.com/jasonfreak/p/5448385.html) <br/>
-> [神经网络与深度学习之激活函数](http://www.cnblogs.com/dudumiaomiao/p/6014205.html) <br/>
-> [模型评估与选择](http://www.cnblogs.com/kuotian/p/6151541.html) <br/>
-> [机器学习评价指标大汇总](http://www.cnblogs.com/zhaokui/p/ml-metric.html) <br/>
-> [机器学习中距离和相似度量](http://www.cnblogs.com/daniel-D/p/3244718.html) <br/>
-> [不均匀样本分布下的机器学习](http://www.cnblogs.com/ljygoodgoodstudydaydayup/p/6485152.html) <br/>
-> [如何选择机器学习分类器](http://blog.jobbole.com/67671/) <br/>
-> [机器学习中的正则化](http://m.blog.csdn.net/jinping_shi/article/details/52433975) <br/>
-> [机器学习面试题目](https://www.huxiu.com/article/175046/1.html?f=member_article) <br/>
-> [机器学习只是体系](http://www.cnblogs.com/wdsunny/p/6362582.html) <br/>
-> [机器学习中的损失函数](http://blog.csdn.net/rosenor1/article/details/52302217) <br/>
-> [机器学习&数据挖掘笔记（常见面试之机器学习算法思想简单梳理）](http://blog.csdn.net/to_xidianhph_youth/article/details/39260705) <br/>
-> [数据挖掘之异常点检测](http://blog.csdn.net/rosenor1/article/details/52281118) <br/>
-> [机器学习中防止过拟合的处理方法](http://blog.csdn.net/rosenor1/article/details/52280044) <br/>
-> [掌握机器学习数学基础之优化1](https://zhuanlan.zhihu.com/p/30383127)<br/>
-> [掌握机器学习数学基础之优化2](https://zhuanlan.zhihu.com/p/30486793?group_id=912779130635513856) <br/>
-> [一文读完GitHub30+篇顶级机器学习论文](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652008598&idx=1&sn=c67ca078f0629b343dfb4dd484dd5387&chksm=f1210467c6568d712609e0eb34f5d7515354b5a4895bb0b8c724930af0f1d26ee0f090724d71&mpshare=1&scene=1&srcid=11214QBPVL588HGHGYFxBqEU&pass_ticket=y8Cb6OU%2FIBa4WCFSUf%2FZMj8KWmqHxQ%2FOrX80x3dODg4jw%2FbNSmT46I9inGqi98rs#rd) <br/>
-[循环神经网络（RNN）为什么能够记忆历史信息](https://zhuanlan.zhihu.com/p/31598054?group_id=920266609914933248) <br/>
+>  [一大批资料](https://github.com/ty4z2008/Qix/blob/master/dl.md)  <br/>
+>  [Kaggle攻略](https://dnc1994.com/2016/04/rank-10-percent-in-first-kaggle-competition/) <br/>
+>  [值得收藏的 27 个机器学习的小抄 ](https://unsupervisedmethods.com/cheat-sheet-of-machine-learning-and-python-and-math-cheat-sheets-a4afe4e791b6) <br/>
+>  [值得收藏的 27 个机器学习的小抄 ](https://linux.cn/article-8754-3.html) <br/>
+>  [boosting and stacking](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650730238&idx=2&sn=18239d7ea90de70c939d704f3f8482d8&chksm=871b2a80b06ca396e3a71fdfdf9574886a776ef99971bf0be4e818c568424c2a337c6e1cd14b&scene=21#wechat_redirect) <br/>
+>  [机器学习入门](https://yq.aliyun.com/articles/67218?utm_content=m_33114) <br/>
+>  [特征工程](http://www.cnblogs.com/jasonfreak/p/5448385.html) <br/>
+>  [神经网络与深度学习之激活函数](http://www.cnblogs.com/dudumiaomiao/p/6014205.html) <br/>
+>  [模型评估与选择](http://www.cnblogs.com/kuotian/p/6151541.html) <br/>
+>  [机器学习评价指标大汇总](http://www.cnblogs.com/zhaokui/p/ml-metric.html) <br/>
+>  [机器学习中距离和相似度量](http://www.cnblogs.com/daniel-D/p/3244718.html) <br/>
+>  [不均匀样本分布下的机器学习](http://www.cnblogs.com/ljygoodgoodstudydaydayup/p/6485152.html) <br/>
+>  [如何选择机器学习分类器](http://blog.jobbole.com/67671/) <br/>
+>  [机器学习中的正则化](http://m.blog.csdn.net/jinping_shi/article/details/52433975) <br/>
+>  [机器学习面试题目](https://www.huxiu.com/article/175046/1.html?f=member_article) <br/>
+>  [机器学习只是体系](http://www.cnblogs.com/wdsunny/p/6362582.html) <br/>
+>  [机器学习中的损失函数](http://blog.csdn.net/rosenor1/article/details/52302217) <br/>
+>  [机器学习&数据挖掘笔记（常见面试之机器学习算法思想简单梳理）](http://blog.csdn.net/to_xidianhph_youth/article/details/39260705) <br/>
+>  [数据挖掘之异常点检测](http://blog.csdn.net/rosenor1/article/details/52281118) <br/>
+>  [机器学习中防止过拟合的处理方法](http://blog.csdn.net/rosenor1/article/details/52280044) <br/>
+>  [掌握机器学习数学基础之优化1](https://zhuanlan.zhihu.com/p/30383127)<br/>
+>  [掌握机器学习数学基础之优化2](https://zhuanlan.zhihu.com/p/30486793?group_id=912779130635513856) <br/>
+>  [一文读完GitHub30+篇顶级机器学习论文](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652008598&idx=1&sn=c67ca078f0629b343dfb4dd484dd5387&chksm=f1210467c6568d712609e0eb34f5d7515354b5a4895bb0b8c724930af0f1d26ee0f090724d71&mpshare=1&scene=1&srcid=11214QBPVL588HGHGYFxBqEU&pass_ticket=y8Cb6OU%2FIBa4WCFSUf%2FZMj8KWmqHxQ%2FOrX80x3dODg4jw%2FbNSmT46I9inGqi98rs#rd) <br/>
+>  [循环神经网络（RNN）为什么能够记忆历史信息](https://zhuanlan.zhihu.com/p/31598054?group_id=920266609914933248) <br/>
 
 
 
@@ -274,7 +274,7 @@
 ### 图像处理
 > [openCV](https://docs.opencv.org/3.1.0/d0/de3/tutorial_py_intro.html) </br>
 
-
+> [skimage](http://scikit-image.org/docs/dev/user_guide.html) </br>
 
 
 
@@ -285,7 +285,7 @@
 
 ### 设计模式
 > [Python与设计模式
-阿里云云栖社区](https://zhuanlan.zhihu.com/p/31675841?utm_source=qq&utm_medium=social) <br/>
+> 阿里云云栖社区](https://zhuanlan.zhihu.com/p/31675841?utm_source=qq&utm_medium=social) <br/>
 
 
 ###图书
