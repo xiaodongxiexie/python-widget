@@ -324,3 +324,11 @@
 ### 系统设计
 
 > [系统设计](https://github.com/donnemartin/system-design-primer/blob/master/README-zh-Hans.md) </br>
+
+
+
+
+
+### 各种大赛
+
+> [阿里医疗大赛](https://tianchi.aliyun.com/competition/new_articleDetail.html?postsId=3099&utm_source=qq&utm_medium=social) </br>
