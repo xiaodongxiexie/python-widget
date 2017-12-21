@@ -313,6 +313,11 @@ model.fit_transform(...)
 from sklearn.feature_selection import chi2, SelectKBest
 new_features = SelectKBest(chi2, k=2).fit_transform(old_x, y)
 #---
+from sklearn.feature_selection import RFE
+from sklearn.linear_model import LogisticRegression
+estimator = LogisticRegression()
+model = RFE(estimator, n_features_to_select=2).fit_transform(...)
+#---
 
 
 #IPython
