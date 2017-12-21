@@ -307,6 +307,10 @@ from sklearn import random_projection
 model = random_projection.SparseRandomProjection(n_components=2)
 model.fit_transform(...)
 #---
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis  #LDA
+model = LinearDiscriminantAnalysis(n_components=2)
+#---
+
 
 # sklearn中特征选择
 #---
