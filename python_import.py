@@ -308,6 +308,12 @@ model = random_projection.SparseRandomProjection(n_components=2)
 model.fit_transform(...)
 #---
 
+# sklearn中特征选择
+#---
+from sklearn.feature_selection import chi2, SelectKBest
+new_features = SelectKBest(chi2, k=2).fit_transform(old_x, y)
+#---
+
 
 #IPython
 from IPython.core.interactiveshell import InteractiveShell
