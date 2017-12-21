@@ -301,6 +301,13 @@ import abc
 # sklearn 中有关降维
 from sklearn.manifold import TSNE, Isomap, MDS
 from sklearn.decomposition import PCA
+from sklearn.decomposition import TruncatedSVD
+#----
+from sklearn import random_projection
+model = random_projection.SparseRandomProjection(n_components=2)
+model.fit_transform(...)
+#---
+
 
 #IPython
 from IPython.core.interactiveshell import InteractiveShell
