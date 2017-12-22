@@ -44,6 +44,8 @@
 >  [掌握机器学习数学基础之优化2](https://zhuanlan.zhihu.com/p/30486793?group_id=912779130635513856) <br/>
 >  [一文读完GitHub30+篇顶级机器学习论文](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652008598&idx=1&sn=c67ca078f0629b343dfb4dd484dd5387&chksm=f1210467c6568d712609e0eb34f5d7515354b5a4895bb0b8c724930af0f1d26ee0f090724d71&mpshare=1&scene=1&srcid=11214QBPVL588HGHGYFxBqEU&pass_ticket=y8Cb6OU%2FIBa4WCFSUf%2FZMj8KWmqHxQ%2FOrX80x3dODg4jw%2FbNSmT46I9inGqi98rs#rd) <br/>
 >  [循环神经网络（RNN）为什么能够记忆历史信息](https://zhuanlan.zhihu.com/p/31598054?group_id=920266609914933248) <br/>
+>
+>  [梯度下降](http://ruder.io/optimizing-gradient-descent/) <br/>
 
 
 
