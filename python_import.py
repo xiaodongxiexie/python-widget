@@ -25,7 +25,7 @@ import atexit  # 一个蛮有意思的内置模块，执行函数退出时的回
 # pip install pdir2
 import pdir  # dir的扩展
 import tqdm  # 一个显示进度的小工具（bar）
-import fake - useragent  # 自动生成伪装header等信息
+import fake #- useragent  # 自动生成伪装header等信息
 import faker  # 生成虚假信息，（可生成中文）
 import xpinyin  #将汉字转换为拼音（甚至可以加声调） #pip install xpinyin
 import pypinyin #汉字转换成拼音 #pip install pypinyin
@@ -126,6 +126,9 @@ import cStringIO
 import ftplib
 import binascii
 
+import array
+
+
 #py3
 import builtins   #一些内置的range，map，zip等在该包中，可通过引用该包进行覆盖定义
 
@@ -189,7 +192,7 @@ import numpy as np
 m = MINE()
 x = np.random.uniform(-1, 1, 10000)
 m.compute_score(x, x**2)
-print m.mic()
+#print m.mic()
 
 
 # 线程
@@ -233,7 +236,7 @@ import SimpleITK as sitk  # 图像处理
 import skimage
 
 # 爬虫
-import fake - useragent  # pip install fake-useragent  生成伪装头部等信息
+#import fake - useragent  # pip install fake-useragent  生成伪装头部等信息
 import requests
 import base64  # 编码
 import urlparse
@@ -322,6 +325,28 @@ from sklearn.linear_model import LogisticRegression
 estimator = LogisticRegression()
 model = RFE(estimator, n_features_to_select=2).fit_transform(...)
 #---
+from sklearn.linear_model import RandomizedLogisticRegression
+model = RandomizedLogisticRegression().fit(ix, iy)
+#---
+#基于树模型
+from sklearn.datasets import load_iris
+
+iris = load_iris()
+ix, iy = iris.data, iris.target
+from sklearn.ensemble import ExtraTreesClassifier, GradientBoostingClassifier
+from sklearn.feature_selection import SelectFromModel
+
+model1 = ExtraTreesClassifier()
+model2 = GradientBoostingClassifier()
+model1.fit(ix, iy)
+model2.fit(ix, iy)
+model1.feature_importances_
+model2.feature_importances_
+clf1 = SelectFromModel(model1, prefit=True)
+clf2 = SelectFromModel(model2, prefit=True)
+clf1.get_support()
+clf2.get_support()
+
 
 
 #IPython
@@ -356,6 +381,7 @@ from datetime import timedelta
 
 from dateutil.parser import parse
 
+#__future__ 导入时必须放在最开始，否则会报错（这里只是做收集用，不要运行）
 from __future__ import division
 from __future__ import unicode_literals
 from __future__ import print_function
@@ -460,9 +486,9 @@ from sklearn.cluster import KMeans
 
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
 
-from sklearn.neighbors import KDTree,
+from sklearn.neighbors import (KDTree,
     KNeighborsClassifier, KNeighborsRegressor,
-    RadiusNeighborsClassifier, RadiusNeighborsRegressor
+    RadiusNeighborsClassifier, RadiusNeighborsRegressor)
 
 from sklearn.ensemble import AdaBoostClassifier, AdaBoostRegressor
 from sklearn.ensemble import bagging, BaggingClassifier, BaseEnsemble
