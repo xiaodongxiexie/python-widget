@@ -83,6 +83,10 @@ import configparser   #python3读取配置
 #特殊的split格式
 import shlex
 
+#动态导包
+import importlib
+from importlib import import_module
+
 
 # 编码及解析
 import encodings # help(encodings) 关于所有Python内置编码方式
