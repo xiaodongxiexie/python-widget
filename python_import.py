@@ -332,6 +332,8 @@ model = RFE(estimator, n_features_to_select=2).fit_transform(...)
 from sklearn.linear_model import RandomizedLogisticRegression
 model = RandomizedLogisticRegression().fit(ix, iy)
 #---
+
+
 #基于树模型
 from sklearn.datasets import load_iris
 
