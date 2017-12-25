@@ -208,6 +208,10 @@
 > [数据挖掘十大经典算法](http://blog.csdn.net/v_july_v/article/details/6142146) <br/>
 > [机器学习](https://liam0205.me/series/) <br/>
 > [博客](http://zmister.com/?utm_source=qq&utm_medium=social) <br/>
+>
+> [博客](http://mars.run)
+>
+> 
 
 ### windows下好用的小工具
 > [Everything](http://www.voidtools.com/)  #搜索神器    <br/>
