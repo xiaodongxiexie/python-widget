@@ -46,6 +46,14 @@
 >  [循环神经网络（RNN）为什么能够记忆历史信息](https://zhuanlan.zhihu.com/p/31598054?group_id=920266609914933248) <br/>
 >
 >  [梯度下降](http://ruder.io/optimizing-gradient-descent/) <br/>
+>
+>  [Machine Learning](https://www.analyticsvidhya.com)
+>
+>  [Deep Learning](http://www.deeplearningbook.org)
+>
+>  [Deep Learning](http://neuralnetworksanddeeplearning.com)
+>
+>  [About Machine Learning](https://www.analyticsvidhya.com/blog/2017/12/11-machine-learning-articles-analytics-vidhya-2017/)
 
 
 
