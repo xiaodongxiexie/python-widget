@@ -480,7 +480,16 @@ from sklearn.datasets import load_boston
 
 from sklearn.cross_validation import KFold
 
-from sklearn.linear_model import LinearRegression, LogisticRegression
+from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LogisticRegressionCV, LogisticRegression
+from sklearn.linear_model import ARDRegression
+from sklearn.linear_model import ElasticNet, ElasticNetCV
+from sklearn.linear_model import Lasso, LassoCV
+from sklearn.linear_model import Ridge, RidgeCV
+from sklearn.linear_model import LassoLars, LassoLarsCV, LassoLarsIC
+from sklearn.linear_model import MultiTaskElasticNet, MultiTaskElasticNetCV
+from sklearn.linear_model import MultiTaskLasso, MultiTaskLassoCV
+from sklearn.linear_model import OrthogonalMatchingPursuit, OrthogonalMatchingPursuitCV
 from sklearn.linear_model import Ridge, Lasso
 from sklearn.linear_model import Hinge
 
