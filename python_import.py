@@ -495,6 +495,10 @@ from sklearn.linear_model import Hinge
 
 from sklearn.svm import SVC, SVR, LinearSVC, LinearSVR, libsvm
 
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import StratifiedShuffleSplit
+from sklearn.model_selection import TimeSeriesSplit
+
 from sklearn.naive_bayes import GaussianNB, BaseNB
 
 from sklearn.cluster import KMeans
