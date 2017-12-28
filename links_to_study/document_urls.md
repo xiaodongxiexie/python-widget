@@ -64,6 +64,8 @@
 ### 1.1 sklearn
 > [sklearn官网](http://scikit-learn.org/)  <br/>
 > [sklearn中文文档](https://github.com/lzjqsdd/scikit-learn-doc-cn)
+>
+> [Sklearn针对非平衡数据处理](https://github.com/scikit-learn-contrib/imbalanced-learn)
 
 ### 1.2 keras
 > [tensorflow官网](https://www.tensorflow.org/)    <br/>
@@ -352,3 +354,9 @@
 ### 各种大赛
 
 > [阿里医疗大赛](https://tianchi.aliyun.com/competition/new_articleDetail.html?postsId=3099&utm_source=qq&utm_medium=social) </br>
+
+
+
+### 可视化
+
+> [seaborn官方文档](http://seaborn.pydata.org/tutorial.html)
