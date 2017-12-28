@@ -93,6 +93,10 @@
 ### 1.7 Caffe
 > [Caffe 上手教程](http://suanfazu.com/t/caffe/13577) <br/>
 
+### 1.8 Pytorch
+
+> [pytorch 官方文档](http://pytorch.org/tutorials/)
+
 ### 图形处理
 
 > [luminoth](https://luminoth.ai)
