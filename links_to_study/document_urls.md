@@ -364,3 +364,7 @@
 ### 可视化
 
 > [seaborn官方文档](http://seaborn.pydata.org/tutorial.html)
+>
+> [seaborn 官方文档对应的中文翻译（知乎）](https://zhuanlan.zhihu.com/p/27435863)
+>
+> 
