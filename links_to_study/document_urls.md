@@ -307,6 +307,10 @@
 > [openCV](https://docs.opencv.org/3.1.0/d0/de3/tutorial_py_intro.html) </br>
 
 > [skimage](http://scikit-image.org/docs/dev/user_guide.html) </br>
+>
+> [Pillow](https://pillow.readthedocs.io/en/4.3.x/handbook/index.html)
+>
+> 
 
 ### 自然语言处理
 > [自然语言处理](http://www.52nlp.cn/tag/nltk) </br>
