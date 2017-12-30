@@ -2,7 +2,7 @@
 # @Author: xiaodong
 # @Date:   2017-12-30 23:53:04
 # @Last Modified by:   liangxiaodong
-# @Last Modified time: 2017-12-31 00:17:59
+# @Last Modified time: 2017-12-31 00:28:26
 
 import os
 
@@ -11,7 +11,7 @@ from pylab import imshow, axis, array, pause, close, imsave
 from numpy import array
 from PIL import Image
 
-def fuzzy_pic(path, fuzzy=5, save=False, save_name=None, test=False):
+def fuzzy_pic(path, gray=False, fuzzy=5, save=False, save_name=None, test=False, **kwargs):
     """
     将给定地址的图片做高斯模糊。
     :param path: 图片路径
@@ -22,13 +22,17 @@ def fuzzy_pic(path, fuzzy=5, save=False, save_name=None, test=False):
     :rtype: 无返回值
     """
     img = Image.open(path)
-    img_arr = array(img)
-    alen = img_arr.shape[2]
 
-    assert alen == 3, "仅支持RGB图"
+    if gray:
+        img_arr = img.convert("L")
+    else:
+        img_arr = array(img)
+        alen = img_arr.shape[2]
 
-    for i in range(3):
-        img_arr[:, :, i] = filters.gaussian_filter(img_arr[:, :, i], fuzzy)
+        assert alen == 3, "仅支持RGB图"
+
+        for i in range(3):
+            img_arr[:, :, i] = filters.gaussian_filter(img_arr[:, :, i], fuzzy)
 
     if save:
         if not save_name:
@@ -45,4 +49,11 @@ def fuzzy_pic(path, fuzzy=5, save=False, save_name=None, test=False):
 
 
 if __name__ == "__main__":
-    fuzzy_pic(r"D:\lxd\git_\data\empire.jpg", save=True, test=True, fuzzy=10)
+    path  = r"D:\lxd\git_\data\empire.jpg"
+    gray  = False
+    fuzzy = 10
+    save  = True
+    test  = True
+
+    kwargs = globals()
+    fuzzy_pic(**kwargs)
