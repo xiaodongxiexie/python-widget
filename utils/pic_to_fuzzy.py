@@ -2,13 +2,13 @@
 # @Author: xiaodong
 # @Date:   2017-12-30 23:53:04
 # @Last Modified by:   liangxiaodong
-# @Last Modified time: 2017-12-31 00:28:26
+# @Last Modified time: 2017-12-31 00:31:51
 
 import os
 
 from scipy.ndimage import filters
 from pylab import imshow, axis, array, pause, close, imsave
-from numpy import array
+from numpy import array, uint8
 from PIL import Image
 
 def fuzzy_pic(path, gray=False, fuzzy=5, save=False, save_name=None, test=False, **kwargs):
@@ -33,6 +33,7 @@ def fuzzy_pic(path, gray=False, fuzzy=5, save=False, save_name=None, test=False,
 
         for i in range(3):
             img_arr[:, :, i] = filters.gaussian_filter(img_arr[:, :, i], fuzzy)
+        img_arr = img_arr.astype(uint8)
 
     if save:
         if not save_name:
