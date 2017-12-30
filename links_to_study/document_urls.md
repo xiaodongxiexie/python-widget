@@ -66,6 +66,8 @@
 > [sklearn中文文档](https://github.com/lzjqsdd/scikit-learn-doc-cn)
 >
 > [Sklearn针对非平衡数据处理](https://github.com/scikit-learn-contrib/imbalanced-learn)
+>
+> [ [Hands-on Machine Learning with Scikit-Learn and TensorFlow]](https://github.com/ageron/handson-ml)
 
 ### 1.2 keras
 > [tensorflow官网](https://www.tensorflow.org/)    <br/>
