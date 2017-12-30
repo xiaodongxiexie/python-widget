@@ -98,10 +98,22 @@
 ### 1.8 Pytorch
 
 > [pytorch 官方文档](http://pytorch.org/tutorials/)
+>
+> [pytorch](https://github.com/ruiminshen/yolo2-pytorch)
+>
+> 
+
+### 1.9 MUSE
+
+> [MUSE](https://github.com/facebookresearch/MUSE?utm_source=qq&utm_medium=social)
 
 ### 图形处理
 
 > [luminoth](https://luminoth.ai)
+>
+> [脸部识别](https://github.com/ageitgey/face_recognition?utm_source=qq&utm_medium=social)
+>
+> [铁路验证码识别](https://github.com/JasonLiTW/simple-railway-captcha-solver?utm_source=qq&utm_medium=social)
 
 ## 2、时间序列
 
@@ -316,6 +328,8 @@
 
 ### 自然语言处理
 > [自然语言处理](http://www.52nlp.cn/tag/nltk) </br>
+>
+> [中文分词](https://github.com/rockyzhengwu/FoolNLTK)
 
 --------------
 
