@@ -104,6 +104,7 @@ import copy
 import cPickle  # pickle的C版本，更快更好用
 import csv
 import xlrd  # 用于处理excel的库
+import xlwt  # 用于处理excel的写操作
 import encodings
 import shutil  # 文件整体复制等操作
 import base64
