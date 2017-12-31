@@ -103,6 +103,7 @@ from unicodedata import normalize, name
 import copy
 import cPickle  # pickle的C版本，更快更好用
 import csv
+import xlrd  # 用于处理excel的库
 import encodings
 import shutil  # 文件整体复制等操作
 import base64
@@ -117,6 +118,10 @@ import shelve
 import marshal
 
 import re
+# flashtext 是一个起到re作用的第三方包，针对大文件执行速度更快！
+import flashtext #pip install flashtext
+
+
 import tarfile  # 解压压缩包
 import zipfile
 import gzip
