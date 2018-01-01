@@ -388,3 +388,18 @@
 > [seaborn 官方文档对应的中文翻译（知乎）](https://zhuanlan.zhihu.com/p/27435863)
 >
 > 
+
+
+
+
+
+
+
+### LaTex
+
+> [Latex 官方](https://www.latex-project.org)
+>
+> [LaTeX简短介绍](https://liam0205.me/2014/09/08/latex-introduction/)
+>
+> 
+
