@@ -91,6 +91,7 @@ from importlib import import_module
 # 编码及解析
 import encodings # help(encodings) 关于所有Python内置编码方式
 import chardet  # 检查编码
+import mimetypes  #检测文件MIME类型
 import code
 import codecs  # 与open一起使用，可以指定解码方式
 from reprlib import repr
@@ -108,6 +109,7 @@ import xlwt  # 用于处理excel的写操作
 import encodings
 import shutil  # 文件整体复制等操作
 import base64
+import hmac
 import dis  # 查看代码的编译
 import io
 import temfile  #创建临时文件，关闭即销毁
@@ -373,6 +375,7 @@ warnings.filterwarnings('ignore')
 
 from abc import abstractmethod
 from abc import ABCMeta
+import imp
 
 from bs4 import BeautifulSoup as bs
 
@@ -543,6 +546,7 @@ from statsmodels.tsa.arima_model import ARMA, ARIMA
 from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.tsa.stattools import adfuller, acf, pacf
 
+from traceback import print_exc, format_exc
 
 from threading import Thread
 
