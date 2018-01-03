@@ -320,6 +320,10 @@ import abc
 from sklearn.manifold import TSNE, Isomap, MDS
 from sklearn.decomposition import PCA
 from sklearn.decomposition import TruncatedSVD
+
+# 聚类
+from sklearn.mixture import GMM
+
 #----
 from sklearn import random_projection
 model = random_projection.SparseRandomProjection(n_components=2)
