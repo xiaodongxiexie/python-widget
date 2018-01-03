@@ -372,6 +372,9 @@ clf2.get_support()
 # sklearn 交叉验证
 from sklearn.cross_validation import cross_val_score
 #cross_val_score(model, X, y, cv=10)
+from sklearn.cross_validation import cross_val_predict
+#cross_val_predict(model, X, y, cv=10)
+
 
 #IPython
 from IPython.core.interactiveshell import InteractiveShell
