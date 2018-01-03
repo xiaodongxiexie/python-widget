@@ -188,6 +188,8 @@ import cmath  #支持负数的开方
 import decimal
 import fractions
 import numpy
+import numexpr
+import numba
 import numpy as np
 import pandas
 import pandas as pd
@@ -201,6 +203,7 @@ import statistics  # py3 一些处理中位数等数据统计包
 #计算相关性
 from minepy import MINE
 import numpy as np
+import numexpr
 m = MINE()
 x = np.random.uniform(-1, 1, 10000)
 m.compute_score(x, x**2)
