@@ -2,6 +2,7 @@
 # 系统操作
 import os
 import sys
+#sys.modules.get(k, [d])
 import platform  # 可以查看终端信息（如版本状况）
 import psutil  # 查看内存占用情况
 import inspect
@@ -20,6 +21,13 @@ import imp  # 里面有reload些啥
 import fileinput   #有点像是input
 import importlib  # 实现动态引入模块  #math = importlib.import_module('math')
 import atexit  # 一个蛮有意思的内置模块，执行函数退出时的回调函数，先进后出
+
+
+# 包管理
+import pkgutil
+
+# pkgutil.get_importer(path_item)
+
 
 # 好用的工具
 # pip install pdir2
