@@ -320,6 +320,7 @@ import unittest
 import sqlite3
 import pymongo
 import pymysql
+import redis
 
 # 抽象定义
 import abc
