@@ -356,6 +356,9 @@ model = RFE(estimator, n_features_to_select=2).fit_transform(...)
 from sklearn.linear_model import RandomizedLogisticRegression
 model = RandomizedLogisticRegression().fit(ix, iy)
 #---
+# 验证学习曲线，参数
+from sklearn.model_selection import learning_curve, validation_curve
+
 
 
 #基于树模型
