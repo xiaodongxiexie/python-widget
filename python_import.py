@@ -335,7 +335,8 @@ from sklearn.preprocessing import Imputer, PolynomialFeatures
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction import DictVectorizer
 
-
+# ---
+from sklearn.preprocessing import label_binarize, OneHotEncoder
 
 
 # sklearn 中有关降维
