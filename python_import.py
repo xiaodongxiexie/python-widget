@@ -332,7 +332,7 @@ from sklearn.preprocessing import Imputer, PolynomialFeatures
 
 # ---
 # 向量化
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.feature_extraction import DictVectorizer
 
 # ---
