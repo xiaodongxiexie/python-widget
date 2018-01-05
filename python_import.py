@@ -325,6 +325,19 @@ import redis
 # 抽象定义
 import abc
 
+# ---
+# 处理缺失，数据扩展
+from sklearn.preprocessing import Imputer, PolynomialFeatures
+
+
+# ---
+# 向量化
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction import DictVectorizer
+
+
+
+
 # sklearn 中有关降维
 from sklearn.manifold import TSNE, Isomap, MDS
 from sklearn.decomposition import PCA
@@ -388,6 +401,9 @@ from sklearn.cross_validation import cross_val_predict
 #cross_val_predict(model, X, y, cv=10)
 from sklearn.cross_validation import LeaveOneOut
 #scores = cross_val_score(model, X, y, cv=LeaveOneOut(len(X)))
+
+# ---
+from sklearn.pipeline import Pipeline, make_pipeline
 
 
 #IPython
