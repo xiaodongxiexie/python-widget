@@ -552,7 +552,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.model_selection import TimeSeriesSplit
 
-from sklearn.naive_bayes import GaussianNB, BaseNB
+from sklearn.naive_bayes import GaussianNB, BaseNB, MultinomialNB
 
 from sklearn.cluster import KMeans
 
