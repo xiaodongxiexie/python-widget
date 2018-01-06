@@ -559,8 +559,10 @@ from sklearn.cluster import KMeans
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
 
 from sklearn.neighbors import (KDTree,
-    KNeighborsClassifier, KNeighborsRegressor,
-    RadiusNeighborsClassifier, RadiusNeighborsRegressor)
+                               KNeighborsClassifier,
+                               KNeighborsRegressor,
+                               RadiusNeighborsClassifier,
+                               RadiusNeighborsRegressor)
 
 from sklearn.ensemble import AdaBoostClassifier, AdaBoostRegressor
 from sklearn.ensemble import bagging, BaggingClassifier, BaseEnsemble
