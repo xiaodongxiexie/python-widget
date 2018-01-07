@@ -411,6 +411,9 @@ from sklearn.pipeline import Pipeline, make_pipeline
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = 'all'  #全部显示（不需要print）
 
+from IPython import display
+from IPython.display import Image
+
 import future_builtins
 reload(sys)
 sys.setdefaultencoding('utf-8')
