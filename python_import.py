@@ -234,15 +234,6 @@ import pympler
 # 垃圾回收
 import gc
 
-# 数据库操作
-import pymongo
-
-#python 2
-import anydbm  #python2可用  value和key必须是字符串，其中value可为空
-#python 3
-import dbm
-
-import whichdb  #python2可用
 
 #事件调度
 import sched
@@ -321,6 +312,11 @@ import sqlite3
 import pymongo
 import pymysql
 import redis
+#python 2
+import anydbm  #python2可用  value和key必须是字符串，其中value可为空
+#python 3
+import dbm
+import whichdb  #python2可用
 
 # 抽象定义
 import abc
