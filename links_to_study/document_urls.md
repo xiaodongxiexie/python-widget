@@ -245,6 +245,8 @@
 >
 > [博客](http://mars.run)
 >
+> [JS博客](http://cherryblog.site)
+>
 > 
 
 ### windows下好用的小工具
