@@ -389,6 +389,10 @@
 >
 > [seaborn 官方文档对应的中文翻译（知乎）](https://zhuanlan.zhihu.com/p/27435863)
 >
+> [颜色选取](http://colorbrewer2.org)
+>
+> 
+>
 > 
 
 
