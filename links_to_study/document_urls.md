@@ -171,6 +171,8 @@
 ### 1.1 python小知识汇总
 > [Python小知识汇总](https://mp.weixin.qq.com/s?__biz=MzA4MjEyNTA5Mw==&mid=2652565527&idx=1&sn=840c1ce854afc29bea9aaced35e4f78d&chksm=8464d85db313514b67d4bf7e559844f548fdc867346561b194ad065f9f2425a60d6646e43703&mpshare=1&scene=23&srcid=0702h1t9mLl3r39jo3c7wFQP#rd)    <br/>
 > [Python Inspect模块](https://docs.python.org/2/library/inspect.html)<br/>
+>
+> [Python 抽象类](https://docs.python.org/3/library/collections.abc.html#collections-abstract-base-classes)
 
 
 ### 2.Python学习资料集锦
