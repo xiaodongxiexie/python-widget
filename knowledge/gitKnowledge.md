@@ -26,7 +26,7 @@ git stash apply
 git stash apply stash@{1}
 git stash pop # 重新应用储藏并且从堆栈中移走
 
-# 删除远程分之
+# 删除远程分支
 git push origin --delete {the_remote_branch}
 
 # 手残 add 完以后输入错了 commit 信息
