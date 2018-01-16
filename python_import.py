@@ -299,6 +299,9 @@ import secrets  # py3 生成
 from types import MappingProxyType  #字典代理
 
 
+from queue import PriorityQueue, LifoQueue
+
+
 import secrets  # py3 生成密令等
 
 # 密码
