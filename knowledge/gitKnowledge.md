@@ -90,3 +90,52 @@ git config --global core.excludesfile ~/.gitignore_global
 git fetch somebody somebranch
 git checkout -b somebranch origin/somebranch
 ```
+## Git工作流
+
+```git
+git checkout master    # 切到master
+git pull origin master     # 拉取更新
+git checkout -b newbranch    # 新建分之，名称最好起个有意义的，比如jira号等
+
+# 开发中。。。
+git fetch origin master    # fetch master
+git rebase origin/master    #
+
+# 开发完成等待合并到master，推荐使用 rebase 保持线性的提交历史，但是记住不要在公众分之搞，如果有无意义的提交也可以用 rebase -i 压缩提交
+git rebase -i origin/master
+git checkout master
+git merge newbranch
+git push origin master
+
+# 压缩提交
+git rebase -i HEAD~~    # 最近两次提交
+```
+
+## Git hook
+
+比如我们要在每次 commit 之前运行下单测，进入项目的 .git/hooks 目录， “cp pre-commit.sample pre-commit” 修改内容如下:
+
+```
+#!/bin/sh
+
+if git rev-parse --verify HEAD >/dev/null 2>&1
+then
+    against=HEAD
+else
+    # Initial commit: diff against an empty tree object
+    against=4b825dc642cb6eb9a060e54bf8d69288fbee4904
+fi
+
+# Redirect output to stderr.
+exec 1>&2
+
+if /your/path/bin/test:    # 这里添加需要运行的测试脚本
+then
+    exit 0
+else
+    exit 1
+fi
+
+# If there are whitespace errors, print the offending file names and fail.
+exec git diff-index --check --cached $against --
+```
