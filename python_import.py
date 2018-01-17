@@ -27,6 +27,7 @@ import atexit  # 一个蛮有意思的内置模块，执行函数退出时的回
 import pkgutil
 
 # pkgutil.get_importer(path_item)
+# pkgutil.get_data(package, resource)
 
 
 # 好用的工具
