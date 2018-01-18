@@ -101,6 +101,8 @@
 >
 > [pytorch](https://github.com/ruiminshen/yolo2-pytorch)
 >
+> [pytorch书籍](https://github.com/chenyuntc/pytorch-book?utm_source=qq&utm_medium=social)
+>
 > 
 
 ### 1.9 MUSE
