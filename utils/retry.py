@@ -2,7 +2,7 @@
 # @Author: xiaodong
 # @Date:   2018-01-16 11:52:08
 # @Last Modified by:   liangxiaodong
-# @Last Modified time: 2018-01-16 13:17:48
+# @Last Modified time: 2018-01-16 13:24:49
 from functools import wraps
 import traceback
 
@@ -28,11 +28,12 @@ def retry(retries=3, debug=False):
 
 
 @retry(10)
-def pprint(i):
-    return 10 / i
+def do_something_unreliable():
+    import random
+    if random.randint(0, 10) > 1:
+        raise IOError("failed!")
+    else:
+        return 'congratulations!'
 
-
-import random
-
-
-print(pprint(random.choice([0, 1])))
+if __name__ == "__main__":
+    print(do_something_unreliable())
