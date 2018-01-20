@@ -160,7 +160,9 @@
 ## n.2 funcy
 > [funcy](http://funcy.readthedocs.io/en/stable/overview.html)  #各种小功能集总 <br/>
 
+## xml
 
+[xml](http://lxml.de)
 
 ## python学习手册
 ### 1. 在线手册中心
