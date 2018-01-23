@@ -2,7 +2,7 @@
 # @Author: xiaodong
 # @Date:   2018-01-23 19:29:16
 # @Last Modified by:   xiaodong
-# @Last Modified time: 2018-01-23 20:16:44
+# @Last Modified time: 2018-01-23 20:22:58
 import os
 
 import numpy as np
@@ -61,20 +61,20 @@ class LogParser:
     def mean(self, key='layout'):
         i = self.circulation
         tmp = []
-        L = list(self.__e(i))
+        L = list(self.__e())
         for ele in L:
             need = ele.query("Desc=='%s'" %key)
             need = need.sort_values(by='Time')
-            i = pd.to_datetime(need.C.iloc[-1]) - pd.to_datetime(need.C.iloc[0])
+            i = pd.to_datetime(need.Time.iloc[-1]) - pd.to_datetime(need.Time.iloc[0])
             tmp.append(i)
         return np.mean(tmp)
 
     def total(self):
-        i = self.circulation()
+        i = self.circulation
         tmp = []
-        L = list(e(i))
+        L = list(self.__e())
         for ele in L:
-            total_time = pd.to_datetime(ele.C).max() -  pd.to_datetime(ele.C).min()
+            total_time = pd.to_datetime(ele.Time).max() -  pd.to_datetime(ele.Time).min()
             tmp.append(total_time)
         return np.mean(tmp)
 
@@ -94,7 +94,8 @@ class LogParser:
 
 
 if __name__ == "__main__":
-    root = r"."
+    root = r"C:\work\work\智能布局\服务器2\AutoLayout\go_on"
     Log = LogParser(os.path.join(root, 'mp_test_log_3.txt'), i=5)
     Log.parser(single=False, multi=True)
+    print(Log.mean(key='solutions'), Log.total())
 
