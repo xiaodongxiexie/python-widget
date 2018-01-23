@@ -2,7 +2,7 @@
 # @Author: xiaodong
 # @Date:   2018-01-23 19:29:16
 # @Last Modified by:   xiaodong
-# @Last Modified time: 2018-01-23 20:22:58
+# @Last Modified time: 2018-01-23 20:26:59
 import os
 
 import numpy as np
@@ -69,6 +69,10 @@ class LogParser:
             tmp.append(i)
         return np.mean(tmp)
 
+    def all_mean(self):
+        for key in ['layout', 'tuning', 'route', 'solutions']:
+            print("%s cost time: " % key, self.mean(key))
+
     def total(self):
         i = self.circulation
         tmp = []
@@ -76,7 +80,7 @@ class LogParser:
         for ele in L:
             total_time = pd.to_datetime(ele.Time).max() -  pd.to_datetime(ele.Time).min()
             tmp.append(total_time)
-        return np.mean(tmp)
+        print("total cost time: ",  np.mean(tmp))
 
     def parser(self, loc=-1, single=True, multi=False):
         frame = list(self.__e())
@@ -97,5 +101,6 @@ if __name__ == "__main__":
     root = r"C:\work\work\智能布局\服务器2\AutoLayout\go_on"
     Log = LogParser(os.path.join(root, 'mp_test_log_3.txt'), i=5)
     Log.parser(single=False, multi=True)
-    print(Log.mean(key='solutions'), Log.total())
+    Log.all_mean()
+    Log.total()
 
