@@ -321,6 +321,10 @@
 ### Web 
 > [werkzeug](http://werkzeug-docs-cn.readthedocs.io/zh_CN/latest/) </br>
 
+## Numpy
+
+> [numpy 基础学习](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html)
+
 ### JSON
 
 > [JSON格式讲解](http://www.json.org/json-zh.html) </br>
