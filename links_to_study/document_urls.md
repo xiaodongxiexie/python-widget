@@ -329,6 +329,8 @@
 ### 工具类
 > [tqdm](https://tqdm.github.io) </br>
 > [tqdm](https://github.com/tqdm/tqdm) </br>
+>
+> [ipython magic command](http://ipython.org/ipython-doc/3/interactive/magics.html)
 
 
 ### 图像处理
