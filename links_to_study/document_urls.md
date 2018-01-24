@@ -324,6 +324,8 @@
 ## Numpy
 
 > [numpy 基础学习](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html)
+>
+> [numpy 进阶](http://www.scipy-lectures.org/advanced/advanced_numpy/)
 
 ### JSON
 
