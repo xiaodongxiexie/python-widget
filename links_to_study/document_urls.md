@@ -226,6 +226,8 @@
 ## web开发
 > [轻量级Web开发](http://webpy.org/docs/0.3/tutorial.zh-cn) # web.py  <br/>
 > [web 入坑指南](http://python-web-guide.readthedocs.io/zh/latest/) <br/>
+>
+> [解析IP](https://pypi.python.org/pypi/netaddr?utm_source=qq&utm_medium=social)
 
 ## git中文手册
 > [git中文手册](https://git-scm.com/book/zh/v2) <br/>
