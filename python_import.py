@@ -250,6 +250,7 @@ import sched
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import seaborn  # 基于matplotlib的一个美化
+import folium  # 用于对地图可视化  pip install folium
 
 # 图形化
 import PIL
