@@ -261,6 +261,7 @@ import skimage
 # 爬虫
 #import fake - useragent  # pip install fake-useragent  生成伪装头部等信息
 import requests
+import grequests  # pip install grequests 一个利用gevent实现多线程的requests
 import lassie
 import tushare
 import base64  # 编码
