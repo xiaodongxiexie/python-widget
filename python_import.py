@@ -267,6 +267,7 @@ import tushare
 import base64  # 编码
 import urlparse
 import xml
+import furl  # pip install furl 处理url的库
 
 # 金融指标以及时间序列
 import talib
