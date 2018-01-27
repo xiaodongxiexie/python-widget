@@ -608,7 +608,9 @@ from sklearn.externals import joblib
 
 from sklearn.preprocessing import MinMaxScaler
 
-from statistics import mean, variance, stdev, median, mode
+from statistics import mean, median, mode
+from statistics import variance, stdev  # 样本方差，样本标准差
+from statistics import pvariance, pstdev  # 总体方差，总体标准差
 
 from statsmodels import api as sm
 from statsmodels.graphics.api import qqplot
