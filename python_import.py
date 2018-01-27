@@ -252,6 +252,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import seaborn  # 基于matplotlib的一个美化
 import folium  # 用于对地图可视化  pip install folium
 import heatmap  # 热力图
+import missingno  # pip install missingno 用来查看数据缺失值，与pandas一起用作数据分析，奇效
 
 # 图形化
 import PIL
