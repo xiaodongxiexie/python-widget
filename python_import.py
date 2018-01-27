@@ -608,6 +608,8 @@ from sklearn.externals import joblib
 
 from sklearn.preprocessing import MinMaxScaler
 
+from statistics import mean, variance, stdev, median, mode
+
 from statsmodels import api as sm
 from statsmodels.graphics.api import qqplot
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
