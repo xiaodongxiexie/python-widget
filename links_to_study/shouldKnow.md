@@ -34,7 +34,7 @@
 
 >[Scipy](https://scipy-cookbook.readthedocs.io/index.html)<br/>
 >[API 设计准则](https://wiki.qt.io/API_Design_Principles?utm_source=qq&utm_medium=social)<br/>
-><br/>
+>[常用工具在线索引](http://tool.oschina.net)<br/>
 ><br/>
 ><br/>
 ><br/>
