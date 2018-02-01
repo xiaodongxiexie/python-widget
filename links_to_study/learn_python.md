@@ -26,3 +26,7 @@
 >[Python 库](https://segmentfault.com/a/1190000010103386)
 
 >[董伟明的博客](https://dongweiming.github.io/)
+
+### 6.1 python 搜索
+
+> [Python Code Examples](https://www.programcreek.com/python/)
