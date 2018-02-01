@@ -30,3 +30,7 @@
 ### 6.1 python 搜索
 
 > [Python Code Examples](https://www.programcreek.com/python/)
+
+> [Python-One-Line](https://arunrocks.com/python-one-liner-games/)
+>
+> 
