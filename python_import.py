@@ -236,6 +236,7 @@ import tomorrow  #pip install tomorrow, @thread(10) 一个30行的多线程代�
 
 # 日志记录
 import logging
+import logzero # pip install -U logzero 一个第三方包，记录日志
 
 # 监控运行内存等
 import pympler
