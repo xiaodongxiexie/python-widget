@@ -282,6 +282,7 @@ import statsmodels
 # 机器学习及神经网络
 import pybrain
 import sklearn
+import surprise  # pip install scikit-surprise, 一个强化sklearn的包
 import theano  # 一个基于Cpython的数学处理包
 import tensorflow as tf
 
