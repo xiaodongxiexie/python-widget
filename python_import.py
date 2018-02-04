@@ -291,6 +291,7 @@ import tensorflow as tf
 # http交互
 import http
 # from http import HTTPStatus
+import cgi
 import requests
 import lassie  # pip install lassie 抓取网页，操作简单
 import cgi  # 通用网关接口
