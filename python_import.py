@@ -322,6 +322,7 @@ import hmac
 import hashlib
 import shortuuid  # pip install shortuuid #https://github.com/skorokithakis/shortuuid
 import secrets  # py3 生成
+import ssl
 
 from types import MappingProxyType  #字典代理
 
