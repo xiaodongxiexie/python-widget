@@ -2,7 +2,7 @@
 # @Author: xiaodong
 # @Date:   2017-12-30 23:53:04
 # @Last Modified by:   liangxiaodong
-# @Last Modified time: 2017-12-31 00:31:51
+# @Last Modified time: 2018-02-05 09:50:17
 
 import os
 
@@ -52,8 +52,8 @@ def fuzzy_pic(path, gray=False, fuzzy=5, save=False, save_name=None, test=False,
 if __name__ == "__main__":
     path  = r"D:\lxd\git_\data\empire.jpg"
     gray  = False
-    fuzzy = 10
-    save  = True
+    fuzzy = 1
+    save  = False
     test  = True
 
     kwargs = globals()
