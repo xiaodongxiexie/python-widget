@@ -359,6 +359,9 @@ from flask import Flask, request
 # 抽象定义
 import abc
 
+from hashlib import md5, sha1, sha224, sha256, sha384, sha512
+
+
 # ---
 # 处理缺失，数据扩展
 from sklearn.preprocessing import Imputer, PolynomialFeatures
