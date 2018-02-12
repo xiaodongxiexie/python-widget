@@ -94,7 +94,7 @@ import configparser   #python3读取配置
 import enum
 
 #特殊的split格式
-import shlex
+import shlex  # 与shell处理命令行一致的分隔操作方式
 
 #动态导包
 import importlib
@@ -209,6 +209,7 @@ import fractions
 import numpy
 import numexpr
 import numba
+# from numba import jit  # 即时加速
 import numpy as np
 import pandas
 import pandas as pd
