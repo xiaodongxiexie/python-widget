@@ -472,6 +472,8 @@ from collections import deque
 from collections import namedtuple
 from collections import ChainMap
 
+from concurrent import futures
+
 from copy import deepcopy
 
 from datetime import datetime
