@@ -532,7 +532,7 @@ from matplotlib import _path
 from matplotlib import _png
 from matplotlib import ttconv
 
-from math import ceil, cos, floor, pi, sin
+from math import ceil, cos, floor, pi, sin, hypot
 
 from multiprocessing import Process, Pool
 
