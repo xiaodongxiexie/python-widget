@@ -32,5 +32,8 @@
 > [Python Code Examples](https://www.programcreek.com/python/)
 
 > [Python-One-Line](https://arunrocks.com/python-one-liner-games/)
->
-> 
+
+### 7.1 python描述符
+
+> [python描述符](http://python.jobbole.com/tag/描述符/)
+
