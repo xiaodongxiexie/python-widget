@@ -58,6 +58,7 @@ import pangu  # 分词处理 pip install pangu
 
 # 算法及排序
 import sortedcontainers  # pip install sortedcontainers
+import algorithms
 import bisect
 import heapq #堆排序
 import compiler   #from compiler.ast import flatten 可以将镶嵌列表展开，py3已舍弃该包
