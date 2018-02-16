@@ -22,6 +22,7 @@ import importlib  # 实现动态引入模块  #math = importlib.import_module('m
 import atexit  # 一个蛮有意思的内置模块，执行函数退出时的回调函数，先进后出
 import ssl
 import chunk
+import compileall
 
 
 # 包管理
