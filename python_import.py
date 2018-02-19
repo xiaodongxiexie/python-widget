@@ -190,6 +190,7 @@ import errno
 import datetime
 import dateutil  # 强大的时间格式转换
 import time
+import jedi
 import timeit  # 计时用
 import calendar
 import arrow  # pip install arrow  一个便捷处理时间的第三方库
