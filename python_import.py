@@ -23,6 +23,7 @@ import atexit  # 一个蛮有意思的内置模块，执行函数退出时的回
 import ssl
 import chunk
 import compileall
+import param
 
 
 # 包管理
