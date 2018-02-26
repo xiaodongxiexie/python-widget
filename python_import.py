@@ -148,6 +148,7 @@ import re
 import flashtext #pip install flashtext
 import parse  # pip install parse
 from parse import findall, search
+import html2text  # pip install html2text
 
 
 import tarfile  # 解压压缩包
