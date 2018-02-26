@@ -146,6 +146,8 @@ import marshal
 import re
 # flashtext 是一个起到re作用的第三方包，针对大文件执行速度更快！
 import flashtext #pip install flashtext
+import parse  # pip install parse
+from parse import findall, search
 
 
 import tarfile  # 解压压缩包
