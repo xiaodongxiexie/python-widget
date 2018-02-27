@@ -217,6 +217,7 @@ import cdemical
 import cmath  #支持负数的开方
 import decimal
 import fractions
+import jdcal
 import numpy
 import numexpr
 import numba
