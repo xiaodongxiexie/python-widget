@@ -281,6 +281,7 @@ import PIL
 import cv2  # openCV
 import SimpleITK as sitk  # 图像处理
 import skimage
+import imagesize
 
 # 爬虫
 #import fake_useragent  # pip install fake-useragent  生成伪装头部等信息
