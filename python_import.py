@@ -71,6 +71,7 @@ from funcy import flatten, isa  #pip install funcy
 #缓存
 from functools import lru_cache   #python3.2以后支持，一个用于缓存给定大小（可设置）的装饰器
 from fastcache import lru_cache
+from fastcache import clru_cache
 
 # 一些格式
 import string
