@@ -129,6 +129,7 @@ from unicodedata import normalize, name
 import copy
 import cPickle  # pickle的C版本，更快更好用
 import csv
+import h5py
 import xlrd  # 用于处理excel的库
 import xlwt  # 用于处理excel的写操作
 import encodings
