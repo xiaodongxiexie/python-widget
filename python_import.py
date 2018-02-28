@@ -327,6 +327,7 @@ import socket
 import socketserver
 # from socketserver import BaseRequestHandler, UDPServer
 import SimpleHTTPserver
+import contextlib
 import contextlib2
 import Cookie
 import cookielib
