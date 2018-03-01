@@ -41,3 +41,6 @@
 
 > [Hidden features of Python](https://stackoverflow.com/questions/101268/hidden-features-of-python#109182)
 
+### 9.1 Enum
+
+> [枚举](https://docs.python.org/3/library/enum.html)
