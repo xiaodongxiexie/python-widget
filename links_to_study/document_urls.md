@@ -431,3 +431,9 @@
 >
 > 
 
+
+
+### API
+
+> [api设计](https://wiki.qt.io/API_Design_Principles?utm_source=qq&utm_medium=social)
+
