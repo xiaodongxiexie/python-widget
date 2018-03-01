@@ -12,7 +12,7 @@
 > 3.2[从头构建3层神经网络](https://github.com/dennybritz/nn-from-scratch)    <br/>
 
 > 4.1[RNN](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/)    <br/>
-> 4.2[RNN](http://neuralnetworksanddeeplearning.com/chap2.html)    <br/>    <br/>
+> 4.2[RNN](http://neuralnetworksanddeeplearning.com/chap2.html)    <br/>4.3 [解析卷积神经网络](http://210.28.132.67/weixs/book/CNN_book.html)<br/>
 
 
 > 5.1[pybrain BP](http://pybrain.org/docs/index.html) <br/>
