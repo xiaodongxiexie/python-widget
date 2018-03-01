@@ -37,6 +37,10 @@
 > [深入机器学习](https://github.com/hangtwenty/dive-into-machine-learning)   <br/>
 >[xgboost 参数](https://xgboost.readthedocs.io/en/latest/parameter.html)<br/>
 > [xgboost 参数2](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)      <br/>
+-----------------------------
+
+> [深度神经网络之必会技巧](http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html)
+
         <br/>
          <br/>
           <br/>
