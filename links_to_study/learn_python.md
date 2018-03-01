@@ -37,3 +37,7 @@
 
 > [python描述符](http://python.jobbole.com/tag/描述符/)
 
+### 8.1 Hidden features of Python
+
+> [Hidden features of Python](https://stackoverflow.com/questions/101268/hidden-features-of-python#109182)
+
