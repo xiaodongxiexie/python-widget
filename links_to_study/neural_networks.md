@@ -40,6 +40,8 @@
 -----------------------------
 
 > [深度神经网络之必会技巧](http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html)
+>
+> [深度神经网络之必会技巧之slides](http://lamda.nju.edu.cn/weixs/slide/CNNTricks_slide.pdf)
 
         <br/>
          <br/>
