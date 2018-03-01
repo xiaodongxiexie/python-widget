@@ -437,3 +437,11 @@
 
 > [api设计](https://wiki.qt.io/API_Design_Principles?utm_source=qq&utm_medium=social)
 
+
+
+
+
+### 油猴
+
+> [油猴首页](https://tampermonkey.net)
+
