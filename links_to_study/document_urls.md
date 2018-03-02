@@ -116,6 +116,8 @@
 > [脸部识别](https://github.com/ageitgey/face_recognition?utm_source=qq&utm_medium=social)
 >
 > [铁路验证码识别](https://github.com/JasonLiTW/simple-railway-captcha-solver?utm_source=qq&utm_medium=social)
+>
+> [图形相似对比](https://www.codeproject.com/Articles/196168/Contour-Analysis-for-Image-Recognition-in-C)
 
 ## 2、时间序列
 
