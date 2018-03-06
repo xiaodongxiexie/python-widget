@@ -381,6 +381,11 @@ import whichdb  #python2可用
 import flask
 from flask import Flask, request
 
+import django
+
+import apistar
+
+
 # 抽象定义
 import abc
 
