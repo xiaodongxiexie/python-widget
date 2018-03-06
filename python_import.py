@@ -387,6 +387,8 @@ import apistar
 
 import bottle
 
+import diesel
+
 
 # 抽象定义
 import abc
