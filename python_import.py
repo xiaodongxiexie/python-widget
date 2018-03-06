@@ -385,6 +385,8 @@ import django
 
 import apistar
 
+import bottle
+
 
 # 抽象定义
 import abc
