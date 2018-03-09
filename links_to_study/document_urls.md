@@ -375,6 +375,8 @@
 > [经典电子书分享](https://github.com/threerocks/studyFiles)
 >
 > [技术面试指南](https://github.com/CyC2018/Interview-Notebook)
+>
+> [面试笔试](http://blog.csdn.net/han_xiaoyang/article/category/1664765)
 
 
 ### Python 面试题
