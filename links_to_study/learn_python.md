@@ -44,3 +44,8 @@
 ### 9.1 Enum
 
 > [枚举](https://docs.python.org/3/library/enum.html)
+
+### 10.1 progressbar
+
+> [progressbar](http://progressbar-2.readthedocs.io/en/latest/index.html)
+
