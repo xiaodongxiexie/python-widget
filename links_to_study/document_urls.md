@@ -282,6 +282,8 @@
 > [前端学习](http://getbootstrap.com/)  #Bootstrap <br/>
 >
 > [postman](chrome-extension://coohjcphdfgbiolnekdpbcijmhambjff/index.html)
+>
+> [React](https://github.com/enaqx/awesome-react)
 
 
 ### 视频学习
