@@ -476,3 +476,9 @@
 
 > [Docker — 从入门到实践](https://github.com/yeasy/docker_practice)
 
+
+
+### 数学软件
+
+> Mathematica 和 [MATLAB](https://baike.baidu.com/item/MATLAB)、[Maple](https://baike.baidu.com/item/Maple/2306572) 并称为三大数学软件。
+
