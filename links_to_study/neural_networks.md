@@ -52,7 +52,7 @@
 >
 > [Deep Learning Video](http://videolectures.net/deeplearning2015_montreal/) <br/>
 >
-> 
+> [NLP](https://github.com/keon/awesome-nlp)
 >
 >            <br/>
 >               <br/>
