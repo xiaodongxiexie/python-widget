@@ -67,3 +67,7 @@
 
 
 
+### 10.5 good-to-great-python-reads 
+
+> [good-to-great-python-reads](http://jessenoller.com/good-to-great-python-reads/)
+
