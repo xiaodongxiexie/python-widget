@@ -36,7 +36,7 @@
 >[API 设计准则](https://wiki.qt.io/API_Design_Principles?utm_source=qq&utm_medium=social)<br/>
 >[常用工具在线索引](http://tool.oschina.net)<br/>
 >[Git Cheat Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet)<br/>
-><br/>
+>[React](https://github.com/enaqx/awesome-react)<br/>
 ><br/>
 ><br/>
 ><br/>
