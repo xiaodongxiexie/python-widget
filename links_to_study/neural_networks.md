@@ -1,4 +1,8 @@
 ------------
+> [DeepLearning学习资料](http://blog.csdn.net/hjimce/article/details/45421595)
+>
+> 
+>
 > 1.[深度学习中 Batch Normalization为什么效果好？](https://www.zhihu.com/question/38102762)
 
 
