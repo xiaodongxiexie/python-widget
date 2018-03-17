@@ -61,3 +61,9 @@
 
 > [The Python IAQ: Infrequently Answered Questions](http://norvig.com/python-iaq.html)
 
+### 10.4 Guido van Rossum Blog
+
+[Guido van Rossum Blog](https://www.blogger.com/profile/12821714508588242516)
+
+
+
