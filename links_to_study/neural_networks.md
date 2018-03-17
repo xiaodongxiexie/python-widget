@@ -64,6 +64,8 @@
 >
 > [学界 | 2010-2016年被引用次数最多的深度学习论文](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650716071&idx=1&sn=7aa209732425c6a52536fbb9012a09fd)
 >
+> [deep vision](https://github.com/kjw0612/awesome-deep-vision)
+>
 >            <br/>
 >               <br/>
 >                <br/>
