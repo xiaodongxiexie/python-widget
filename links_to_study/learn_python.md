@@ -53,3 +53,7 @@
 
 > [Intermediate Python](https://github.com/eastlakeside/interpy-zh)
 
+### 10.2 reddit 
+
+> [reddit](https://www.reddit.com/r/Python/)
+
