@@ -49,34 +49,37 @@
            <br/>
             <br/>
 > [深度学习视频](http://mooc.study.163.com/smartSpec/detail/1001319001.htm) <br/>
-              <br/>
-               <br/>
-                <br/>
-                 <br/>
-                  <br/>
-                   <br/>
-                    <br/>
-                     <br/>
-                      <br/> 
-                      <br/>
-                       <br/>
-                        <br/>
-                         <br/>
-                          <br/> 
-                          <br/> 
-                          <br/>
-                           <br/>
-                            <br/>
-                             <br/>
-                              <br/>
-                               <br/>
-                                <br/> <br/>
-                                 <br/>
-                                  <br/>
-                                   <br/>
-                                    <br/>
-                                     <br/>
-                                      <br/>
-                                       <br/>
-                                        <br/>
-                                         <br/>
+>
+> [Deep Learning Video](http://videolectures.net/deeplearning2015_montreal/) <br/>
+>
+> 
+>
+>            <br/>
+>               <br/>
+>                <br/>
+>                  <br/>
+>                   <br/>
+>                    <br/>
+>                     <br/> 
+>                     <br/>
+>                      <br/>
+>                       <br/>
+>                        <br/>
+>                         <br/> 
+>                         <br/> 
+>                         <br/>
+>                          <br/>
+>                           <br/>
+>                            <br/>
+>                             <br/>
+>                              <br/>
+>                               <br/> <br/>
+>                                <br/>
+>                                 <br/>
+>                                  <br/>
+>                                   <br/>
+>                                    <br/>
+>                                     <br/>
+>                                      <br/>
+>                                       <br/>
+>                                        <br/>
