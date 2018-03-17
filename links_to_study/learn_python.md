@@ -57,3 +57,7 @@
 
 > [reddit](https://www.reddit.com/r/Python/)
 
+### 10.3 Python IAQ
+
+> [The Python IAQ: Infrequently Answered Questions](http://norvig.com/python-iaq.html)
+
