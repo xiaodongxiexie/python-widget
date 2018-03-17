@@ -66,6 +66,8 @@
 >
 > [deep vision](https://github.com/kjw0612/awesome-deep-vision)
 >
+> [STL-10](http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#53544c2d3130)
+>
 >            <br/>
 >               <br/>
 >                <br/>
