@@ -71,3 +71,6 @@
 
 > [good-to-great-python-reads](http://jessenoller.com/good-to-great-python-reads/)
 
+### 10.6 Eli Bendersky's website
+
+> [Eli Bendersky's website](https://eli.thegreenplace.net/archives/all)
