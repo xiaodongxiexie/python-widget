@@ -68,6 +68,8 @@
 >
 > [STL-10](http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#53544c2d3130)
 >
+> [深度生成模型浅显易懂博客](http://www.inference.vc/page/4/)
+>
 >            <br/>
 >               <br/>
 >                <br/>
