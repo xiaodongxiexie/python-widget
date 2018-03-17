@@ -58,6 +58,8 @@
 >
 > [Reinforcement Learning](http://www.wildml.com)
 >
+> [neural network papers](https://github.com/robertsdionne/neural-network-papers)
+>
 >            <br/>
 >               <br/>
 >                <br/>
