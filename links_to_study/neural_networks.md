@@ -60,6 +60,8 @@
 >
 > [neural network papers](https://github.com/robertsdionne/neural-network-papers)
 >
+> [Machine Learning & Deep Learning](https://github.com/ujjwalkarn/Machine-Learning-Tutorials/blob/master/README.md)
+>
 >            <br/>
 >               <br/>
 >                <br/>
