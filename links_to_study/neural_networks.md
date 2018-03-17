@@ -54,6 +54,8 @@
 >
 > [NLP](https://github.com/keon/awesome-nlp)
 >
+> [NLP](https://handong1587.github.io/deep_learning/2015/10/09/rnn-and-lstm.html)
+>
 >            <br/>
 >               <br/>
 >                <br/>
