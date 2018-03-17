@@ -74,3 +74,7 @@
 ### 10.6 Eli Bendersky's website
 
 > [Eli Bendersky's website](https://eli.thegreenplace.net/archives/all)
+
+### 10.7 Python Course
+
+> [Python Advanced Topics](https://www.python-course.eu/advanced_topics.php)
