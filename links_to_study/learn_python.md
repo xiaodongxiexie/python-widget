@@ -49,3 +49,7 @@
 
 > [progressbar](http://progressbar-2.readthedocs.io/en/latest/index.html)
 
+### 10.2 python进阶
+
+> [Intermediate Python](https://github.com/eastlakeside/interpy-zh)
+
