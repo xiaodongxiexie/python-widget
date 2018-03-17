@@ -60,7 +60,9 @@
 >
 > [neural network papers](https://github.com/robertsdionne/neural-network-papers)
 >
-> [Machine Learning & Deep Learning](https://github.com/ujjwalkarn/Machine-Learning-Tutorials/blob/master/README.md)
+> [Machine Learning & Deep Learning](https://github.com/ujjwalkarn/Machine-Learning-Tutorials/blob/master/README.md)s
+>
+> [学界 | 2010-2016年被引用次数最多的深度学习论文](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650716071&idx=1&sn=7aa209732425c6a52536fbb9012a09fd)
 >
 >            <br/>
 >               <br/>
