@@ -37,7 +37,7 @@
 >[常用工具在线索引](http://tool.oschina.net)<br/>
 >[Git Cheat Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet)<br/>
 >[React](https://github.com/enaqx/awesome-react)<br/>
-><br/>
+>[中国独立开发者项目列表](https://github.com/1c7/chinese-independent-developer)<br/>
 ><br/>
 ><br/>
 ><br/>
