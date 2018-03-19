@@ -78,3 +78,11 @@
 ### 10.7 Python Course
 
 > [Python Advanced Topics](https://www.python-course.eu/advanced_topics.php)
+
+### 11 Data model
+
+> [Data model](https://docs.python.org/3/reference/datamodel.html)
+
+### 12 logging
+
+> [Python Logging](https://docs.python.org/3/library/logging.html)
