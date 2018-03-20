@@ -288,6 +288,10 @@
 
 ### 视频学习
 > [优达学城](http://www.youdaxue.com/)
+>
+> [机器学习基石](http://www.sohu.com/a/159658801_642762)
+>
+> [机器学习技法](https://www.bilibili.com/video/av6991226/)
 
 
 ### work—flow
