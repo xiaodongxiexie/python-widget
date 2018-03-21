@@ -57,6 +57,8 @@
 >  [Deep Learning](http://neuralnetworksanddeeplearning.com)
 >
 >  [About Machine Learning](https://www.analyticsvidhya.com/blog/2017/12/11-machine-learning-articles-analytics-vidhya-2017/)
+>
+>  [机器学习开源算法库](http://blog.csdn.net/Smart_Body/article/details/50131557)
 
 
 
