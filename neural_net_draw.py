@@ -2,7 +2,7 @@
 # @Author: xiaodong
 # @Date:   2018-03-22 14:05:27
 # @Last Modified by:   liangxiaodong
-# @Last Modified time: 2018-03-22 17:17:28
+# @Last Modified time: 2018-03-22 17:31:07
 
 import random
 import graphviz as gz
@@ -33,9 +33,9 @@ def neural_graph(inp=3, hide=(10, ), outp=3, inp_label='input', hide_label='hide
             for j in range(exit):
                 if dropout:
                     if random.randint(0, max(enter, exit)):
-                        dot.edge('%s%s' % (label1, i), '%s%s' % (label2, j))
+                        dot.edge('%s-%s' % (label1, i), '%s-%s' % (label2, j))
                 else:
-                    dot.edge('%s%s' % (label1, i), '%s%s' % (label2, j))
+                    dot.edge('%s-%s' % (label1, i), '%s-%s' % (label2, j))
     hide = list(hide)
     hide.insert(0, inp)
     hide.append(outp)
@@ -52,4 +52,4 @@ def neural_graph(inp=3, hide=(10, ), outp=3, inp_label='input', hide_label='hide
 
 
 if __name__ == '__main__':
-    neural_graph(style='v', size='0.1,1')
+    neural_graph(style='v', size='11,1')
