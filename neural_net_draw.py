@@ -2,13 +2,13 @@
 # @Author: xiaodong
 # @Date:   2018-03-22 14:05:27
 # @Last Modified by:   liangxiaodong
-# @Last Modified time: 2018-03-22 14:43:00
+# @Last Modified time: 2018-03-22 17:13:00
 
 import random
 import graphviz as gz
 
 
-def neural_graph(inp=3, hide=10, outp=3, inp_label='input', hide_label='hide', outp_label='output', dropout=True, style='h', size='2, 1'):
+def neural_graph(inp=3, hide=[10, 5, 6], outp=3, inp_label='input', hide_label='hide', outp_label='output', dropout=True, style='h', size='2, 1'):
     """
     绘制简易神经网络图（有向图）
     :param inp: 输入神经元个数
@@ -36,8 +36,17 @@ def neural_graph(inp=3, hide=10, outp=3, inp_label='input', hide_label='hide', o
                         dot.edge('%s%s' % (label1, i), '%s%s' % (label2, j))
                 else:
                     dot.edge('%s%s' % (label1, i), '%s%s' % (label2, j))
-    draw(inp, hide, inp_label, hide_label)
-    draw(hide, outp, hide_label, outp_label)
+
+    hide.insert(0, inp)
+    hide.append(outp)
+    for index, (i, j) in enumerate(zip(hide[:-1], hide[1:])):
+        if index == 0:
+            draw(i, j, inp_label, hide_label + str(index))
+        elif index == len(hide) - 2:
+            draw(i, j, hide_label + str(index - 1), outp_label)
+        else:
+            draw(i, j, hide_label + str(index - 1), hide_label + str(index))
+
     # return dot
     return dot.view()
 
