@@ -40,7 +40,7 @@
 >  [机器学习面试题目](https://www.huxiu.com/article/175046/1.html?f=member_article) <br/>
 >  [机器学习只是体系](http://www.cnblogs.com/wdsunny/p/6362582.html) <br/>
 >  [机器学习中的损失函数](http://blog.csdn.net/rosenor1/article/details/52302217) <br/>
->  [机器学习&数据挖掘笔记（常见面试之机器学习算法思想简单梳理）](http://blog.csdn.net/to_xidianhph_youth/article/details/39260705) <br/>
+>  [机器学习&数据挖掘笔记（常见面试之机器学习算法思想简单梳理）](http://blog.csdn.net/to_xidianhph_youth/article/details/39260705) 
 >  [数据挖掘之异常点检测](http://blog.csdn.net/rosenor1/article/details/52281118) <br/>
 >  [机器学习中防止过拟合的处理方法](http://blog.csdn.net/rosenor1/article/details/52280044) <br/>
 >  [掌握机器学习数学基础之优化1](https://zhuanlan.zhihu.com/p/30383127)<br/>
@@ -59,12 +59,6 @@
 >  [About Machine Learning](https://www.analyticsvidhya.com/blog/2017/12/11-machine-learning-articles-analytics-vidhya-2017/)
 >
 >  [机器学习开源算法库](http://blog.csdn.net/Smart_Body/article/details/50131557)
-
-
-
-
-
-
 
 ### 1.1 sklearn
 > [sklearn官网](http://scikit-learn.org/)  <br/>
@@ -108,7 +102,6 @@
 >
 > [pytorch书籍](https://github.com/chenyuntc/pytorch-book?utm_source=qq&utm_medium=social)
 >
-> 
 
 ### 1.9 MUSE
 
@@ -440,11 +433,6 @@
 >
 > [颜色选取](http://colorbrewer2.org)
 >
-> 
->
-> 
-
-
 
 
 
@@ -455,8 +443,6 @@
 > [Latex 官方](https://www.latex-project.org)
 >
 > [LaTeX简短介绍](https://liam0205.me/2014/09/08/latex-introduction/)
->
-> 
 
 
 
