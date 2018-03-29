@@ -490,3 +490,7 @@
 
 > [数据结构](https://visualgo.net/en)
 
+> [清华大学](www.xuetangx.com/courses/course-v1:TsinghuaX+30240184X+sp/about)
+>
+> [浙江大学](http://mooc.study.163.com/course/1000033001#/info)
+
