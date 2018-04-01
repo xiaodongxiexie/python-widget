@@ -56,10 +56,10 @@ class Draw(Digits):
             ax.text(0, 0, y[i], fontdict={'color': 'red'})
             ax.set_xticks([])
             ax.set_yticks([])
-        plt.show()
+        plt.pause(5)
 
 
 
 if __name__ == "__main__":
-    draw = Draw(17)
+    draw = Draw(17, shuffle=True)
     draw()
