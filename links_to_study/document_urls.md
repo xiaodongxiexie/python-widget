@@ -495,3 +495,5 @@
 > [浙江大学](http://mooc.study.163.com/course/1000033001#/info)
 
 > [数据结构课件演示](http://xu-laoshi.cn/shujujiegou/flash.html)
+
+> [算法导论公开课](http://open.163.com/special/opencourse/algorithms.html)
