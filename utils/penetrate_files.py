@@ -8,11 +8,13 @@ import glob
 import json
 import datetime
 
+from typing import Iterable
+
 """
 监视指定目录下文件变更
 """
 
-def penetrate(root):
+def penetrate(root) -> Iterable:
     for ele in glob.glob(os.path.join(root, '*')):
         if os.path.isdir(ele):
             yield from penetrate(os.path.abspath(ele))
@@ -20,7 +22,7 @@ def penetrate(root):
             yield ele
 
 
-def update(s:set, exists:bool=False, mode:str='w') -> None or dict :
+def update(s: set, exists: bool=False, mode: str='w') -> None or dict :
     with open('file_records.json', encoding='utf-8', mode=mode) as file:
         if not exists:
             json.dump({'datetime': str(datetime.datetime.now()),
