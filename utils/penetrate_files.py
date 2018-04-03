@@ -20,7 +20,7 @@ def penetrate(root):
             yield ele
 
 
-def update(s, exists=False, mode='w'):
+def update(s:set, exists:bool=False, mode:str='w') -> None or dict :
     with open('file_records.json', encoding='utf-8', mode=mode) as file:
         if not exists:
             json.dump({'datetime': str(datetime.datetime.now()),
@@ -29,7 +29,7 @@ def update(s, exists=False, mode='w'):
             return json.load(file)
 
 
-def main(s=set(), root='.'):
+def main(s:set =set(), root='.')-> None:
     for path in penetrate(root):
         s.add(path)
 
