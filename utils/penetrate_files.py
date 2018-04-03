@@ -21,10 +21,8 @@ def update(s, exists=False, mode='w'):
         if not exists:
             json.dump({'datetime': str(datetime.datetime.now()),
                        'files': list(s)}, file, ensure_ascii=False, indent=10)
-            return
         else:
-            jdata = json.load(file)
-    return jdata
+            return json.load(file)
 
 
 def main(s=set(), root='.'):
