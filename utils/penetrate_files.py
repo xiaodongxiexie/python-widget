@@ -15,21 +15,19 @@ def penetrate(root):
         else:
             yield ele
 
-if __name__ == "__main__":
-    s = set()
-    root = '.'
 
-    def update(s, exists=False, mode='w'):
-        with open('file_records.json', encoding='utf-8', mode=mode) as file:
-            if not exists:
-                json.dump({'datetime': str(datetime.datetime.now()),
-                           'files': list(s)}, file, ensure_ascii=False, indent=10)
-                return
-            else:
-                jdata = json.load(file)
-        return jdata
+def update(s, exists=False, mode='w'):
+    with open('file_records.json', encoding='utf-8', mode=mode) as file:
+        if not exists:
+            json.dump({'datetime': str(datetime.datetime.now()),
+                       'files': list(s)}, file, ensure_ascii=False, indent=10)
+            return
+        else:
+            jdata = json.load(file)
+    return jdata
 
 
+def main(s=set(), root='.'):
     for path in penetrate(root):
         s.add(path)
 
@@ -40,5 +38,10 @@ if __name__ == "__main__":
         files = s - set(d['files'])
         print(files)
         update(s)
+
+
+if __name__ == "__main__":
+    main()
+
 
 
