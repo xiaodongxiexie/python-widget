@@ -14,7 +14,7 @@ from typing import Iterable
 监视指定目录下文件变更
 """
 
-def penetrate(root) -> Iterable:
+def penetrate(root: os.path) -> Iterable:
     for ele in glob.glob(os.path.join(root, '*')):
         if os.path.isdir(ele):
             yield from penetrate(os.path.abspath(ele))
@@ -31,7 +31,7 @@ def update(s: set, exists: bool=False, mode: str='w') -> None or dict :
             return json.load(file)
 
 
-def main(s:set =set(), root='.')-> None:
+def main(s: set=set(), root: os.path='.')-> None:
     for path in penetrate(root):
         s.add(path)
 
