@@ -306,6 +306,7 @@ import parsel
 import talib
 import arch
 import statsmodels
+import patsy
 
 # 机器学习及神经网络
 import pybrain
