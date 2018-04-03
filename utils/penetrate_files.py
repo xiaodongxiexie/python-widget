@@ -17,6 +17,7 @@ from typing import Iterable
 def penetrate(root: os.path) -> Iterable:
     for ele in glob.glob(os.path.join(root, '*')):
         if os.path.isdir(ele):
+            yield ele
             yield from penetrate(os.path.abspath(ele))
         else:
             yield ele
