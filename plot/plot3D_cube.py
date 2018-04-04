@@ -5,7 +5,6 @@
 # @Last Modified time: just hide
 from matplotlib import pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-from itertools import permutations
 
 import numpy as np
 
@@ -15,18 +14,27 @@ plt.rcParams['axes.unicode_minus'] = False
 plt.rcParams['font.sans-serif'] = ['SimHei']
 
 
-def plot_opaque_cube(x=0, y=0, z=0, dx=10, dy=10, dz=10):
+def plot_opaque_cube(x=10, y=20, z=30, dx=40, dy=50, dz=60):
     fig = plt.figure()
     ax = fig.add_subplot(1, 1, 1, projection='3d')
 
 
-    x = np.linspace(x, x+dx, 5)
-    y = np.linspace(y, y+dy, 5)
-    xx, yy = np.meshgrid(x, y)
-    for a, b, c in permutations([xx, yy, z], 3):
-        ax.plot_surface(a, b, c)
-    for a, b, c in permutations([xx, yy, z+dz], 3):
-        ax.plot_surface(a, b, c)
+    xx = np.linspace(x, x+dx, 2)
+    yy = np.linspace(y, y+dy, 2)
+    zz = np.linspace(z, z+dz, 2)
+
+    xx, yy = np.meshgrid(xx, yy)
+
+    ax.plot_surface(xx, yy, z)
+    ax.plot_surface(xx, yy, z+dz)
+
+    yy, zz = np.meshgrid(yy, zz)
+    ax.plot_surface(x, yy, zz)
+    ax.plot_surface(x+dx, yy, zz)
+
+    xx, zz = np.meshgrid(xx, zz)
+    ax.plot_surface(xx, y, zz)
+    ax.plot_surface(xx, y+dy, zz)
     # ax.set_xlim3d(-dx, dx*2, 20)
     # ax.set_xlim3d(-dx, dx*2, 20)
     # ax.set_xlim3d(-dx, dx*2, 20)
