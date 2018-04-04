@@ -23,9 +23,9 @@ def plot_opaque_cube(x=0, y=0, z=0, dx=10, dy=10, dz=10):
     x = np.linspace(x, x+dx, 5)
     y = np.linspace(y, y+dy, 5)
     xx, yy = np.meshgrid(x, y)
-    for a, b, c in permutations([xx, yy, 0], 3):
+    for a, b, c in permutations([xx, yy, z], 3):
         ax.plot_surface(a, b, c)
-    for a, b, c in permutations([xx, yy, 10], 3):
+    for a, b, c in permutations([xx, yy, z+dz], 3):
         ax.plot_surface(a, b, c)
     # ax.set_xlim3d(-dx, dx*2, 20)
     # ax.set_xlim3d(-dx, dx*2, 20)
