@@ -123,6 +123,14 @@ import codecs  # 与open一起使用，可以指定解码方式
 from reprlib import repr
 import typing
 
+from typing import Any, AnyStr, Callable, ChainMap, Counter
+from typing import Deque, DefaultDict, Dict, FrozenSet
+from typing import Generator, Hashable, Iterable, Iterator
+from typing import List, Mapping, MutableMapping, MutableSequence, MutableSet
+from typing import NamedTuple, Optional
+from typing import Sequence, Set, Sized
+from typing import Text, Tuple, Union
+
 #+++++++++++++++++编码问题
 from unicodedata import normalize, name
 #+++++++++++++++++
