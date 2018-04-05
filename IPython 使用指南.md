@@ -10,8 +10,6 @@
 
 `%bookmark -l`
 
-![Snipaste_2018-04-04_22-15-37](C:\Users\xiaodong\Desktop\Snipaste_2018-04-04_22-15-37.png)
-
 #### 1.3 删除指定书签
 
 `%bookmark -d name`
@@ -33,6 +31,10 @@
 ### 4. `%who_ls`
 
 以列表的形式返回所有全局变量（字符串格式）
+
+### 5. `%rep`
+
+`%rep` `rep`默认提取`_`变量的值
 
 
 
