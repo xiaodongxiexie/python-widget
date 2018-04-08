@@ -9,6 +9,7 @@ import numpy as np
 
 
 class Digits:
+
     def __init__(self, nums, shuffle=False):
         self.nums = nums
         self.shuffle = shuffle
@@ -29,8 +30,8 @@ class Digits:
         return x, y
 
 
-
 class Draw(Digits):
+
     def __init__(self, nums, shuffle=False, figsize=(12, 12)):
         self.figsize = figsize
         super().__init__(nums, shuffle=shuffle)
@@ -52,12 +53,11 @@ class Draw(Digits):
         for i, ax in enumerate(axes.flat):
             if i >= np.alen(x):
                 break
-            ax.imshow(x[i].reshape(8,8), cmap='binary')
+            ax.imshow(x[i].reshape(8, 8), cmap='binary')
             ax.text(0, 0, y[i], fontdict={'color': 'red'})
             ax.set_xticks([])
             ax.set_yticks([])
         plt.pause(5)
-
 
 
 if __name__ == "__main__":
