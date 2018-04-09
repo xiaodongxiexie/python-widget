@@ -499,6 +499,9 @@ InteractiveShell.ast_node_interactivity = 'all'  #全部显示（不需要print�
 from IPython import display
 from IPython.display import Image
 
+%matplotlib inline   #用于Jupyter notebook下显示matplotlib绘图
+%matplotlib notebook  #同上，不过显示后的图像可以手动调整（执行拖动、保存等操作）
+
 import future_builtins
 reload(sys)
 sys.setdefaultencoding('utf-8')
