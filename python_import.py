@@ -6,6 +6,7 @@ import platform  # 可以查看终端信息（如版本状况）
 import psutil  # 查看内存占用情况
 import inspect
 import operator
+import distutils
 # from operator import mathodcaller
 import path
 import traceback
@@ -407,8 +408,13 @@ import tornado
 # 抽象定义
 import abc
 
+
+
 from hashlib import md5, sha1, sha224, sha256, sha384, sha512
 
+from distutils.version import LooseVersion  # 查看版本信息
+ # import sys, pandas as pd
+ # LooseVersion(pd.__version__, sys.version)
 
 # ---
 # 处理缺失，数据扩展
