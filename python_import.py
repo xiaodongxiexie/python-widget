@@ -465,7 +465,9 @@ model = RandomizedLogisticRegression().fit(ix, iy)
 # 验证学习曲线，参数
 from sklearn.model_selection import learning_curve, validation_curve
 
-
+from sklearn import datasets
+mnist = datasets.fetch_mldata('MNIST original')
+x, y = mnist.data, mnist.target
 
 #基于树模型
 from sklearn.datasets import load_iris
