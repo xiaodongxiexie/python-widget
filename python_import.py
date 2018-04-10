@@ -4,6 +4,7 @@ import sys
 #sys.modules.get(k, [d])
 import platform  # 可以查看终端信息（如版本状况）
 import psutil  # 查看内存占用情况
+import pympler  # pip install pympler
 import inspect
 import operator
 import distutils
