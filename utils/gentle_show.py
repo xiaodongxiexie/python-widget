@@ -18,6 +18,8 @@ def gentle_show(seq, *, column=4):
                 print(ele.center(max_len, ' '))
             else:
                 print(ele.center(max_len, ' '), end='|')
+    print('\n')
 
 if __name__ == "__main__":
     gentle_show(dir([]), column=6)
+    gentle_show(range(10))
