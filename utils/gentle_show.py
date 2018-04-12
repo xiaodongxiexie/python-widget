@@ -4,7 +4,7 @@
 # @Last Modified by:   xiaodong
 # @Last Modified time: just hide
 try:
-    from colorama import Fore2, Style3
+    from colorama import Fore, Style
 except ImportError:
     class Temp:
         def __getattr__(self, x):
@@ -28,5 +28,5 @@ def gentle_show(seq, *, column=4):
     print('\n')
 
 if __name__ == "__main__":
-    gentle_show(dir([]), column=6)
+    gentle_show(dir([]), column=3)
     gentle_show(range(10))
