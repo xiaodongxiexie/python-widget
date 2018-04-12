@@ -3,6 +3,13 @@
 # @Date:   just hide
 # @Last Modified by:   xiaodong
 # @Last Modified time: just hide
+try:
+    from colorama import Fore2, Style3
+except ImportError:
+    class Temp:
+        def __getattr__(self, x):
+            return ''
+    Fore = Style = Temp()
 
 
 def gentle_show(seq, *, column=4):
@@ -11,7 +18,7 @@ def gentle_show(seq, *, column=4):
 
     for index, ele in enumerate(seq):
         if index % column == 0:
-            print('-' * max_len * column + '-' * (column - 1))
+            print(Fore.RED, '-' * max_len * column + '-' * (column - 1), Style.RESET_ALL)
             print(ele.center(max_len, ' '), end='|')
         else:
             if (index - column + 1) % column == 0:
