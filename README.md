@@ -20,6 +20,13 @@
 
 * `document_url`：各种学习链接（比较杂，有时间需要分类）
 * `learn_python`：进阶python用
+* `shouldKnow`：一些需要知道的玩意儿
+* `neural_networks`：神经网络、机器学习相关知识
+* `knowledge_points`：知识点
+* `python_book`：在线`python`书籍，电子书等
+* `timeSeries`： 有关时间序列的相关知识
+* `plot`：有关绘图的包，及文档
+* `search`：一些搜索引擎
 
 #### timeSer
 
