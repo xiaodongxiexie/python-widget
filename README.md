@@ -4,6 +4,8 @@
 
 * 用来放置各种`import` 包，便于查询使用
 
+-------------------------
+
 ####  utils
 
 * 各种轮子  # TODO 有时间打算分类后封装
@@ -15,6 +17,8 @@
 #### sklearn-utils
 
 * 用来放置一些辅助`sklearn`使用的便捷函数，可视化等
+
+
 
 #### links_to_study
 
@@ -28,13 +32,35 @@
 * `plot`：有关绘图的包，及文档
 * `search`：一些搜索引擎
 
+--------------------------------
+
 #### timeSer
+
+* 有关时间序列的一些代码  # 最近不做这块了，所以代码大概不会更新了
 
 #### network
 
+----------------------------
+
 #### knowledge
 
+-----------------------
+
 #### books
+
+* Algorithms
+* Code
+* Computer Architecture
+* Data Structure
+* DB
+* Github
+* HTTP
+* Linux
+* MachineLearning
+* Math
+* Other
+
+----------------------
 
 #### pic
 
@@ -43,6 +69,8 @@
 #### IPython
 
 #### plot
+
+---------------------------
 
 #### tmp
 
