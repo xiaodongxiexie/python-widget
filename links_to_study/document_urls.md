@@ -233,6 +233,8 @@
 
 ## git中文手册
 > [git中文手册](https://git-scm.com/book/zh/v2) <br/>
+>
+> [Github漫游指南](http://github.phodal.com/?utm_source=qq&utm_medium=social)
 
 # 好用的浏览器插件
 > [浏览器插件](https://greasyfork.org/zh-CN) <br/>
