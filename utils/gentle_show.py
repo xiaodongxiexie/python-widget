@@ -65,5 +65,5 @@ def gentle_show(seq, *, column=4, fontdict=None):
 
 
 if __name__ == "__main__":
-    gentle_show(dir([]), column=6)
+    gentle_show(dir([]), column=6, fontdict={'line_color': 'red', 'font_color': 'green'})
     gentle_show(range(10))
