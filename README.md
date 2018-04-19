@@ -46,9 +46,9 @@
 
 -----------------------
 
-#### books
+#### ~~books~~  < move to a independent repo>
 
-* Algorithms
+* ~~Algorithms
 * Code
 * Computer Architecture
 * Data Structure
