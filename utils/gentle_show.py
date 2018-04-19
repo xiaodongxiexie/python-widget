@@ -3,7 +3,7 @@
 # @Date:   just hide
 # @Last Modified by:   xiaodong
 # @Last Modified time: just hide
-
+from functools import partial
 
 class GentleShow:
 
@@ -29,6 +29,7 @@ class GentleShow:
         self.column = column
         self.fontdict = fontdict
 
+
     def __repr__(self):
         return ','.join(self.gentle_show(layout=list))
 
@@ -45,6 +46,7 @@ class GentleShow:
             return '%s%s%s' % (style, string, end)
         else:
             return string
+
 
     def gentle_show(self, layout=str, isolate='|'):
 
@@ -75,24 +77,32 @@ class GentleShow:
         seq = list(map(str, seq))
         max_len = len(max(seq, key=len))
 
+        use_bold_style = partial(self.use_style, mode='bold', special=flag)
+
+        use_bold_line_style = partial(use_bold_style, fore=line_color)
+        use_bold_font_style  = partial(use_bold_style, fore=font_color)
+
         for index, ele in enumerate(seq):
             if index % column == 0:
+                string = '-' * max_len * column + '-' * (column - 1)
+                string2 = ele.center(max_len, ' ')
                 if flag:
-                    ret += (self.use_style('-' * max_len * column + '-' * (column - 1), fore=line_color, special=flag) + line_break)
-                    ret += (self.use_style(ele.center(max_len, ' '), mode='bold', fore=font_color, special=flag) + line_isolate)
+                    ret += (use_bold_line_style(string) + line_break)
+                    ret += (use_bold_font_style(string2) + line_isolate)
                 else:
-                    ret.append(self.use_style(ele.center(max_len, ' '), mode='bold', fore=font_color, special=flag) + line_isolate)
+                    ret.append(use_bold_font_style(string2) + line_isolate)
             else:
+                string3 = ele.center(max_len, ' ')
                 if (index - column + 1) % column == 0:
                     if flag:
-                        ret += (self.use_style(ele.center(max_len, ' '), mode='bold', fore=font_color, special=flag) + line_break)
+                        ret += (use_bold_font_style(string3) + line_break)
                     else:
-                        ret.append(self.use_style(ele.center(max_len, ' '), mode='bold', fore=font_color, special=flag) + line_break)
+                        ret.append(use_bold_font_style(string3) + line_break)
                 else:
                     if flag:
-                        ret += (self.use_style(ele.center(max_len, ' '), mode='bold', fore=font_color, special=flag)+ line_isolate)
+                        ret += (use_bold_font_style(string3) + line_isolate)
                     else:
-                        ret.append(self.use_style(ele.center(max_len, ' '), mode='bold', fore=font_color, special=flag)+ line_isolate)
+                        ret.append(use_bold_font_style(string3) + line_isolate)
         ret += line_break
         if not flag:
             return list(map(lambda x: x.strip(), ret))
@@ -107,4 +117,5 @@ class LayoutError(BaseException):
 if __name__ == "__main__":
     gentle_show = GentleShow(dir(10))
     print(gentle_show)
-    print(gentle_show.gentle_show(str, '*'))
+    print(gentle_show.gentle_show(str))
+    print(gentle_show.gentle_show(str, '+'))
