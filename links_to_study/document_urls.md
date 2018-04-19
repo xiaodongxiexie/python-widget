@@ -374,6 +374,12 @@
 ### 算法
 > [数据结构可视化](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html?utm_source=qq&utm_medium=social) <br/>
 > [读懂概率图模型：从基本概念和参数估计开始](https://zhuanlan.zhihu.com/p/31527050?group_id=919227703556460544) <br/>
+>
+> [阿里技术详解图册（算法篇）](http://techforum-img.cn-hangzhou.oss-pub.aliyun-inc.com/1523848064814/AliTech101_Algorithms.pdf?Expires=1524135490&OSSAccessKeyId=LTAIAJ2WBIdlRPlb&Signature=dmQawNbh/rwTb7IBcK2Bro09AvI%3D)
+>
+> [阿里技术详解图册（研发篇）](http://techforum-img.cn-hangzhou.oss-pub.aliyun-inc.com/1523962960197/AliTech101_RD.pdf?Expires=1524135492&OSSAccessKeyId=LTAIAJ2WBIdlRPlb&Signature=y1FyNhwg/AfWOJLlgJeKE6JdNwQ%3D)
+>
+> [阿里技术参考（视频）](https://mp.weixin.qq.com/mp/homepage?__biz=MzIzOTU0NTQ0MA==&hid=3&sn=3e44cb7174322c79a59a53e78fc0095e&scene=18#wechat_redirect)
 
 
 ### 设计模式
