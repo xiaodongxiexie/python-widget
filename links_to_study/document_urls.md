@@ -401,14 +401,22 @@
 > [Python知识点](https://github.com/taizilongxu/interview_python) <br/>
 
 
+
+
 ### 问答
 > [stackexchange](https://stackexchange.com) <br/>
+
+
+
+
 
 -----------------
 
 
 ### 计算机硬件
 > [集线器、网桥、交换机、路由器、网关大解析](https://www.tianmaying.com/tutorial/NetWorkInstrument) <br/>
+
+
 
 ### 全栈
 > [全栈指南](https://github.com/phodal/growth-ebook)<br/>
@@ -509,3 +517,10 @@
 > [数据结构课件演示](http://xu-laoshi.cn/shujujiegou/flash.html)
 
 > [算法导论公开课](http://open.163.com/special/opencourse/algorithms.html)
+
+
+
+### 其他
+
+> [互联网公司技术架构，微信/淘宝/腾讯/阿里/美团点评/百度/微博/Google/Facebook/Amazon/eBay的架构](https://github.com/davideuler/architecture.of.internet-product)
+
