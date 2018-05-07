@@ -44,22 +44,6 @@
 
 #### knowledge
 
------------------------
-
-#### ~~books~~  < move to a independent repo>
-
-* ~~Algorithms
-* Code
-* Computer Architecture
-* Data Structure
-* DB
-* Github
-* HTTP
-* Linux
-* MachineLearning
-* Math
-* Other
-
 ----------------------
 
 #### pic
