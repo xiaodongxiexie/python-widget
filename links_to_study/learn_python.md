@@ -86,3 +86,9 @@
 ### 12 logging
 
 > [Python Logging](https://docs.python.org/3/library/logging.html)
+
+
+
+### 13 Django
+
+[Django官方中文版](https://docs.djangoproject.com/zh-hans/2.0/)
