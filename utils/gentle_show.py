@@ -4,6 +4,7 @@
 # @Last Modified by:   xiaodong
 # @Last Modified time: just hide
 from functools import partial
+from reprlib import repr
 
 class GentleShow:
 
@@ -31,7 +32,7 @@ class GentleShow:
 
 
     def __repr__(self):
-        return ','.join(self.gentle_show(layout=list))
+        return repr(','.join(self.gentle_show(layout=list)))
 
 
     def use_style(self, string, mode='', fore='', back='', special=True):
@@ -75,7 +76,7 @@ class GentleShow:
             font_color = fontdict.get('font_color', 'green')
 
         seq = list(map(str, seq))
-        max_len = len(max(seq, key=len))
+        max_len = len(max(seq, key=len)) + 2
 
         use_bold_style = partial(self.use_style, mode='bold', special=flag)
 
