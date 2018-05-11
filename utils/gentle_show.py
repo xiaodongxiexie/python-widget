@@ -34,6 +34,9 @@ class GentleShow:
     def __repr__(self):
         return repr(','.join(self.gentle_show(layout=list)))
 
+    def __call__(self):
+        return self.gentle_show()
+
 
     def use_style(self, string, mode='', fore='', back='', special=True):
         STYLE = self.STYLE
