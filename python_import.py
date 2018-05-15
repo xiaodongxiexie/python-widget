@@ -189,6 +189,7 @@ import builtins   #一些内置的range，map，zip等在该包中，可通过�
 #安全
 import ast
 from ast import liter_eval #比eval更安全，只执行一些安全的操作
+import astor #astor is designed to allow easy manipulation of Python source via the AST
 
 #本地化
 import locale
