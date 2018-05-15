@@ -9,9 +9,7 @@ import os
 """
 递归显示所有pid及对应name
 """
-
-pids = psutil.pids()
-def search(pids, i=0):
+def ls_pidAndexe(pids, i=0):
     if not pids:
         return
 
@@ -25,5 +23,8 @@ def search(pids, i=0):
             seq = []
             for c in children:
                 seq.append(c.pid)
-            search(seq, i+1)
-search(pids)
+            ls_pidAndexe(seq, i+1)
+
+if __name__ == "__main__":
+    pids = psutil.pids()
+    ls_pidAndexe(pids)
