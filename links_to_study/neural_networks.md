@@ -82,6 +82,8 @@
 >
 > [纵览机器学习基本词汇与概念](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650731623&idx=1&sn=4bbdc85b363d50ce44126230affec73b&chksm=871b3019b06cb90f94fb22649b91cd68970708f4da73440ff8a930803bed9c2a7dfd4c945758&mpshare=1&scene=23&srcid=1005Hj57s57FXix7TOai7T8c#rd%E4%BD%9C%E8%80%85%EF%BC%9A_%E6%98%B5%E7%A7%B0_%E5%B7%B2%E7%BB%8F%E8%A2%AB%E4%BD%BF%E7%94%A8%E9%93%BE%E6%8E%A5%EF%BC%9Ahttps://www.jianshu.com/p/fd55c2757718%E4%BE%86%E6%BA%90%EF%BC%9A%E7%AE%80%E4%B9%A6%E8%91%97%E4%BD%9C%E6%9D%83%E5%BD%92%E4%BD%9C%E8%80%85%E6%89%80%E6%9C%89%E3%80%82%E5%95%86%E4%B8%9A%E8%BD%AC%E8%BD%BD%E8%AF%B7%E8%81%94%E7%B3%BB%E4%BD%9C%E8%80%85%E8%8E%B7%E5%BE%97%E6%8E%88%E6%9D%83%EF%BC%8C%E9%9D%9E%E5%95%86%E4%B8%9A%E8%BD%AC%E8%BD%BD%E8%AF%B7%E6%B3%A8%E6%98%8E%E5%87%BA%E5%A4%84%E3%80%82)
 >
+> [Machine Learning & Deep Learning Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials)
+
 >            <br/>
 >               <br/>
 >                <br/>
