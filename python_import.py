@@ -197,6 +197,7 @@ import astor #astor is designed to allow easy manipulation of Python source via 
 
 #本地化
 import locale
+import pytz
 import gettext
 
 #命令行可使用
