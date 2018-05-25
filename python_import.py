@@ -71,6 +71,9 @@ import compiler   #from compiler.ast import flatten 可以将镶嵌列表展开�
 from funcy import flatten, isa  #pip install funcy
 
 
+# windows
+import winreg
+
 #缓存
 import cachetools
 from cachetools import lru
