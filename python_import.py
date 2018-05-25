@@ -318,6 +318,9 @@ import pyquery
 import hyperlink
 import parsel
 
+# OCR
+from aip import AipOcr # pip install baidu-aip
+
 # 金融指标以及时间序列
 import talib
 import arch
