@@ -84,7 +84,7 @@
 >
 > [Machine Learning & Deep Learning Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials)
 
->            <br/>
+>            [deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
 >               <br/>
 >                <br/>
 >                  <br/>
