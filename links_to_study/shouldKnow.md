@@ -40,7 +40,7 @@
 >[中国独立开发者项目列表](https://github.com/1c7/chinese-independent-developer)<br/>
 >[Local Sensitive Hash](https://www.cnblogs.com/iamdaqiao/p/Local-Sensitive-Hash.html)<br/>
 >[FloodFill](https://blog.csdn.net/u012763794/article/details/51113362)<br/>
-><br/>
+>[fabric](http://fabric-chs.readthedocs.io/zh_CN/chs/tutorial.html)<br/>
 ><br/>
 ><br/>
 ><br/>
