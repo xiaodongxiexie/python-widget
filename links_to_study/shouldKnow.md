@@ -41,7 +41,7 @@
 >[Local Sensitive Hash](https://www.cnblogs.com/iamdaqiao/p/Local-Sensitive-Hash.html)<br/>
 >[FloodFill](https://blog.csdn.net/u012763794/article/details/51113362)<br/>
 >[fabric](http://fabric-chs.readthedocs.io/zh_CN/chs/tutorial.html)<br/>
-><br/>
+>[flask-restful](http://www.pythondoc.com/flask-restful/first.html)<br/>
 ><br/>
 ><br/>
 ><br/>
