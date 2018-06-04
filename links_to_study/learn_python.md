@@ -92,3 +92,9 @@
 ### 13 Django
 
 [Django官方中文版](https://docs.djangoproject.com/zh-hans/2.0/)
+
+
+
+### 14 自动化部署
+
+[fabric](http://www.fabfile.org)
