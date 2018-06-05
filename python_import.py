@@ -342,6 +342,11 @@ import pytorch
 import keras
 
 
+# NLP
+import nltk # pip install nltk
+import gensim # pip install gensim
+
+
 # http交互
 import http
 # from http import HTTPStatus
