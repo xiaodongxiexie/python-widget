@@ -263,6 +263,8 @@
 >
 > [JS博客](http://cherryblog.site)
 >
+> [snownlp作者博客](http://www.isnowfy.com)
+>
 > 
 
 ### windows下好用的小工具
