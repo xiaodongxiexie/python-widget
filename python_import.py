@@ -345,6 +345,8 @@ import keras
 # NLP
 import nltk # pip install nltk
 import gensim # pip install gensim
+import jieba # pip install jieba
+import snownlp # pip install snownlp
 
 
 # http交互
