@@ -9,3 +9,6 @@
 
 ### 电子书下载
 > [百度云下载](http://www.sobaidupan.com) <br/>
+
+[free-programming-books](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md)
+
