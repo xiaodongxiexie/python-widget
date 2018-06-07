@@ -42,7 +42,7 @@
 >[FloodFill](https://blog.csdn.net/u012763794/article/details/51113362)<br/>
 >[fabric](http://fabric-chs.readthedocs.io/zh_CN/chs/tutorial.html)<br/>
 >[flask-restful](http://www.pythondoc.com/flask-restful/first.html)<br/>
-><br/>
+>[every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know)<br/>
 ><br/>
 ><br/>
 ><br/>
