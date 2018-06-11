@@ -43,7 +43,7 @@
 >[fabric](http://fabric-chs.readthedocs.io/zh_CN/chs/tutorial.html)<br/>
 >[flask-restful](http://www.pythondoc.com/flask-restful/first.html)<br/>
 >[every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know)<br/>
-><br/>
+>[全栈学习材料](https://github.com/ruanyf/jstraining)<br/>
 ><br/>
 ><br/>
 ><br/>
