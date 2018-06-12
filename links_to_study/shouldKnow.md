@@ -44,7 +44,7 @@
 >[flask-restful](http://www.pythondoc.com/flask-restful/first.html)<br/>
 >[every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know)<br/>
 >[全栈学习材料](https://github.com/ruanyf/jstraining)<br/>
-><br/>
+>[design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans)<br/>
 ><br/>
 ><br/>
 ><br/>
