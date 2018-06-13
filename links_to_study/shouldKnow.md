@@ -45,7 +45,7 @@
 >[every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know)<br/>
 >[全栈学习材料](https://github.com/ruanyf/jstraining)<br/>
 >[design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans)<br/>
-><br/>
+>[HTTP API 设计指南](https://github.com/ZhangBohan/http-api-design-ZH_CN)<br/>
 ><br/>
 ><br/>
 ><br/>
