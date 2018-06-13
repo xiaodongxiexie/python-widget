@@ -12,3 +12,5 @@
 
 [采样方法(解析方法，拒绝和重要采样方法)](https://zhuanlan.zhihu.com/p/34071776)
 
+[随机抽样方法](https://zhuanlan.zhihu.com/p/24915332)
+
