@@ -16,3 +16,7 @@
 
 [深度学习新的采样方式和损失函数](https://zhuanlan.zhihu.com/p/27748177)
 
+[126篇殿堂级深度学习论文分类整理 （上）](https://zhuanlan.zhihu.com/p/25549497)
+
+[126篇殿堂级深度学习论文分类整理 （下） ](https://zhuanlan.zhihu.com/p/25549585)
+
