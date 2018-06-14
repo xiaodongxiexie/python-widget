@@ -14,3 +14,5 @@
 
 [随机抽样方法](https://zhuanlan.zhihu.com/p/24915332)
 
+[深度学习新的采样方式和损失函数](https://zhuanlan.zhihu.com/p/27748177)
+
