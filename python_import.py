@@ -229,6 +229,13 @@ import arrow  # pip install arrow  一个便捷处理时间的第三方库
 import warnings  # 结合filterwarnings('ignore')使用，专治强迫症
 import tqdm  # 查看进度
 
+
+# 性能分析
+# pip install line_profiler # https://www.lfd.uci.edu/~gohlke/pythonlibs/#line_profiler
+import profile
+import cProfile
+
+
 # 数据处理
 import signal
 import random
@@ -347,7 +354,8 @@ import nltk # pip install nltk
 import gensim # pip install gensim
 import jieba # pip install jieba
 import snownlp # pip install snownlp
-
+import xpinyin  #将汉字转换为拼音（甚至可以加声调） #pip install xpinyin
+import pypinyin #汉字转换成拼音 #pip install pypinyin
 
 # http交互
 import http
