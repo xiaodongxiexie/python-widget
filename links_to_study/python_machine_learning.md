@@ -20,3 +20,5 @@
 
 [126篇殿堂级深度学习论文分类整理 （下） ](https://zhuanlan.zhihu.com/p/25549585)
 
+[**hands_on_Ml_with_Sklearn_and_TF**](https://github.com/apachecn/hands_on_Ml_with_Sklearn_and_TF)
+
