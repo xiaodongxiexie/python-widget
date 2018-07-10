@@ -64,6 +64,7 @@ import pangu  # 分词处理 pip install pangu
 
 # 算法及排序
 import sortedcontainers  # pip install sortedcontainers
+import sortedcollections # 内有排序列表，排序集合，排序字典等
 import algorithms
 import bisect
 import heapq #堆排序
