@@ -24,4 +24,5 @@
 
 [DataScience](http://www.mlln.cn)
 [支持向量机系列](http://blog.pluskid.org/?page_id=683)
+[xgboost](http://xgboost.readthedocs.io/en/latest/tutorials/model.html)
 
