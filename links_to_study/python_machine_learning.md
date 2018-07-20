@@ -22,7 +22,9 @@
 
 [**hands_on_Ml_with_Sklearn_and_TF**](https://github.com/apachecn/hands_on_Ml_with_Sklearn_and_TF)
 
-[DataScience](http://www.mlln.cn)
-[支持向量机系列](http://blog.pluskid.org/?page_id=683)
-[xgboost](http://xgboost.readthedocs.io/en/latest/tutorials/model.html)
+[DataScience](http://www.mlln.cn) <br/>
+
+[支持向量机系列](http://blog.pluskid.org/?page_id=683)<br/>
+
+[xgboost](http://xgboost.readthedocs.io/en/latest/tutorials/model.html)<br/>
 
