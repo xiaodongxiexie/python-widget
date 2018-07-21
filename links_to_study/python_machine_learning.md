@@ -30,3 +30,5 @@
 
 [基于深度学习的目标检测算法综述](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247484976&idx=1&sn=1ad589a67ef6da6366f2c5c01c497945&chksm=f9a274bfced5fda9c35d4b93878b0115454f6973c58dcb046cffd4ce4e8ecf113e48f299d3fc&mpshare=1&scene=23&srcid=0720DrqBUIowCBAwMQm8PetY#rd)<br/>
 
+[Stacked Generalization (Stacking)](http://machine-learning.martinsewell.com/ensembles/stacking/) <br/>
+
