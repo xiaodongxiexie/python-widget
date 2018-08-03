@@ -98,3 +98,12 @@
 ### 14 自动化部署
 
 [fabric](http://www.fabfile.org)
+
+
+
+### 15 Python Algorithms
+
+[algorithms]( Python Algorithms)
+
+
+
