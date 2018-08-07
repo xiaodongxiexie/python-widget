@@ -32,3 +32,4 @@
 
 [Stacked Generalization (Stacking)](http://machine-learning.martinsewell.com/ensembles/stacking/) <br/>
 
+[NLP-gensim](https://radimrehurek.com/gensim/models/word2vec.html)
