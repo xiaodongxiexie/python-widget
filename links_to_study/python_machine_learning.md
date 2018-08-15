@@ -35,3 +35,5 @@
 [NLP-gensim](https://radimrehurek.com/gensim/models/word2vec.html)
 
 [word2vec](https://blog.csdn.net/itplus/article/details/37969519)
+
+[10句话读懂图像频域滤波——不能不知道的信号与系统基本理论](https://blog.csdn.net/iracer/article/details/49311463)
