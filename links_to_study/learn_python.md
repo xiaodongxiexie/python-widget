@@ -79,6 +79,9 @@
 
 > [Python Advanced Topics](https://www.python-course.eu/advanced_topics.php)
 
+### 10.8
+> [agiliq blog](https://www.agiliq.com/blog/)
+
 ### 11 Data model
 
 > [Data model](https://docs.python.org/3/reference/datamodel.html)
