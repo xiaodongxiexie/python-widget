@@ -65,8 +65,6 @@
 
 [Guido van Rossum Blog](https://www.blogger.com/profile/12821714508588242516)
 
-
-
 ### 10.5 good-to-great-python-reads 
 
 > [good-to-great-python-reads](http://jessenoller.com/good-to-great-python-reads/)
@@ -79,8 +77,11 @@
 
 > [Python Advanced Topics](https://www.python-course.eu/advanced_topics.php)
 
-### 10.8
+### 10.8  agiliq blog
 > [agiliq blog](https://www.agiliq.com/blog/)
+
+### 10.9  spyhce blog
+> [spyhce blog](https://spyhce.com/blog)
 
 ### 11 Data model
 
