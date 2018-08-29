@@ -83,6 +83,9 @@
 ### 10.9  spyhce blog
 > [spyhce blog](https://spyhce.com/blog)
 
+### 10.10 concentricsky
+>[concentricsky](https://www.concentricsky.com/articles)
+
 ### 11 Data model
 
 > [Data model](https://docs.python.org/3/reference/datamodel.html)
