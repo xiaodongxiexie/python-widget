@@ -112,5 +112,8 @@
 
 [algorithms](Python Algorithms)
 
+### Python中的类变量
+[Python中的类变量](https://www.jianshu.com/p/3aca78a84def)
+
 
 
