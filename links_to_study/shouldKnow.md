@@ -10,6 +10,7 @@
 > [Redis 命令参考](http://redisdoc.com/)<br/>
 > [Redis 设计与实现](http://redisbook.com/) <br/>
 > [Redis 命令参考文档](http://redisdoc.com) <br/>
+> [Redis 文档中心](http://www.redis.cn/documentation.html) <br/>
 
 
 > [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md) <br/>
