@@ -84,7 +84,9 @@
 >
 > [Machine Learning & Deep Learning Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials)
 
->            [deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
+> [deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
+
+> [ 深度学习之 "物体检测" 方法梳理](https://zhwhong.cn/2017/02/24/Detection-CNN/#)
 >               <br/>
 >                <br/>
 >                  <br/>
