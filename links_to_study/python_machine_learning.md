@@ -41,3 +41,5 @@
 [机器学习术语表](https://developers.google.cn/machine-learning/glossary/?hl=zh-CN)
 
 [keras](https://keras.io/zh/)
+
+[Journal of Artificial Intelligence Research](https://www.jair.org/index.php/jair)
