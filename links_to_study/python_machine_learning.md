@@ -43,3 +43,5 @@
 [keras](https://keras.io/zh/)
 
 [Journal of Artificial Intelligence Research](https://www.jair.org/index.php/jair)
+
+[不平衡数据分类算法介绍与比较](http://lib.csdn.net/article/machinelearning/41294)
