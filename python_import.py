@@ -40,7 +40,7 @@ import pkgutil
 import pdir  # dir的扩展
 import tqdm  # 一个显示进度的小工具（bar）
 import progressbar
-import fake #- useragent  # 自动生成伪装header等信息
+import fake_useragent  # 自动生成伪装header等信息
 import faker  # 生成虚假信息，（可生成中文）
 import mimesis  # pip install mimesis 生成虚假信息（可生成中文）
 import xpinyin  #将汉字转换为拼音（甚至可以加声调） #pip install xpinyin
@@ -158,7 +158,7 @@ import base64
 import hmac
 import dis  # 查看代码的编译
 import io
-import temfile  #创建临时文件，关闭即销毁
+import tempfile  #创建临时文件，关闭即销毁
 import shelve  #存入存出操作，数据库
 
 import json
