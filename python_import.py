@@ -8,7 +8,7 @@ import pympler  # pip install pympler
 import inspect
 import operator
 import distutils
-# from operator import mathodcaller
+# from operator import methodcaller
 import path
 import traceback
 import trace
