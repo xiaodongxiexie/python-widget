@@ -45,7 +45,7 @@
 >[xgboost 参数](https://xgboost.readthedocs.io/en/latest/parameter.html)<br/>
 > [xgboost 参数2](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)      <br/>
 
-
+>[lasagne](https://lasagne.readthedocs.io/en/latest/index.html)
 
 -----------------------------
 
