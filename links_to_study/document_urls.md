@@ -264,7 +264,7 @@
 > [JS博客](http://cherryblog.site)
 >
 > [snownlp作者博客](http://www.isnowfy.com)
->
+> [深度学习](https://www.cnblogs.com/neopenx/)
 > 
 
 ### windows下好用的小工具
