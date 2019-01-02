@@ -53,7 +53,7 @@
 >
 > [深度神经网络之必会技巧之slides](http://lamda.nju.edu.cn/weixs/slide/CNNTricks_slide.pdf)
 
-        <br/>
+> [动手深度学习 mxnet](https://zh.d2l.ai/)    <br/>
          <br/>
           <br/>
            <br/>
