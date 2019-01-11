@@ -19,5 +19,7 @@ if __name__ == "__main__":
 
     arr2int = arr_map(arr, int)
     arr_plus_10 = arr_map(arr, lambda x: x+10)
+    # 效果同
+    arr_plus_10 = np.apply_along_axis(lambda x: x+10, 1, arr)
     print(arr2int)
     print(arr_plus_10)
