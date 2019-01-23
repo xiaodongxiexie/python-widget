@@ -88,7 +88,8 @@
 
 > [ 深度学习之 "物体检测" 方法梳理](https://zhwhong.cn/2017/02/24/Detection-CNN/#)
 > [pytorch中的损失函数](http://www.ituring.com.cn/book/tupubarticle/16827)               <br/>
->                <br/>
+
+> [CS 230 ― Deep Learning  Star2,701](https://stanford.edu/~shervine/teaching/cs-230/)               <br/>
 >                  <br/>
 >                   <br/>
 >                    <br/>
