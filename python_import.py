@@ -417,6 +417,7 @@ import getpass
 import unittest
 
 # 数据库
+import stomp # pip install stomp.py
 import sqlite3
 import pymongo
 import pymysql
