@@ -324,7 +324,7 @@ import imagesize
 import imghdr
 
 # 爬虫
-#import fake_useragent  # pip install fake-useragent  生成伪装头部等信息
+import fake_useragent  # pip install fake-useragent  生成伪装头部等信息
 import requests
 import grequests  # pip install grequests 一个利用gevent实现多线程的requests
 import lassie
@@ -336,6 +336,7 @@ import furl  # pip install furl 处理url的库
 import pyquery
 import hyperlink
 import parsel
+import yarl # 解析 url
 
 # OCR
 from aip import AipOcr # pip install baidu-aip
