@@ -17,7 +17,7 @@ def stat(path):
         if os.path.isdir(ele):
             stat(ele)
         else:
-            d[os.path.dirname(path)] = len(os.listdir(os.path.dirname(path)))
+            d[os.path.dirname(ele)] = len(os.listdir(os.path.dirname(ele)))
     return d
 
 
