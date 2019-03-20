@@ -48,6 +48,8 @@ import pypinyin #汉字转换成拼音 #pip install pypinyin
 
 # 定时
 import schedule #pip install schedule
+# APScheduler定时框架
+from apscheduler.schedulers.blocking import BlockingScheduler # pip installapscheduler   
 
 # 错误忽略等
 import retrying  # pip install retrying
