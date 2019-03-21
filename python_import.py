@@ -92,6 +92,7 @@ import zict
 # 一些格式
 import string
 import pprint
+from prettyprinter import cpprint # pip install prettyprinter
 import textwrap   #可以修饰字符串输出格式
 import fileinput
 import weakref  #弱引用
