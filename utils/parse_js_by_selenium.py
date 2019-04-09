@@ -1,5 +1,8 @@
 from lxml import etree
+from pprint import pprint
+
 from selenium import webdriver
+
 
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")
@@ -15,4 +18,9 @@ if __name__ == "__main__":
     content = driver.page_source
     html    = etree.HTML(content)
 
-    print(html.xpath("//div[@class='content-province-title']/text()"))
+    provinces_cities_dict = {}
+    provinces = html.xpath("//div[@class='content-province-title']/text()")
+    for province in provinces:
+        provinces_cities_dict[province] = html.xpath(f"//div[@class='content-province-title'][contains(text(), '{province}')]/following-sibling::div/a/text()")
+
+    pprint(provinces_cities_dict)
