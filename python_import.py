@@ -62,6 +62,7 @@ import cv2  # openCV
 import imghdr  # 识别图像格式
 import PIL
 import imagehash # pip install imagehash 图片指纹hash，用于相似图片检索
+import pytesseract # pip install pytesseract 可与opencv联合使用，做简单识别
 
 # 匹配
 import fuzzywuzzy  # 字符串模糊匹配  pip install fuzzywuzzy
