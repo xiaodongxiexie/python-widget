@@ -432,6 +432,8 @@ import pymongo
 import pymysql
 import psycopg2  # pip install psycopg2 # PostgreSQL数据库连接
 import redis
+
+import sqlparse # pip install sqlparse 非验证式解析sql语句
 #python 2
 import anydbm  #python2可用  value和key必须是字符串，其中value可为空
 #python 3
