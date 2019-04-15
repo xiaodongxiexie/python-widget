@@ -217,6 +217,7 @@ import gettext
 
 #命令行可使用
 import optparse   #脚本使用增加参数
+import fire # pip install fire  # 生成命令行界面工具
 
 # 内置工具箱
 import collections  # 一些内置如OrderDict，defaultdict等
@@ -344,6 +345,7 @@ import pyquery
 import hyperlink
 import parsel
 import yarl # 解析 url
+import robobrowser  # pip install robobrowser # 可解析js
 
 # OCR
 from aip import AipOcr # pip install baidu-aip
