@@ -359,6 +359,7 @@ import patsy
 # 机器学习及神经网络
 import pybrain
 import sklearn
+import heamy # pip install heampy # 用于融合模型（与sklearn联合使用）
 import lightgbm # pip install lightgbm 
 import xgboost
 import surprise  # pip install scikit-surprise, 一个强化sklearn的包
