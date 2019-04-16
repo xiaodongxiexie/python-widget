@@ -269,6 +269,7 @@ import numba
 import numpy as np
 import pandas
 import pandas as pd
+import modin.pandas as pd #pip install modin # 加速pandas
 import scipy
 import scipy as sp
 import tablib  # pip install tablib 类似于pandas中dataframe格式
