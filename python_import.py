@@ -78,6 +78,7 @@ import algorithms
 import bisect
 import heapq #堆排序
 import compiler   #from compiler.ast import flatten 可以将镶嵌列表展开，py3已舍弃该包
+import natsort # pip install natsort # 自然排序
 from funcy import flatten, isa  #pip install funcy
 
 
