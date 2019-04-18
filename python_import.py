@@ -437,6 +437,8 @@ import pymongo
 import pymysql
 import psycopg2  # pip install psycopg2 # PostgreSQL数据库连接
 import redis
+import diskcache # pip install diskcache # SQLite和文件支持的缓存后端，具有比memcached和redis更快的查找功能.
+
 
 import sqlparse # pip install sqlparse 非验证式解析sql语句
 #python 2
