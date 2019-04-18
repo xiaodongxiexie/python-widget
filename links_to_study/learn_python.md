@@ -116,4 +116,9 @@
 [Python中的类变量](https://www.jianshu.com/p/3aca78a84def)
 
 
+### python速查表
+[Python开发速查]https://www.ctolib.com/cheatsheets-Awesome-Python.html)
+[Python并发速查表](https://www.ctolib.com/cheatsheets-Python-Concurrency-Cheatsheet.html)
+[Python加密速查表](https://www.ctolib.com/cheatsheets-Python-cryptography.html)
+
 
