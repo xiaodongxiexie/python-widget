@@ -117,8 +117,8 @@
 
 
 ### python速查表
-[Python开发速查](https://www.ctolib.com/cheatsheets-Awesome-Python.html)
-[Python并发速查表](https://www.ctolib.com/cheatsheets-Python-Concurrency-Cheatsheet.html)
-[Python加密速查表](https://www.ctolib.com/cheatsheets-Python-cryptography.html)
-
+[Python开发速查](https://www.ctolib.com/cheatsheets-Awesome-Python.html)   <br/>
+[Python并发速查表](https://www.ctolib.com/cheatsheets-Python-Concurrency-Cheatsheet.html)   <br/>
+[Python加密速查表](https://www.ctolib.com/cheatsheets-Python-cryptography.html)  <br/>
+ 
 
