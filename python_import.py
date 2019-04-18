@@ -219,6 +219,7 @@ import gettext
 #命令行可使用
 import optparse   #脚本使用增加参数
 import fire # pip install fire  # 生成命令行界面工具
+import click # pip install click # 通过装饰器进行命令行界面生成
 
 # 内置工具箱
 import collections  # 一些内置如OrderDict，defaultdict等
