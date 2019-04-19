@@ -108,7 +108,8 @@ import readline
 import pep8
 import Queue
 import decorator
-import difflib
+import difflib  # 文本字符串相似度比较
+import Levenshtein # pip install python-Levenshtein 莱文斯坦距离（字符串相似度比较）
 import struct
 import this
 import new
