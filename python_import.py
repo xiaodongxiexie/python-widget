@@ -472,6 +472,10 @@ import tornado
 import abc
 
 
+# 类型推断
+import filetype # pip install filetype
+
+
 
 from hashlib import md5, sha1, sha224, sha256, sha384, sha512
 
