@@ -305,6 +305,8 @@ import sched
 # 日志记录
 import logging
 import logzero # pip install -U logzero 一个第三方包，记录日志
+import pysnooper # pip install pysnooper # 简单日志分析器（通过装饰器，不需要改动原代码即可对代码进行分析）
+
 
 # 监控运行内存等
 import pympler
