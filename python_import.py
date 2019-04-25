@@ -47,6 +47,7 @@ import faker  # 生成虚假信息，（可生成中文）
 import mimesis  # pip install mimesis 生成虚假信息（可生成中文）
 import xpinyin  #将汉字转换为拼音（甚至可以加声调） #pip install xpinyin
 import pypinyin #汉字转换成拼音 #pip install pypinyin
+import sfz # pip install sfz # 用来处理大陆身份证信息（如所在地区，性别等）
 
 # 定时
 import schedule #pip install schedule
