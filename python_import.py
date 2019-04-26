@@ -479,6 +479,9 @@ import abc
 import filetype # pip install filetype
 
 
+# git
+import git # pip install GitPython
+
 
 from hashlib import md5, sha1, sha224, sha256, sha384, sha512
 
