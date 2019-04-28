@@ -431,6 +431,7 @@ import secrets  # py3 生成密令等
 
 # 密码
 import getpass
+import bcrypt  # pip install bcrypt  # 用于密码加密
 
 # 单元测试
 import unittest
