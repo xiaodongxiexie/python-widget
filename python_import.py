@@ -177,6 +177,8 @@ import tempfile  #创建临时文件，关闭即销毁
 import shelve  #存入存出操作，数据库
 
 import json
+import simplejson
+import ujson  # pip install ujson
 import pickle
 import shelve
 import marshal
