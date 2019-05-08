@@ -29,7 +29,7 @@ def progressbar(cur_num, total_num,
         stat = "[{:.2f}/{:.2f}]".format(cur_consume_time, total_consume_time)
 
     if finish == barwidth:
-        arrow = ""
+        arrow = "="
 
     if ratio >= min:
         if cur_num%gap == 1:
@@ -48,10 +48,12 @@ if __name__ == "__main__":
 
     start_ = time.time()
     start  = time.time()
-    for i in range(100):
+    total_num = 50
+    for i in range(total_num):
         time.sleep(random.random()/5)
         end = time.time()
-        progressbar(i+1, 100, min=0.5, 
+        progressbar(i+1, total_num, min=0.6, 
+            gap=8,
             cur_consume_time=round(end-start, 2), 
             total_consume_time=round(end-start_, 2))
         start = end 
