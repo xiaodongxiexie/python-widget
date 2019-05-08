@@ -156,6 +156,11 @@ from typing import NamedTuple, Optional
 from typing import Sequence, Set, Sized
 from typing import Text, Tuple, Union
 
+# Data validation and settings management using python type hinting.
+# pip install pydantic
+from pydantic import BaseModel
+from pydantic.dataclasses import dataclass
+
 #+++++++++++++++++编码问题
 from unicodedata import normalize, name
 #+++++++++++++++++
