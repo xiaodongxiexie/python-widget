@@ -98,6 +98,8 @@ import zict
 # 一些格式
 import string
 import pprint
+
+from reprint import output # pip install reprint
 from prettyprinter import cpprint # pip install prettyprinter
 import textwrap   #可以修饰字符串输出格式
 import fileinput
