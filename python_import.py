@@ -266,6 +266,7 @@ import cProfile
 
 # 数据处理
 import signal
+from blinker import signal # pip install blinker
 import random
 import numbers
 import nose
