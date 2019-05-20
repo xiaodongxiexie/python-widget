@@ -164,6 +164,8 @@ from typing import Text, Tuple, Union
 from pydantic import BaseModel
 from pydantic.dataclasses import dataclass
 
+from dataclasses import dataclass
+
 #+++++++++++++++++编码问题
 from unicodedata import normalize, name
 #+++++++++++++++++
