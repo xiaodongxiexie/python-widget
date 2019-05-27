@@ -1,156 +1,435 @@
+# -*- coding: utf-8 -*-
+# @Author: xiaodong
+# @Date:   just hide
+# @Last Modified by:   xiaodong
+# @Last Modified time: just hide
+
+# ==============================================================
+# __future__ 导入时必须放在最开始
+from __future__ import division
+from __future__ import unicode_literals
+from __future__ import print_function
+from __future__ import absolute_import
+
+
+# 内置封装
+# ==============================================================
+import builtins
+
+
+# ==============================================================
 # 系统操作
+
 import os
+import sysconfig
 import sys
-#sys.modules.get(k, [d])
-import platform  # 可以查看终端信息（如版本状况）
-import psutil  # 查看内存占用情况
-import pympler  # pip install pympler
+import platform                   # 可以查看终端情况（如版本情况)
+import ctypes                     # python和C的混合编程工具
+
+
+# 内置库（常用）
+# ==============================================================
+import itertools
+from itertools import accumulate, chain, combinations, compress
+from itertools import cycle, dropwhile, permutations, product
+from itertools import zip_longest
+
+import collections
+from collections import abstractmethod, namedtuple
+from collections import Counter, defaultdict
+from collections import deque
+from collections import OrderedDict
+
+import logging
+
+import functools
+from functools import wraps, update_wrapper
+from functools import partial
+
+import random
+from random import randint, random
+from random import choice, sample
+
+import math
+from math import fsum, hypot, inf
+
+import cmath
+import decimal
+# import cdemical
+import fractions
+import hashlib
+
+import time
+from time import perf_counter, clock
+
+import datetime
+from datetime import date, datetime, timedelta
+
+import threading
+from threading import Thread
+
+import multiprocessing
+from multiprocessing import Pool, Process
+
+from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ProcessPoolExecutor
+
+import contextlib
+
+from copy import copy, deepcopy
+
+from io import BytesIO
+from inspect import signature
+
+
+# Python 内存，CPU，IO管理
+# ==============================================================
+# pip install psutil
+import psutil                     # 查看内存占用, CPU, IO等
+
+# pip install pympler
+import pympler                    # 查看Python对象内存行为
+
+import gc                         # 垃圾回收
+
+
+# Python对象追溯
+# ==============================================================
 import inspect
+
+
+# Python方法、属性操作
+# ==============================================================
 import operator
-import distutils
-# from operator import methodcaller
+from operator import methodcaller
+
+
+# 编码及解析
+# ==============================================================
+import encodings                 # help(encodings) 关于所有Python内置编码方式
+import chardet                   # 检测编码
+import mimetypes                 # 检测文件MIME类型
+import filetype                  # 类型推断
+from unidedata import normalize, name
+
+import base64
+import hmac
+
+
+
+# 文件路径处理
+# ==============================================================
+import os.path
 import path
 import pathlib
 import pathlib2
-import traceback
-import trace
-import stackprinter # pip install stackprinter # 好用的debug追踪
-import glob  # 对文件进行查找
-# 跟glob比较像，不过可以用(fnmatch.fnmatch(file,
-# pattern),fnmatch.fnmatchcase(file,pattern)一个大小写敏感一个则不）
+import glob
 import fnmatch
-import linecache  # 读取任意文件的指定行  linecache.getline(file,line_number)
-import filecmp  # 对文件或文件夹进行比较
-import imp  # 里面有reload些啥
-import fileinput   #有点像是input
-import importlib  # 实现动态引入模块  #math = importlib.import_module('math')
-import atexit  # 一个蛮有意思的内置模块，执行函数退出时的回调函数，先进后出
-import ssl
-import chunk
-import compileall
-import param
+import codecs
+
+
+# 文件详情(路径、内容, 文件操作等)
+# ==============================================================
+import glob
+import fnmatch
+import linecache
+import filecmp                 # 文件差异比较
+
+import csv
+import h5py
+
+# excel 读写
+# pip install xlrd
+import xlrd
+# pip install xlwt
+import xlwt
+# pip install xlutils
+from xlutils.copy import copy  # 用于 excel的复制操作
+
+import shutil
+import tempfile
+import shelve
+
+
+
+# 错误追踪及异常捕捉
+# ==============================================================
+import trace                   # 用于命令行操作
+import traceback
+
+# pip install stackprinter
+# github: https://github.com/cknd/stackprinter
+import stackprinter            # 好用的debug追踪
+
+
+
+# 重载
+# ==============================================================
+from imp import reload
+
+
+# IO 相关
+# ==============================================================
+# pip install colorama
+import colorma                  # 改变输出流背景颜色等
+import fileinput
+from io import StringIO
+import readline
+import pep8
+import struct
+import cPickle
+
+
+# 警告处理
+# ==============================================================
+import warnings
+warnings.filterwarnings("ignore") # 用于忽略警告内容，专治强迫症
 
 
 # 包管理
+# ==============================================================
 import pkgutil
-
 # pkgutil.get_importer(path_item)
 # pkgutil.get_data(package, resource)
 
 
-# 好用的工具
+# 动态管理
+# ==============================================================
+import importlib              # 实现动态引入模块
+#math = importlib.import_module('math')
+
+
+# 常用第三方扩展
+# ==============================================================
 # pip install pdir2
-import pdir  # dir的扩展
-import tqdm  # 一个显示进度的小工具（bar）
-import progressbar
-import fake_useragent  # 自动生成伪装header等信息
-import faker  # 生成虚假信息，（可生成中文）
-import mimesis  # pip install mimesis 生成虚假信息（可生成中文）
-import xpinyin  #将汉字转换为拼音（甚至可以加声调） #pip install xpinyin
-import pypinyin #汉字转换成拼音 #pip install pypinyin
-import sfz # pip install sfz # 用来处理大陆身份证信息（如所在地区，性别等）
+import pdir
 
-# 定时
-import schedule #pip install schedule
-# APScheduler定时框架
-from apscheduler.schedulers.blocking import BlockingScheduler # pip installapscheduler   
+# pip install tqdm
+import tqdm
 
-# 错误忽略等
-import retrying  # pip install retrying
-# from retrying import retry   #忽略错误直到出现对的，这个很有用
+#  pip install Faker
+import faker                  # 生成虚假姓名、性别、地址、邮政编码等（支持中文）
 
-# 图像识别
-import cv2  # openCV
-import imghdr  # 识别图像格式
+# pip install mimesis
+import mimesis                # 生成虚假姓名、性别、地址等（支持中文）
+
+# pip install xpinyin
+import xpinyin                # 将汉字转换为拼音（支持带声调）
+
+# pip install pypinyin
+import pypinyin               # 将汉字转换为拼音
+
+# pip install sfz
+import sfz                    # 解析大陆身份证信息（如所在地区、性别等）
+
+#  pip install retrying
+import retrying               # 自动尝试多次执行直到任务成功或达到设置条件
+
+# pip install tqdm
+import tqdm                   # 便捷查看循环执行进度
+
+
+# 爬虫相关
+# ==============================================================
+# pip install fake-useragent
+import fake_useragent          # 生成虚假头部浏览器头部信息
+
+import requests
+
+# pip install grequests
+import grequests               # 通过gevent 实现多线程的requests
+
+import bs4
+import urllib
+import cookie
+import htmllib
+import HTMLParser
+import selenium
+import webbrowser
+import lassie
+import tushare
+import urlparse
+import xml
+import furl
+import pyquery
+import hyperlink
+import parsel
+import yarl
+
+# pip install robobrowser
+import robobrower                  # 可解析js
+
+
+# 定时任务/定时操作
+# ==============================================================
+# pip install schedule
+import schedule
+
+# pip install apscheduler
+from apscheduler.schedulers.blocking import BlockingScheduler
+
+import sched
+
+
+# 图形识别/图形处理
+# ==============================================================
+# pip install opencv-python
+import cv2
+
+import imghdr                   # 识别图形格式
 import PIL
-import imagehash # pip install imagehash 图片指纹hash，用于相似图片检索
-import pytesseract # pip install pytesseract 可与opencv联合使用，做简单识别
 
-# 匹配
-import fuzzywuzzy  # 字符串模糊匹配  pip install fuzzywuzzy
-import pangu  # 分词处理 pip install pangu
+# pip install imagehash
+import imagehash                # 图片指纹hash，用于相似图片检测/检索
 
-# pip install pyfiglet
-# cmd使用，pyfiglet + 字母，显示为趣味文字
+# pip install pytesseract
+import pytesseract              # 与openCV联合使用，做简单验证码识别等
 
-# 算法及排序
-import sortedcontainers  # pip install sortedcontainers
-import sortedcollections # 内有排序列表，排序集合，排序字典等
+# https://www.lfd.uci.edu/~gohlke/pythonlibs/#simpleitk
+import SimpleITK as sitk
+
+import skimage
+from skimage import data, io, filters
+
+import imagesize
+import imghdr
+
+
+# 格式相关
+# ==============================================================
+from pprint import pprint
+
+# pip install reprint
+from reprint import output
+
+# pip install uniout
+import uniout
+
+# pip install prettyprinter
+from prettyprinter import cpprint
+
+import textwrap                 # 修饰字符串输出格式
+import fileinput
+from reprlib import repr
+
+
+# 字符串相关
+# ==============================================================
+import this                     # Python之禅
+import string
+import keyword                  # 保留关键字
+
+import re
+
+# pip install flashtext
+from flashtext.keyword import KeywordProcessor
+
+# pip install parse
+from parse import findall, search
+
+# pip install html2text
+import html2text
+
+# pip install colorama
+import colorma                  # 改变输出流背景颜色等
+
+
+# 字符串匹配
+# ==============================================================
+# pip install fuzzywuzzy
+import fuzzywuzzy
+
+# pip install pangu
+import pangu                    # 分词处理
+
+# pip install python-Levenshtein
+import Levenshtein              # 斯文斯坦距离（字符串相似度比较）
+
+# pip install textdistance
+import textdistance             # 文本相似度比较
+
+import difflib                  # 字符串相似度比较
+
+
+# 排序算法
+# ==============================================================
+# pip install sortedcontainers
+import sortedcontainers
+
+# pip install sortedcollections
+import sortedcollections       # 包含列表排序、集合排序、字典排序
+
+# pip install algorithms
 import algorithms
-import bisect
-import heapq #堆排序
-import compiler   #from compiler.ast import flatten 可以将镶嵌列表展开，py3已舍弃该包
-import natsort # pip install natsort # 自然排序
-from funcy import flatten, isa  #pip install funcy
+
+# pip install natsort
+import natsort                 # 自然排序
+
+# pip install funcy
+from funcy import flatten, isa # 嵌套数组展平，各种迭代等
+
+import bisect                  # 排序数组插入数据
+import heapq                   # heapq.merge 有序列表快速合并
 
 
-# windows
+# Windows
+# ==============================================================
 import winreg
 
-#缓存
+
+# 缓存
+# ==============================================================
+# pip install cachetools
 import cachetools
-from cachetools import lru
-from functools import lru_cache   #python3.2以后支持，一个用于缓存给定大小（可设置）的装饰器
+from cachetools import lru_cache
+
+from functools import lru_cache
+
 from fastcache import lru_cache
 from fastcache import clru_cache
+
 import zict
 
-# 一些格式
-import string
-import pprint
 
-from reprint import output # pip install reprint
-from prettyprinter import cpprint # pip install prettyprinter
-import textwrap   #可以修饰字符串输出格式
-import fileinput
-import weakref  #弱引用
+# 装饰器
+# ==============================================================
+from functools import wraps, update_wrapper
 
-import uniout  # 中文格式显示等，pip install uniout
-import xpinyin  # 将汉字转换为拼音  # https://github.com/lxneng/xpinyin/
-
-import readline
-import pep8
-import Queue
 import decorator
-import difflib  # 文本字符串相似度比较
-import Levenshtein # pip install python-Levenshtein 莱文斯坦距离（字符串相似度比较）
-import struct
-import this
-import new
-import keyword
-import colorama  # 改变输出流背景、颜色等
-import ctypes
-import configparser   #python3读取配置
-import argparse
+
+
+# 配置
+# ==============================================================
+import configparser
 import yaml
 
+
+# 命令行相关
+# ==============================================================
+import argparser                        # 命令行解析
+import optparse                         # 解析命令行
+
+# pip install fire
+import fire                             # 生成命令行界面工具
+
+# pip install click
+import click                            # 通过装饰器进行命令行界面生成
+
+
 # 枚举
+# ==============================================================
 import enum
 
-#特殊的split格式
-import shlex  # 与shell处理命令行一致的分隔操作方式
 
-#动态导包
-import importlib
-from importlib import import_module
-
-# ---------------------------------
-import sys
-# sys.modules[MODULE_NAME]
-# __import__(MODULE_NAME)
-import sysconfig
-# ---------------------------------
+# 内置类型名目
+# ==============================================================
+import types
+from types import MappingProxyType        # 可用来实现只读字典接口
 
 
-# 编码及解析
-import encodings # help(encodings) 关于所有Python内置编码方式
-import chardet  # 检查编码
-import mimetypes  #检测文件MIME类型
-import code
-import codecs  # 与open一起使用，可以指定解码方式
-from reprlib import repr
+# 类型标注
+# ==============================================================
 import typing
-
 from typing import Any, AnyStr, Callable, ChainMap, Counter
 from typing import Deque, DefaultDict, Dict, FrozenSet
 from typing import Generator, Hashable, Iterable, Iterator
@@ -166,137 +445,226 @@ from pydantic.dataclasses import dataclass
 
 from dataclasses import dataclass
 
-#+++++++++++++++++编码问题
-from unicodedata import normalize, name
-#+++++++++++++++++
 
-import copy
-import cPickle  # pickle的C版本，更快更好用
-import csv
-import h5py
-import xlrd  # 用于处理excel的库
-import xlwt  # 用于处理excel的写操作
-from xlutils.copy import copy # 用于excel的复制操作
-import encodings
-import shutil  # 文件整体复制等操作
-import base64
-import hmac
-import dis  # 查看代码的编译
-import io
-import tempfile  #创建临时文件，关闭即销毁
-import shelve  #存入存出操作，数据库
-
+# 序列化 相关
+# ==============================================================
 import json
+
+# pip install simplejson
 import simplejson
-import ujson  # pip install ujson
+
+# pip install ujson
+import ujson
+
 import pickle
+import cPickle
 import shelve
 import marshal
 
-import re
-# flashtext 是一个起到re作用的第三方包，针对大文件执行速度更快！
-import flashtext #pip install flashtext
-import parse  # pip install parse
-from parse import findall, search
-import html2text  # pip install html2text
-import textdistance  # pip install textdistance
 
-
-import tarfile  # 解压压缩包
+# 压缩相关
+# ==============================================================
+import tarfile
 import zipfile
 import gzip
-import zlib  # 压缩，py2.7支持str，py3必须转换为bytes后才可用
-import parser
+import zlib
+
 import bz2
 
-import StringIO  #这两个python3已删除，可以通过io.StringIO来调用
-import cStringIO
 
+# http/ftp/...相关
+# ==============================================================
 import ftplib
-import binascii
+import http
+from http import HTTPStatus
 
+import cgi
+import ipaddress
+import requests
+import lassie
+import urllib
+import urllib2
+import socket
+
+import socketserver
+from socketserver import BaseRequestHandler, UDPServer
+
+import SimpleHTTPServer
+import Cookie
+import cookielib
+
+
+
+
+# 数组、集合等
+# ==============================================================
 import array
 
-
-#py3
-import builtins   #一些内置的range，map，zip等在该包中，可通过引用该包进行覆盖定义
-
-#安全
-import ast
-from ast import liter_eval #比eval更安全，只执行一些安全的操作
-import astor #astor is designed to allow easy manipulation of Python source via the AST
-
-#本地化
-import locale
-import pytz
-import gettext
-
-#命令行可使用
-import optparse   #脚本使用增加参数
-import fire # pip install fire  # 生成命令行界面工具
-import click # pip install click # 通过装饰器进行命令行界面生成
-
-# 内置工具箱
-import collections  # 一些内置如OrderDict，defaultdict等
-import functools  # partial、wraps等
 import itertools
+from itertools import accumulate, chain, product
 
-import types
-import typing
-#from types import MappingProxyType
-import errno
+from collections import defaultdict, OrderedDict, namedtuple
 
-# 对时间的操作
-import datetime
-import dateutil  # 强大的时间格式转换
+
+
+# 安全执行操作
+# ==============================================================
+import ast
+from ast import literal_eval                 # 用于生产环境中取代`eval`
+
+
+# 时间相关
+# ==============================================================
 import time
-import jedi
-import timeit  # 计时用
+import datetime
 import calendar
-import arrow  # pip install arrow  一个便捷处理时间的第三方库
-import pendulum  # pip install pendulum 可以计算给定日期的过后年、月、日。。。后的具体日期
 
-# 控制异常输出
-import warnings  # 结合filterwarnings('ignore')使用，专治强迫症
-import tqdm  # 查看进度
+# pip install arrow
+import arrow                                  # 便捷处理时间的库
+
+# pip install pendulum
+import pendulum                               # 可以计算给定日期过后的（年、月、日）后的具体日期
+
+
+
+# pip install python-dateutil
+import dateutil
+from dateutil.parser import parse             # 强大的时间格式转换
+
+import timeit                                 # 常用于计时
 
 
 # 性能分析
-# pip install line_profiler # https://www.lfd.uci.edu/~gohlke/pythonlibs/#line_profiler
+# ==============================================================
 import profile
 import cProfile
 
 
 # 数据处理
-import signal
-from blinker import signal # pip install blinker
+# ==============================================================
+import signal                                 # 信号相关
+
+# pip install blinker
+from blinker import signal
+
 import random
-import numbers
-import nose
-import hashlib
-import math  #不支持负数的开方
-import cdemical
-import cmath  #支持负数的开方
-import decimal
-import fractions
-import jdcal
+
+# https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy
 import numpy
+# https://www.lfd.uci.edu/~gohlke/pythonlibs/#numexpr
 import numexpr
+# https://www.lfd.uci.edu/~gohlke/pythonlibs/#numba
 import numba
-# from numba import jit  # 即时加速
-import numpy as np
+from numba import jit                        # 即时加速
+# https://www.lfd.uci.edu/~gohlke/pythonlibs/#pandas
 import pandas
-import pandas as pd
-import modin.pandas as pd #pip install modin # 加速pandas
+from pandas import Series, DataFrame, Panel
+# pip install modin
+import modin.pandas as pd
+# pip install tablib
+import tablib
+from tablib import Dataset
+# https://www.lfd.uci.edu/~gohlke/pythonlibs/#statsmodels
+import statstics
+# https://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy
 import scipy
-import scipy as sp
-import tablib  # pip install tablib 类似于pandas中dataframe格式
-import dicom  # 医疗数据处理包
-import statistics  # py3 一些处理中位数等数据统计包
+# pip install pip install dicom
+import dicom                                # 医疗数据处理包
+
+# 多进程、多线程
+# ==============================================================
+import threading
+from threading import Thread
+
+import multiprocessing
+from multiprocessing import Pool, Process
+
+from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ProcessPoolExecutor
+
+# pip install pip install gevent
+import gevent
+from gevent.monkey import patch_socket
+from gevent.pool import Pool
+patch_socket()
+
+# pip install tomorrow
+import tomorrow
+from tomorrow import threads
+
+import asyncio
+import aiohttp
+import asynchat
 
 
-#计算相关性
-from minepy import MINE
+# 日志
+# ==============================================================
+import logging
+
+# pip install logzero
+import logzero
+
+# pip install pysnooper
+import pysnooper                                # 简单日志分析器
+
+
+# 自动化测试
+# ==============================================================
+import nose
+from unittest import TestCase
+
+
+# 可视化
+# ==============================================================
+# https://www.lfd.uci.edu/~gohlke/pythonlibs/#matplotlib
+import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
+from matplotlib.colors import cnames           # 导入颜色名字
+
+from matplotlib import __version__, rcParams
+from matplotlib._pylab_helpers import Gcf
+from mpl_toolkits.mplot3d import Axes3D
+import seaborn                                 # 基于matplotlib
+
+# pip install ggplot
+import ggplot
+
+# pip install folium
+import folium
+
+# https://www.lfd.uci.edu/~gohlke/pythonlibs/#heatmap
+import heatmap
+
+# pip install missingno
+import missingno                               # 查看数据缺失值（常与pandas一起用）
+
+# pip install pygal
+import pygal                                   # 绘制svg图
+
+# pip install graphviz
+# https://github.com/xflr6/graphviz
+import graphviz                                # 绘制有向图等
+
+
+
+# OCR
+# ==============================================================
+ # pip install baidu-aip
+ from aip import AipOcr
+
+
+# 金融指标及时间序列
+# ==============================================================
+import talib
+import arch
+import statsmodels
+import patsy
+
+
+# 机器学习、深度学习
+# ==============================================================
+# pip install minepy
+from minepy import MINE                        # 计算相关性
 import numpy as np
 import numexpr
 m = MINE()
@@ -304,174 +672,102 @@ x = np.random.uniform(-1, 1, 10000)
 m.compute_score(x, x**2)
 #print m.mic()
 
-
-# 线程
-import threading
-import subprocess
-import multiprocessing
-import gevent  # 协成
-import tomorrow  #pip install tomorrow, @thread(10) 一个30行的多线程代码修饰，灰常好用
-import asyncio
-import aiohttp
-import asynchat
-import sched
-
-
-# 日志记录
-import logging
-import logzero # pip install -U logzero 一个第三方包，记录日志
-import pysnooper # pip install pysnooper # 简单日志分析器（通过装饰器，不需要改动原代码即可对代码进行分析）
-
-
-# 监控运行内存等
-import pympler
-
-# 垃圾回收
-import gc
-
-
-#事件调度
-import sched
-
-# 可视化
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-import seaborn  # 基于matplotlib的一个美化
-import ggplot # pip install ggplot
-import folium  # 用于对地图可视化  pip install folium
-import heatmap  # 热力图
-import missingno  # pip install missingno 用来查看数据缺失值，与pandas一起用作数据分析，奇效
-import pygal  # pip install pygal 可以用来画svg图，在浏览器中查看
-import graphviz # pip install graphviz   用来绘制有向图等 https://github.com/xflr6/graphviz
-
-# 图形化
-import PIL
-import cv2  # openCV
-import SimpleITK as sitk  # 图像处理
-import skimage
-import imagesize
-import imghdr
-
-# 爬虫
-import fake_useragent  # pip install fake-useragent  生成伪装头部等信息
-import requests
-import grequests  # pip install grequests 一个利用gevent实现多线程的requests
-import lassie
-import tushare
-import base64  # 编码
-import urlparse
-import xml
-import furl  # pip install furl 处理url的库
-import pyquery
-import hyperlink
-import parsel
-import yarl # 解析 url
-import robobrowser  # pip install robobrowser # 可解析js
-
-# OCR
-from aip import AipOcr # pip install baidu-aip
-
-# 金融指标以及时间序列
-import talib
-import arch
-import statsmodels
-import patsy
-
-# 机器学习及神经网络
 import pybrain
 import sklearn
-import heamy # pip install heampy # 用于融合模型（与sklearn联合使用）
-import lightgbm # pip install lightgbm 
+
+# pip install heampy
+import heamy                                   # 用于融合模型（与sklearn联合使用）
+
+# pip install lightgbm
+import lightgbm
+
 import xgboost
-import surprise  # pip install scikit-surprise, 一个强化sklearn的包
-import theano  # 一个基于Cpython的数学处理包
+
+# pip install scikit-surprise
+import surprise                                # 一个强化sklearn的包
+
+import theano
 import tensorflow as tf
 import pytorch
 import keras
 
 
-# NLP
-import nltk # pip install nltk
-import gensim # pip install gensim
-import jieba # pip install jieba
-import snownlp # pip install snownlp
-import xpinyin  #将汉字转换为拼音（甚至可以加声调） #pip install xpinyin
-import pypinyin #汉字转换成拼音 #pip install pypinyin
+# NLP（自然语言处理）
+# ==============================================================
+# pip install nltk
+import nltk
 
-# http交互
-import http
-# from http import HTTPStatus
-import cgi
-import ipaddress
-import requests
-import lassie  # pip install lassie 抓取网页，操作简单
-import cgi  # 通用网关接口
-import bs4
-import urllib
-import urllib2
-import socket
-import socketserver
-# from socketserver import BaseRequestHandler, UDPServer
-import SimpleHTTPserver
-import contextlib
-import contextlib2
-import Cookie
-import cookielib
+# pip install gensim
+import gensim
+
+# pip install jieba
+import jieba
+
+# pip install snownlp
+import snownlp
+
+# pip install xpinyin
+import xpinyin
+
+# pip install pypinyin
+import pypinyin
+
+
+# 邮件
+# ==============================================================
 import email
-import htmllib
-import HTMLParser
-import httplib
-import io
-import lxml
-import selenium
-import webbrowser #打开指定web页面
-import html
 
-# token令牌等
+
+# token 令牌等
+# ==============================================================
 import uuid
 import hmac
 import hashlib
-import shortuuid  # pip install shortuuid #https://github.com/skorokithakis/shortuuid
-import secrets  # py3 生成
+import shortuuid
+import secrets
 import ssl
 
-from types import MappingProxyType  #字典代理
+import getpass
+
+# pip install bcrypt
+import bcrypt                                # 用于密码加密
+
+from hashlib import md5, sha1, sha224, sha256, sha384, sha512
 
 
+# 数据结构
+# ==============================================================
 from queue import PriorityQueue, LifoQueue
 
 
-import secrets  # py3 生成密令等
-
-# 密码
-import getpass
-import bcrypt  # pip install bcrypt  # 用于密码加密
-
-# 单元测试
-import unittest
-
 # 数据库
-import stomp # pip install stomp.py
+# ==============================================================
+# pip install stomp.py
+import stomp                                # MQ
+
 import sqlite3
 import pymongo
 import pymysql
-import psycopg2  # pip install psycopg2 # PostgreSQL数据库连接
+import psycopg2
 import redis
-import diskcache # pip install diskcache # SQLite和文件支持的缓存后端，具有比memcached和redis更快的查找功能.
+
+# pip install diskcache                     # SQLite和文件支持的缓存后端，具有比memcached和redis更快的查找功能.
+
+import diskcache
 
 # 支持mysql命令行提示
 # pip install -U mycli
 # https://github.com/dbcli/mycli
 
-import sqlparse # pip install sqlparse 非验证式解析sql语句
-#python 2
-import anydbm  #python2可用  value和key必须是字符串，其中value可为空
-#python 3
-import dbm
-import whichdb  #python2可用
+# pip install sqlparse
+import sqlparse                             # 非验证式解析sql语句
+import anydbm                               # python2
+import whichdb                              # python2
+import dbm                                  # pyhton3
 
 
-# 网络框架
+# Web框架
+# ==============================================================
 import flask
 from flask import Flask, request
 
@@ -486,43 +782,31 @@ import diesel
 import tornado
 
 
-# 抽象定义
+# 抽象
+# ==============================================================
 import abc
-
-
-# 类型推断
-import filetype # pip install filetype
+from abc import abstractmethod
 
 
 # git
-import git # pip install GitPython
+# ==============================================================
+# pip install GitPython
+import git
 
 
-from hashlib import md5, sha1, sha224, sha256, sha384, sha512
-
-from distutils.version import LooseVersion  # 查看版本信息
- # import sys, pandas as pd
- # LooseVersion(pd.__version__, sys.version)
-
-# ---
+# sklearn
+# ==============================================================
 # 处理缺失，数据扩展
 from sklearn.preprocessing import Imputer, PolynomialFeatures
-
-
-# ---
+# 预处理
+from sklearn.preprocessing import label_binarize, OneHotEncoder
 # 向量化
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.feature_extraction import DictVectorizer
-
-# ---
-from sklearn.preprocessing import label_binarize, OneHotEncoder
-
-
 # sklearn 中有关降维
 from sklearn.manifold import TSNE, Isomap, MDS
 from sklearn.decomposition import PCA
 from sklearn.decomposition import TruncatedSVD
-
 # 聚类
 from sklearn.mixture import GMM
 
@@ -534,7 +818,6 @@ model.fit_transform(...)
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis  #LDA
 model = LinearDiscriminantAnalysis(n_components=2)
 #---
-
 
 # sklearn中特征选择
 #---
@@ -588,7 +871,8 @@ from sklearn.cross_validation import LeaveOneOut
 from sklearn.pipeline import Pipeline, make_pipeline
 
 
-#IPython
+# IPython
+# ==============================================================
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = 'all'  #全部显示（不需要print）
 
@@ -598,69 +882,27 @@ from IPython.display import Image
 %matplotlib inline   #用于Jupyter notebook下显示matplotlib绘图
 %matplotlib notebook  #同上，不过显示后的图像可以手动调整（执行拖动、保存等操作）
 
-import future_builtins
-reload(sys)
-sys.setdefaultencoding('utf-8')
 
-warnings.filterwarnings('ignore')
-
-from abc import abstractmethod
-from abc import ABCMeta
-import imp
-
-from bs4 import BeautifulSoup as bs
-
-from chardet.universaldetector import UniversalDetector
-
-from collections import Counter
-from collections import defaultdict
-from collections import OrderedDict
-from collections import deque
-from collections import namedtuple
-from collections import ChainMap
-
-from concurrent import futures
-
-from copy import deepcopy
-
-from datetime import datetime
-from datetime import timedelta
+# 时区(国际化支持)
+# ==============================================================
+import locale
+import pytz
+import gettext
 
 
-from dateutil.parser import parse
+# 其他（待分类）
+# ==============================================================
+import distutils
+import atexit
+import ssl
+import chunk
+import compileall
+import param
+import binascii
+import dis                   # 查看代码的编译
+import parser                # python 内部解析器
+import errno
+import jdcal
 
-#__future__ 导入时必须放在最开始，否则会报错（这里只是做收集用，不要运行）
-from __future__ import division
-from __future__ import unicode_literals
-from __future__ import print_function
-from __future__ import absolute_import
-
-from functools import partial
-from functools import wraps
-from itertools import (chain,
-                       compress,
-                       count,
-                       cycle,
-                       dropwhile,
-                       ifilter,
-                       ifilterfalse,
-                       imap,
-                       islice,  #可用于迭代器的切片
-                       imap,
-                       izip,
-                       izip_longest,
-                       permutations,
-                       product,
-                       repeat,
-                       starmap,
-                       takewhile)
-from io import BytesIO
-from inspect import signature
-
-from matplotlib import pyplot as plt
-from matplotlib.colors import cnames  # 导入颜色名字
-
-from matplotlib import __version__, rcParams
-from matplotlib._pylab_helpers import Gcf
-from matplotlib.backend_bases import (RendererBase, GraphicsContextBase,
-                                      Fig
+# pip install astor
+import astor                 # astor is designed to allow easy manipulation of Python source via the AST.
