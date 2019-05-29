@@ -116,7 +116,6 @@ import base64
 import hmac
 
 
-
 # 文件路径处理
 # ==============================================================
 import os.path
@@ -151,7 +150,6 @@ import tempfile
 import shelve
 
 
-
 # 错误追踪及异常捕捉
 # ==============================================================
 import trace                   # 用于命令行操作
@@ -160,7 +158,6 @@ import traceback
 # pip install stackprinter
 # github: https://github.com/cknd/stackprinter
 import stackprinter            # 好用的debug追踪
-
 
 
 # 重载
@@ -751,8 +748,10 @@ import pymysql
 import psycopg2
 import redis
 
-# pip install diskcache                     # SQLite和文件支持的缓存后端，具有比memcached和redis更快的查找功能.
+# pip install pylibmc
+import pylibmc                              # for Memcache
 
+# pip install diskcache                     # SQLite和文件支持的缓存后端，具有比memcached和redis更快的查找功能.
 import diskcache
 
 # 支持mysql命令行提示
