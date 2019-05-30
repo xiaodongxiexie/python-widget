@@ -61,7 +61,7 @@ class ImmutableDict(dict):
 
 class ConstantsObject(ImmutableDict):
 
-	def _-getattr__(self, name):
+	def _getattr__(self, name):
 		return self[name]
 
 	def __setattr__(self, name, value):
