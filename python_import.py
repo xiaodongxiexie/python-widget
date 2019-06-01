@@ -257,6 +257,10 @@ import yarl
 import robobrower                  # 可解析js
 
 
+# scrapy
+from scrapy.loader import ItemLoader     # 将xpath包装
+from scrapy.loader.processors import MapCompose, Join  # 以函数链实现复杂功能
+
 # 定时任务/定时操作
 # ==============================================================
 # pip install schedule
