@@ -180,7 +180,7 @@ import cPickle
 # 警告处理
 # ==============================================================
 import warnings
-warnings.filterwarnings("ignore") # 用于忽略警告内容，专治强迫症
+warnings.filterwarnings("ignore")  # 用于忽略警告内容，专治强迫症
 
 
 # 包管理
@@ -367,7 +367,7 @@ import algorithms
 import natsort                 # 自然排序
 
 # pip install funcy
-from funcy import flatten, isa # 嵌套数组展平，各种迭代等
+from funcy import flatten, isa  # 嵌套数组展平，各种迭代等
 
 import bisect                  # 排序数组插入数据
 import heapq                   # heapq.merge 有序列表快速合并
@@ -495,8 +495,6 @@ import Cookie
 import cookielib
 
 
-
-
 # 数组、集合等
 # ==============================================================
 import array
@@ -505,7 +503,6 @@ import itertools
 from itertools import accumulate, chain, product
 
 from collections import defaultdict, OrderedDict, namedtuple
-
 
 
 # 安全执行操作
@@ -525,7 +522,6 @@ import arrow                                  # 便捷处理时间的库
 
 # pip install pendulum
 import pendulum                               # 可以计算给定日期过后的（年、月、日）后的具体日期
-
 
 
 # pip install python-dateutil
@@ -647,11 +643,10 @@ import pygal                                   # 绘制svg图
 import graphviz                                # 绘制有向图等
 
 
-
 # OCR
 # ==============================================================
- # pip install baidu-aip
- from aip import AipOcr
+# pip install baidu-aip
+    from aip import AipOcr
 
 
 # 金融指标及时间序列
@@ -671,7 +666,7 @@ import numexpr
 m = MINE()
 x = np.random.uniform(-1, 1, 10000)
 m.compute_score(x, x**2)
-#print m.mic()
+# print m.mic()
 
 import pybrain
 import sklearn
@@ -755,7 +750,8 @@ import redis
 # pip install pylibmc
 import pylibmc                              # for Memcache
 
-# pip install diskcache                     # SQLite和文件支持的缓存后端，具有比memcached和redis更快的查找功能.
+# pip install diskcache                     #
+# SQLite和文件支持的缓存后端，具有比memcached和redis更快的查找功能.
 import diskcache
 
 # 支持mysql命令行提示
@@ -818,7 +814,7 @@ from sklearn import random_projection
 model = random_projection.SparseRandomProjection(n_components=2)
 model.fit_transform(...)
 #---
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis  #LDA
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis  # LDA
 model = LinearDiscriminantAnalysis(n_components=2)
 #---
 
@@ -842,7 +838,7 @@ from sklearn import datasets
 mnist = datasets.fetch_mldata('MNIST original')
 x, y = mnist.data, mnist.target
 
-#基于树模型
+# 基于树模型
 from sklearn.datasets import load_iris
 
 iris = load_iris()
@@ -877,13 +873,13 @@ from sklearn.pipeline import Pipeline, make_pipeline
 # IPython
 # ==============================================================
 from IPython.core.interactiveshell import InteractiveShell
-InteractiveShell.ast_node_interactivity = 'all'  #全部显示（不需要print）
+InteractiveShell.ast_node_interactivity = 'all'  # 全部显示（不需要print）
 
 from IPython import display
 from IPython.display import Image
 
-%matplotlib inline   #用于Jupyter notebook下显示matplotlib绘图
-%matplotlib notebook  #同上，不过显示后的图像可以手动调整（执行拖动、保存等操作）
+%matplotlib inline  # 用于Jupyter notebook下显示matplotlib绘图
+%matplotlib notebook  # 同上，不过显示后的图像可以手动调整（执行拖动、保存等操作）
 
 
 # 时区(国际化支持)
@@ -908,4 +904,5 @@ import errno
 import jdcal
 
 # pip install astor
-import astor                 # astor is designed to allow easy manipulation of Python source via the AST.
+# astor is designed to allow easy manipulation of Python source via the AST.
+import astor
