@@ -684,7 +684,10 @@ import surprise                                # 一个强化sklearn的包
 
 import theano
 import tensorflow as tf
-import pytorch
+import torch
+# pip install visdom
+from visdom import Visdom                      # pytorch 可视化工具
+
 import keras
 
 
