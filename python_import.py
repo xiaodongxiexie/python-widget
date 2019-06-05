@@ -25,6 +25,7 @@ import sysconfig
 import sys
 import platform                   # 可以查看终端情况（如版本情况)
 import ctypes                     # python和C的混合编程工具
+import subprocess
 
 
 # 内置库（常用）
@@ -743,7 +744,7 @@ from hashlib import md5, sha1, sha224, sha256, sha384, sha512
 # ==============================================================
 from queue import PriorityQueue, LifoQueue
 
-
+ 
 # 数据库
 # ==============================================================
 # pip install stomp.py
