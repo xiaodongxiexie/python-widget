@@ -23,6 +23,7 @@ coverage.xml
 test_*
 backup/
 *\.log\.*
+private/
 
 # Jupyter Notebook
 .ipynb_checkpoints
