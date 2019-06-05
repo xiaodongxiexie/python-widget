@@ -150,6 +150,10 @@ import shutil
 import tempfile
 import shelve
 
+# pip install watchdog
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+
 
 # 错误追踪及异常捕捉
 # ==============================================================
