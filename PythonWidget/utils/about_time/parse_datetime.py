@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # @Author: xiaodong
 # @Date:   2018-02-08 14:01:56
-# @Last Modified by:   liangxiaodong
-# @Last Modified time: no
+# @Last Modified by:   xiaodong
+# @Last Modified time: just hide
 from datetime import datetime
 
 def parse_datetime(dt):
@@ -15,6 +15,13 @@ def parse_datetime2(dt):
     strd = str(dt)
     table = str.maketrans('-:.', '___')
     return strd.translate(table)
+
+
+def datetime2str(ele):
+	if type(ele) == datetime:
+		return str(ele)
+	else:
+		raise
 
 
 if __name__ == "__main__":
