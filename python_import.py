@@ -123,6 +123,7 @@ import os.path
 import path
 import pathlib
 import pathlib2
+import pathtools
 import glob
 import fnmatch
 import codecs
