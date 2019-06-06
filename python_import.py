@@ -231,6 +231,9 @@ import retrying               # 自动尝试多次执行直到任务成功或达
 # pip install tqdm
 import tqdm                   # 便捷查看循环执行进度
 
+# pip install goto-statement
+from goto import with_goto    # python实现的goto跳转（不适合多层循环）
+
 
 # 爬虫相关
 # ==============================================================
