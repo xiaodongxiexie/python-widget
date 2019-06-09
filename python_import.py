@@ -752,7 +752,7 @@ from hashlib import md5, sha1, sha224, sha256, sha384, sha512
 # ==============================================================
 from queue import PriorityQueue, LifoQueue
 
- 
+
 # 数据库
 # ==============================================================
 # pip install stomp.py
@@ -767,6 +767,11 @@ import redis
 # pip install elasticsearch
 import elasticsearch
 from elasticsearch import helpers          # helpers.bulk(...) 批量插入
+
+# pip install Whoosh
+from whoosh import fields
+from whoosh import index
+from whoosh.fields import SchemaClass, TEXT, KEYWORD, ID, STORED
 
 # pip install pylibmc
 import pylibmc                              # for Memcache
