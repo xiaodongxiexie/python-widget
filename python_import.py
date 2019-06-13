@@ -155,6 +155,9 @@ import shelve
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
+# 给文件加锁
+import fcntl
+
 
 # 错误追踪及异常捕捉
 # ==============================================================
@@ -745,6 +748,8 @@ import getpass
 # pip install bcrypt
 import bcrypt                                # 用于密码加密
 
+from cryptography.utils import int_from_bytes, int_to_bytes
+
 from hashlib import md5, sha1, sha224, sha256, sha384, sha512
 
 
@@ -810,6 +815,17 @@ import tornado
 # ==============================================================
 import abc
 from abc import abstractmethod
+
+# 面向对象（实现别的语言的interface）
+""" 接口在编程语言中指的是一个抽象类型，是抽象方法的集合，特点如下：
+1、类通过继承接口的方式，来继承接口的抽象方法
+2、接口并不是类（睢冉编写类和接口的方式很相似）
+3、类描述对象的属性和方法（实现接口的类，必须实现接口内所描述的所有方法，否则必须声明为抽象类）
+4、接口包含类要实现的方法（接口无法被实例化，但可以被实现）
+总结：接口只定义规范，不负责具体实现（具体实现由具体的实现者完成）
+"""
+from zope.interface import Interface
+from zope.interface.declarations import implementer
 
 
 # git
