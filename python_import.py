@@ -556,6 +556,7 @@ import pstats
 
 # pip install line_profiler                # 逐行分析代码耗时
 # pip install memory_profiler              # 分析代码内存占用
+# pip install coverage                     # 代码覆盖率检测
 
 
 # 数据处理
