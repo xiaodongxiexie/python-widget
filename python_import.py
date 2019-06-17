@@ -554,6 +554,9 @@ import profile
 import cProfile
 import pstats
 
+# pip install line_profiler                # 逐行分析代码耗时
+# pip install memory_profiler              # 分析代码内存占用
+
 
 # 数据处理
 # ==============================================================
