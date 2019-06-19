@@ -158,6 +158,9 @@ from watchdog.events import FileSystemEventHandler
 # 给文件加锁
 import fcntl
 
+# pip install lockfile
+from lockfile import LockFile     # 给文件加锁
+
 
 # 错误追踪及异常捕捉
 # ==============================================================
