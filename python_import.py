@@ -775,6 +775,12 @@ import pymysql
 import psycopg2
 import redis
 
+# pip install SQLAlchemy
+from sqlalchemy import create_engine
+from sqlalchemy import Column, Integer, String, DateTime
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
+
 # pip install elasticsearch
 import elasticsearch
 from elasticsearch import helpers          # helpers.bulk(...) 批量插入
