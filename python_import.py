@@ -251,6 +251,8 @@ import grequests               # 通过gevent 实现多线程的requests
 import bs4
 import urllib
 import cookie
+import html
+from html import escape, unescape
 import htmllib
 import HTMLParser
 import selenium
