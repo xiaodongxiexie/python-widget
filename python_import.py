@@ -314,6 +314,9 @@ import imghdr
 # ==============================================================
 from pprint import pprint
 
+# pip install PrettyTable
+from prettytable import PrettyTable    # 美化表格输出
+
 # pip install reprint
 from reprint import output
 
