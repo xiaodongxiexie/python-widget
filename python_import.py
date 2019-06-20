@@ -194,6 +194,14 @@ import struct
 import cPickle
 
 # 内存占用优化
+# ==============================================================
+# https://github.com/pytries/hat-trie
+# pip install hat-trie
+
+# https://pypi.org/project/datrie/
+# https://linux.thai.net/~thep/datrie/datrie.html
+# pip install datrie
+
 # pip install DAWG         # String data in a DAWG may take 
                            # 200x less memory than in a standard 
                            # Python dict and the raw lookup speed is comparable; 
@@ -981,3 +989,6 @@ import jdcal
 
 # pip install astor
 import astor                 # astor is designed to allow easy manipulation of Python source via the AST.
+
+# pip install mmh3
+import mmh3
