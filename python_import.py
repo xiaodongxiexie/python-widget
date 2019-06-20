@@ -193,6 +193,14 @@ import pep8
 import struct
 import cPickle
 
+# 内存占用优化
+# pip install DAWG         # String data in a DAWG may take 
+                           # 200x less memory than in a standard 
+                           # Python dict and the raw lookup speed is comparable; 
+                           # it also provides fast advanced methods like prefix search.
+
+# pip install marisa-trie
+import marisa_trie         # https://marisa-trie.readthedocs.io/en/latest/tutorial.html
 
 # 警告处理
 # ==============================================================
