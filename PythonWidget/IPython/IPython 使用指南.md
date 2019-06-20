@@ -51,6 +51,10 @@
 显示系统环境变量
 
 
+### 7. `%load_ext` 
+查看指定变量内存占用
+`%load_ext memory_profiler`
+`%memit your-var`
 
 
 
