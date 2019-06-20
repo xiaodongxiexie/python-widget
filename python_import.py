@@ -18,7 +18,7 @@ import builtins
 
 
 # python2 to python3
-from six import string_stypes, iteritems
+from six import string_stypes, iteritems, add_metaclass
 from six.moves import map
 
 
@@ -797,6 +797,8 @@ from sqlalchemy.orm import sessionmaker
 # pip install elasticsearch
 import elasticsearch
 from elasticsearch import helpers          # helpers.bulk(...) 批量插入
+from elasticsearch.serializer import JSONSerializer
+from elasticsearch.exceptions import NotFoundError, RequestError, TransportError
 
 # pip install Whoosh
 from whoosh import fields
