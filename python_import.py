@@ -17,6 +17,11 @@ from __future__ import absolute_import
 import builtins
 
 
+# python2 to python3
+from six import string_stypes, iteritems
+from six.moves import map
+
+
 # ==============================================================
 # 系统操作
 
