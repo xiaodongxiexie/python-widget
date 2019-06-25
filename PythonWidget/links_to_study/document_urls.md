@@ -536,3 +536,5 @@
 > [中文独立播客](https://typlog.com/podlist/)
 
 > [各种教程](https://tutorialspoint.com/)
+
+> [HTML实体](https://dev.w3.org/html5/html-author/charref)
