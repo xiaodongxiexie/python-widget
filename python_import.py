@@ -558,6 +558,7 @@ from collections import defaultdict, OrderedDict, namedtuple
 # ==============================================================
 import ast
 from ast import literal_eval                 # 用于生产环境中取代`eval`
+from jinja2 import escape
 
 
 # 时间相关
