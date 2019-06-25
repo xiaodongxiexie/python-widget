@@ -218,6 +218,7 @@
 > http://pycoders-weekly-chinese.readthedocs.io/en/latest/index.html   #python PyCoder’s Weekly 中文翻译 <br/>
 > [Python 树的实现](http://python.jobbole.com/85336/?utm_source=blog.jobbole.com&utm_medium=relatedPosts) <br/>
 > [树结构](https://zhuanlan.zhihu.com/p/30918614) <br/>
+> [红黑树](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/03.01.md)<br/>
 > [看看](http://docs.python-guide.org/en/latest/) </br>
 
 
