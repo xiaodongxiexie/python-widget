@@ -341,6 +341,7 @@
 >
 > [Web 应用程序打包器](http://www.css88.com/doc/parcel/?utm_source=qq&utm_medium=social)
 > [网络协议](https://www.cnblogs.com/vamei/tag/%E7%BD%91%E7%BB%9C/)
+> [Web开发技术](https://developer.mozilla.org/zh-CN/docs/Web)
 
 ## Numpy
 
