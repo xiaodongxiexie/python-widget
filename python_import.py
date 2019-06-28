@@ -776,6 +776,9 @@ import pypinyin
 # 邮件
 # ==============================================================
 import email
+from email.mime.text import MIMEText
+from email.header import Header
+from smtplib import SMTP_SSL
 
 
 # token 令牌等
