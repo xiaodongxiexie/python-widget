@@ -776,8 +776,12 @@ import pypinyin
 # 邮件
 # ==============================================================
 import email
+from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from email.mime.base import MIMEBase
 from email.header import Header
+from email.utils import formatdate
+from email import encoders
 from smtplib import SMTP_SSL
 
 
