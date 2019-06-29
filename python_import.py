@@ -156,6 +156,8 @@ import xlwt
 # pip install xlutils
 from xlutils.copy import copy  # 用于 excel的复制操作
 
+import xlsxwriter              # 支持excel写（较全操作，不支持读）
+
 import shutil
 import tempfile
 import shelve
