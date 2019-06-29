@@ -865,6 +865,8 @@ from flask_ckeditor import CKEditor, upload_success, upload_fail
 from flask_dropzone import Dropzone
 from flask_wtf.csrf import validate_csrf
 from wtforms import ValidatoionError
+# pip install flask_socketio                 # 用于websockets，由服务端通知(触发)客户端数据的更新
+from flask_socketio import SocketIO, emit, send
 # ------------
 
 import django
