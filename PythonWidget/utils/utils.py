@@ -5,6 +5,17 @@ from collections import Iterable
 from compat import PY2, PY3
 
 
+class AttrHelper(object):
+    """字典访问方式改为.访问"""
+    def __init__(self, mapping):
+        self.mapping = mapping
+
+    def __getattr__(self, key):
+        if isinstance(self.mapping[key], dict):
+            return self.__class__(self.mapping[key])
+        else:
+            return self.mapping[key]
+        
 def total_time(func):
     '''
     统计程序耗时
