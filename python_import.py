@@ -187,6 +187,7 @@ import stackprinter            # 好用的debug追踪
 # 重载
 # ==============================================================
 from imp import reload
+from importlib import reload
 
 
 # IO 相关
