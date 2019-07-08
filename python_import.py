@@ -109,6 +109,14 @@ import gc                         # 垃圾回收
 import inspect
 
 
+# Python 实现的单派模式
+from functools import singledispatch
+from multipledispatch import dispatch
+# ==============================================================
+
+
+
+
 # Python方法、属性操作
 # ==============================================================
 import operator
