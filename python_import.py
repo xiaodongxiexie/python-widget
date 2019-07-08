@@ -1021,3 +1021,5 @@ import astor                 # astor is designed to allow easy manipulation of P
 
 # pip install mmh3
 import mmh3
+
+from multipledispatch import Dispatcher
