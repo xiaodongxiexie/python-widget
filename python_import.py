@@ -121,6 +121,7 @@ from multipledispatch import dispatch
 # ==============================================================
 import operator
 from operator import methodcaller
+from operator import attrgetter, itemgetter, concat
 
 
 # 编码及解析
