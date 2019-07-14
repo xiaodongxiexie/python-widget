@@ -16,6 +16,18 @@ class AttrHelper(object):
         else:
             return self.mapping[key]
         
+
+class AttrHelper(object):
+    def __init__(self, mapping):
+        self.mapping = mapping
+
+    def __getattr__(self, k):
+        v = self.mapping.get(k, None)
+        if hasattr(v, "__getitem__"):
+            return self.__class__(v)
+        return v       
+  
+
 def total_time(func):
     '''
     统计程序耗时
