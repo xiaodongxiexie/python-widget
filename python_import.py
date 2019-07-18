@@ -870,6 +870,8 @@ import anydbm                               # python2
 import whichdb                              # python2
 import dbm                                  # pyhton3
 
+# pip install python3-memcached
+import memcache
 
 # Web框架
 # ==============================================================
