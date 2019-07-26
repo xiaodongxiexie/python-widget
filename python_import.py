@@ -765,6 +765,11 @@ from visdom import Visdom                      # pytorch 可视化工具
 
 import keras
 
+# Autograd can automatically differentiate native Python and Numpy code
+# pip install autograd
+import autograd.numpy as np
+from autograd import grad
+
 
 # NLP（自然语言处理）
 # ==============================================================
