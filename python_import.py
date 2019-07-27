@@ -745,6 +745,7 @@ m.compute_score(x, x**2)
 
 import pybrain
 import sklearn
+import imblearn                                # 机器学习中非平衡样本进行样本平衡（上采样、下采样等）
 
 # pip install heampy
 import heamy                                   # 用于融合模型（与sklearn联合使用）
