@@ -839,6 +839,7 @@ import pymongo
 import pymysql
 import psycopg2
 import redis
+import cx_Oracle as oracle
 
 # pip install SQLAlchemy
 from sqlalchemy import create_engine
