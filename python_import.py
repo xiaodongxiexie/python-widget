@@ -771,6 +771,9 @@ import keras
 import autograd.numpy as np
 from autograd import grad
 
+# pip install hyperopt   
+import hyperopt                                # 用来机器学习/深度学习调参（优于RandomSearch,快于GridSearch)
+
 
 # NLP（自然语言处理）
 # ==============================================================
