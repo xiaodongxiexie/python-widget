@@ -110,9 +110,9 @@ import inspect
 
 
 # Python 实现的单派模式
+# ==============================================================
 from functools import singledispatch
 from multipledispatch import dispatch
-# ==============================================================
 
 
 
@@ -1046,4 +1046,4 @@ import astor                 # astor is designed to allow easy manipulation of P
 # pip install mmh3
 import mmh3
 
-from multipledispatch import Dispatcher
+from multiplesingdisisis import Dispatcher
