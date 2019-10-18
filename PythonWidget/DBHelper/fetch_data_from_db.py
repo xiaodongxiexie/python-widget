@@ -2,13 +2,15 @@
 
 from dataclasses import dataclass
 from typing import TypeVar, List, Dict, Optional
-from enum import Enum
+from enum import Enum, unique
 
 import cx_Oracle as oracle
 import psycopg2
+import pymysql
 
 
 @dataclass
+@unique
 class DBOption(Enum):
     oracle: int = 1
     mysql: int = 2
@@ -17,7 +19,7 @@ class DBOption(Enum):
 
 @dataclass
 class FetchDataFromDB(object):
-    config: dict
+    config: Dict
     which_db: TypeVar("db", str, int)
     db_name = None
 
@@ -30,20 +32,32 @@ class FetchDataFromDB(object):
 
     def connect_oracle(self):
         url = self.ip + ":" + self.port + "/" + self.db
-        connection = oracle.connect(self.user,
-                                    self.passwd,
-                                    url)
+        connection = oracle.connect(
+            self.user,
+            self.passwd,
+            url
+        )
         return connection
 
     def connect_mysql(self):
-        pass
+        connection = pymysql.connect(
+            host=self.ip,
+            port=self.port,
+            user=self.user,
+            password=self.passwd,
+            db=self.db,
+            charset="utf8",
+        )
+        return connection
 
     def connect_postgresql(self):
-        connection = psycopg2.connect(host=self.ip,
-                                      port=self.port,
-                                      database=self.db,
-                                      user=self.user,
-                                      password=self.passwd)
+        connection = psycopg2.connect(
+            host=self.ip,
+            port=self.port,
+            database=self.db,
+            user=self.user,
+            password=self.passwd
+        )
         return connection
 
     def connect(self):
@@ -55,10 +69,20 @@ class FetchDataFromDB(object):
         connection = getattr(self, "connect_" + which_db)()
         return connection
 
-    def query(self, sql: str, nums: Optional[int] = None) -> List[Dict]:
+    def query(
+                self,
+                sql: str,
+                nums: Optional[int] = None
+                ) -> List[Dict]:
+        """sql attention:
+        注意，sql语句尾部不要带分号，否则会报错。
+        """
         connection = self.connect()
         with connection as conn:
-            cursor = conn.cursor()
+            if self.db_name == "mysql":
+                cursor = conn
+            else:
+                cursor = conn.cursor()
             cursor.execute(sql)
             if self.db_name in ["mysql", "oracle"]:
                 columns = [obj[0] for obj in cursor.description]
