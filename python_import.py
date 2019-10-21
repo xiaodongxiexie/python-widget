@@ -887,6 +887,9 @@ import memcache
 # ==============================================================
 import flask
 from flask import Flask, request
+
+# pip install pipenv                         # 用来创建虚拟环境
+# pip install python-dotenv                  # 用来设置环境变量
 # ------------
 from flask_ckeditor import CKEditor, upload_success, upload_fail
 from flask_dropzone import Dropzone
