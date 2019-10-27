@@ -629,6 +629,19 @@ from numba import jit                        # 即时加速
 # https://www.lfd.uci.edu/~gohlke/pythonlibs/#pandas
 import pandas
 from pandas import Series, DataFrame, Panel
+
+# pip install dask
+import dask                                   # 类似于spark的相似pandas接口的python包
+from dask import dataframe as dd
+from dask import array as da
+from dask.distributed import Client
+from dask import bag as db
+# pip install dask-ml[complete]
+# pip install dask-ml[xgboost]
+# pip install dask-ml[tensorflow]
+
+
+
 # pip install modin
 import modin.pandas as pd
 # pip install tablib
