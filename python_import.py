@@ -112,6 +112,7 @@ import inspect
 # Python 实现的单派模式
 # ==============================================================
 from functools import singledispatch
+from functools import singledispatchmethod               # python3.8+ 支持，以后可以在'class'中 使用单派模式了
 from multipledispatch import dispatch
 
 
@@ -921,6 +922,18 @@ import bottle
 import diesel
 
 import tornado
+
+import fastapi
+
+
+# 异步
+# ==============================================================
+# pip install databases[postgresql]
+# pip install databases[mysql]
+# pip install databases[sqlite]
+import databases
+from databases import Database                  # 异步操作数据库
+
 
 
 # 抽象
