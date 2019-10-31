@@ -761,6 +761,10 @@ import pybrain
 import sklearn
 import imblearn                                # 机器学习中非平衡样本进行样本平衡（上采样、下采样等）
 
+# 用于将sklearn训练出的模型文件转换为PMML文件（可以给java等其他语言调用）
+# pip install --user --upgrade git+https://github.com/jpmml/sklearn2pmml.git
+from sklearn2pmml.pipeline import PMMLPipeline
+
 # pip install heampy
 import heamy                                   # 用于融合模型（与sklearn联合使用）
 
