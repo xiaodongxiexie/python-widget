@@ -307,6 +307,8 @@ import furl
 import pyquery
 import hyperlink
 import parsel
+import lxml
+from lxml.etree import HTML
 import yarl
 
 # pip install robobrowser
