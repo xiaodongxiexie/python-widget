@@ -12,7 +12,7 @@ def get_star_url(start_url):
     skip_url_nodes = html.xpath("//h3/a/@href")
     skip_item_names = filter(lambda obj: obj.strip(), html.xpath("//h3/a/text()"))
     for skip_url, skip_item in zip(skip_url_nodes, skip_item_names):
-        yield (skip_item, "htpps://github.com" + skip_url)
+        yield (skip_item, "https://github.com" + skip_url)
 
     skip_btn = html.xpath("//div[@class='BtnGroup']/a/@href")
     skip_content = html.xpath("//div[@class='BtnGroup']/a/text()")
