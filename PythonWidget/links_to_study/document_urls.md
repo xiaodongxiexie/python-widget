@@ -548,4 +548,6 @@
 
 > [c10M](http://c10m.robertgraham.com/p/manifesto.html)
 
+> [httpie 一个类似curl的命令行工具](https://keelii.com/2018/09/03/HTTPie/)
+
 
