@@ -1082,4 +1082,9 @@ import astor                 # astor is designed to allow easy manipulation of P
 # pip install mmh3
 import mmh3
 
-from multiplesingdisisis import Dispatcher
+from multipledispatch import Dispatcher
+
+# pip install ratelimit
+from ratelimtit import limits            # 限制被调用次数
+
+
