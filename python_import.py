@@ -862,6 +862,7 @@ import pymongo
 import pymysql
 import psycopg2
 import redis
+# pip install iredis                        # 一个带提示的redis终端
 import cx_Oracle as oracle
 
 # pip install SQLAlchemy
