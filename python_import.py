@@ -504,6 +504,7 @@ from typing import List, Mapping, MutableMapping, MutableSequence, MutableSet
 from typing import NamedTuple, Optional
 from typing import Sequence, Set, Sized
 from typing import Text, Tuple, Union
+from typing import overload                         #  一般用来装饰不同参数下的同一函数
 
 # Data validation and settings management using python type hinting.
 # pip install pydantic
