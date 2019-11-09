@@ -113,7 +113,7 @@ import inspect
 # ==============================================================
 from functools import singledispatch
 from functools import singledispatchmethod               # python3.8+ 支持，以后可以在'class'中 使用单派模式了
-from multipledispatch import dispatch
+from multipledispatch import dispatch                    # python3.7 及以下版本可以用这个在'class'中使用
 
 
 
