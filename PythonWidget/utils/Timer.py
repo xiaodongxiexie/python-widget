@@ -4,6 +4,7 @@
 # @Last Modified by:   xiaodong
 # @Last Modified time: 2018-01-12 15:11:11
 import time
+import types
 
 
 class Timer(object):
@@ -26,6 +27,23 @@ class TimerCost:
 		end = time.time()
 		print ('Total time: %s s' % (end-start))
 		return result
+class Elapsed:
+    def __init__(self, func):
+        wraps(func)(self)
+        self.func = func
+
+    def __call__(self, *args, **kwargs):
+        start = time.perf_counter()
+        result = self.func(*args, **kwargs)
+        end = time.perf_counter()
+        
+        return result
+
+    def __get__(self, instance, cls):
+        if instance is None:
+            return self
+        else:
+            return types.MethodType(self, instance)
 
 @TimerCost
 def p(a, b=10):
