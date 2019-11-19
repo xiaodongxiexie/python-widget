@@ -437,6 +437,10 @@ from funcy import flatten, isa # 嵌套数组展平，各种迭代等
 import bisect                  # 排序数组插入数据
 import heapq                   # heapq.merge 有序列表快速合并
 
+import heapdict
+from heapdict import collections
+from heapdict import heapdict
+
 
 # Windows
 # ==============================================================
