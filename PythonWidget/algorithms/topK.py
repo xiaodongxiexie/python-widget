@@ -26,7 +26,12 @@ def topk2(seq, k=1):
         locs.add(loc)
         dq.append(pivot)
     return dq
-   
+
+
+def python_builtin_topk(seq, k=1):
+    import heapq
+    return heapq.nlargest(k, seq)
+
 
 if __name__ == "__main__":
     import random
