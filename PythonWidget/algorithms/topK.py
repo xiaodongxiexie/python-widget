@@ -27,6 +27,30 @@ def topk2(seq, k=1):
         dq.append(pivot)
     return dq
 
+# 分治法
+# 算法复杂度 n
+class TopK(object):
+    def partition(self, seq):
+        pivot = seq[0]
+        _seq = seq[1:]
+        left, right = [], []
+        for ele in _seq:
+            if ele < pivot:
+                left.append(ele)
+            else:
+                right.append(ele)
+        return left, pivot, right
+        
+    def topk(self, seq, k=1):
+        left, pivot, right = self.partition(seq)
+        length = len(right)
+        if  length == k:
+            return right
+        if length < k:
+            right.append(pivot)
+            return right + self.topk(left, k-length-1)
+        return self.topk(right, k=k)
+
 
 def python_builtin_topk(seq, k=1):
     import heapq
@@ -41,3 +65,6 @@ if __name__ == "__main__":
     
     print(topk2(seq, 5))
     print(topk2(seq, 10))
+    
+    print(TopK().topk(seq, 5))
+    print(TopK().topk(seq, 10))
