@@ -18,6 +18,7 @@ import functools
 import warnings
 import threading
 import sys
+import types
 
 
 def synchronized(lock=None):
@@ -196,3 +197,22 @@ def deprecated(func):
         return func(*args, **kwargs)
 
     return new_func
+
+
+class Elapsed:
+    def __init__(self, func):
+        wraps(func)(self)
+        self.func = func
+
+    def __call__(self, *args, **kwargs):
+        start = time.perf_counter()
+        result = self.func(*args, **kwargs)
+        end = time.perf_counter()
+        logger.info("%s elapsed time: %d", self.func.__name__, end - start)
+        return result
+
+    def __get__(self, instance, cls):
+        if instance is None:
+            return self
+        else:
+            return types.MethodType(self, instance)
