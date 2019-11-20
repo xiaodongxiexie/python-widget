@@ -2,8 +2,10 @@
 
 import os
 import time
+import logging
 
 from dataclasses import dataclass
+from functools import wraps
 from typing import TypeVar, List, Dict, Optional, Union
 from enum import Enum, unique
 
@@ -11,11 +13,32 @@ import cx_Oracle as oracle
 import psycopg2
 import pymysql
 
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
+logger = logging.getLogger(__name__)
+
 
 # this can avoid err when use fetchall ^.^
 os.environ['NLS_LANG'] = 'SIMPLIFIED CHINESE_CHINA.UTF8'
 
+class Elapsed:
+    def __init__(self, func):
+        wraps(func)(self)
+        self.func = func
 
+    def __call__(self, *args, **kwargs):
+        start = time.perf_counter()
+        result = self.func(*args, **kwargs)
+        end = time.perf_counter()
+        logger.info("%s elapsed time: %d", self.func.__name__, end - start)
+        return result
+
+    def __get__(self, instance, cls):
+        if instance is None:
+            return self
+        else:
+            return types.MethodType(self, instance)
+        
+        
 @dataclass
 @unique
 class DBOption(Enum):
