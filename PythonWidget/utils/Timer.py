@@ -5,7 +5,7 @@
 # @Last Modified time: 2018-01-12 15:11:11
 import time
 import types
-
+from contextlib import contextmanager
 
 class Timer(object):
 	def __init__(self, start=None):
@@ -27,6 +27,25 @@ class TimerCost:
 		end = time.time()
 		print ('Total time: %s s' % (end-start))
 		return result
+class Timeuse:
+    def __enter__(self):
+        self.start = time.perf_counter()
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.end = time.perf_counter()
+        print("time use: ", self.end - self.start)
+
+
+@contextmanager
+def timeuse():
+    try:
+        start = time.perf_counter()
+        yield
+    finally:
+        end = time.perf_counter()
+        print("time use: ", end - start)
+
+
 class Elapsed:
     def __init__(self, func):
         wraps(func)(self)
@@ -36,7 +55,7 @@ class Elapsed:
         start = time.perf_counter()
         result = self.func(*args, **kwargs)
         end = time.perf_counter()
-        
+        logger.info("%s elapsed time: %d", self.func.__name__, end - start)
         return result
 
     def __get__(self, instance, cls):
