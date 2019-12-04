@@ -3,7 +3,7 @@
 <font color="green"><strong>supervisor是一个Linux/Unix系统上的进程监控工具，supervisor是一个Python开发的通用的进程管理程序，可以管理和监控Linux上面的进程，能将一个普通的命令行进程变为后台daemon，并监控进程状态，异常退出时能自动重启.</strong></font>
 
 ### 1、 pip3 install supervisor
-	(尽量避免apt-apt install(ubuntu)或yum install(centos),因为会使用内置的python2)
+	(尽量避免sudo-apt install(ubuntu)或yum install(centos),因为会使用内置的python2)
 
 ### 2、默认下载路径是到python3路径下的bin文件夹里
 	（比如：/usr/local/python3/bin)
