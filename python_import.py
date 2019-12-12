@@ -384,6 +384,7 @@ from reprlib import repr
 import this                     # Python之禅
 import string
 import keyword                  # 保留关键字
+import shlex
 
 import re
 
