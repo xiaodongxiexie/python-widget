@@ -514,6 +514,9 @@ from typing import Sequence, Set, Sized
 from typing import Text, Tuple, Union
 from typing import overload                         #  一般用来装饰不同参数下的同一函数
 
+# pip install typing_extensions
+from typing_extensions import Final
+
 # Data validation and settings management using python type hinting.
 # pip install pydantic
 from pydantic import BaseModel
