@@ -773,6 +773,9 @@ m.compute_score(x, x**2)
 
 import pybrain
 import sklearn
+
+# pip install mlxtend                          # 一些扩展，比如Stacking,联合sklearn使用
+import mlxtend
 import imblearn                                # 机器学习中非平衡样本进行样本平衡（上采样、下采样等）
 
 # 用于将sklearn训练出的模型文件转换为PMML文件（可以给java等其他语言调用）
