@@ -323,6 +323,15 @@ from scrapy.loader.processors import MapCompose, Join  # 以函数链实现复�
 import scrapy_redis
 
 
+# 视频流下载及解密
+# pip install m3u8
+import m3u8
+
+# pip install Crypto
+from Crypto.Cipher import AES
+
+
+
 # 定时任务/定时操作
 # ==============================================================
 # pip install schedule
