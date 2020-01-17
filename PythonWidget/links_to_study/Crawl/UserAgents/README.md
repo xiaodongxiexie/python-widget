@@ -18,6 +18,17 @@ def dump_json(objs, path):
         
         
 if __name__ == "__main__":
-  url = "http://useragentstring.com/pages/useragentstring.php?name=Firefox"
-  dump_json(get_agents(url), "user.agent.list.json")
+
+    home = "http://useragentstring.com/pages/useragentstring.php"
+    root = "http://useragentstring.com"
+    
+    h = lxml.etree.HTML(requests.get(home).content)
+    
+    for postfix in h.xpath("//td/a/@href"):
+        url = root + postfix
+        name = url.split("name=")[-1]
+        try:
+            dump_json(get_agents(url), f"{name}.user.agents.list.json")
+        except:pass
+    
 ```
