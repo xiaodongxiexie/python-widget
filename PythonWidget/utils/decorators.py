@@ -199,6 +199,52 @@ def deprecated(func):
     return new_func
 
 
+def keyword_only(func):
+    """
+    A decorator that forces keyword arguments in the wrapped method.
+    """
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        if len(args) > 0:
+            raise TypeError("Method %s only takes keyword arguments." % func.__name__)
+        return func(**kwargs)
+    notice = ".. Note:: This method requires all argument be specified by keyword.\n"
+    wrapper.__doc__ = notice + wrapper.__doc__
+    return wrapper
+
+
+def deprecated(alternative=None, since=None):
+    """
+    Decorator for marking APIs deprecated in the docstring.
+
+    :param func: A function to mark
+    :returns Decorated function.
+    """
+
+    def deprecated_decorator(func):
+        since_str = " since %s" % since if since else ""
+        notice = (
+            ".. Warning:: ``{function_name}`` is deprecated{since_string}. This method will be"
+            " removed in a near future release.".format(
+                function_name='.'.join([func.__module__, func.__name__]),
+                since_string=since_str)
+        )
+        if alternative is not None and alternative.strip():
+            notice += " Use ``%s`` instead." % alternative
+
+        @wraps(func)
+        def deprecated_func(*args, **kwargs):
+            warnings.warn(notice, category=DeprecationWarning, stacklevel=2)
+            return func(*args, **kwargs)
+
+        if func.__doc__ is not None:
+            deprecated_func.__doc__ = notice + "\n" + func.__doc__
+
+        return deprecated_func
+
+    return deprecated_decorator
+
+
 class Elapsed:
     def __init__(self, func):
         wraps(func)(self)
