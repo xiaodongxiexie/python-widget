@@ -332,6 +332,7 @@
 > [数据库常用函数](http://www.jb51.net/article/40179.htm) </br>
 > [数据库常用函数](http://www.jb51.net/article/40179.htm) </br>
 > [MySQL数据表中有自增长主键时如何插入数据](http://blog.csdn.net/Weicleer/article/details/47608289) </br>
+> [NoSQL漫谈NoSQL漫谈借NoSQL之名，漫谈分布式数据存储技术](http://www.nosqlnotes.com/)
 
 > navicate 数据库操作
 
