@@ -536,6 +536,8 @@
 
 ### 其他
 
+> [各种语言下的Web并发排名](https://www.techempower.com/benchmarks/)
+
 > [互联网公司技术架构，微信/淘宝/腾讯/阿里/美团点评/百度/微博/Google/Facebook/Amazon/eBay的架构](https://github.com/davideuler/architecture.of.internet-product)
 
 > [美团技术文章](https://tech.meituan.com/)
