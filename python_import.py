@@ -425,6 +425,7 @@ import Levenshtein              # 斯文斯坦距离（字符串相似度比较�
 import textdistance             # 文本相似度比较
 
 import difflib                  # 字符串相似度比较
+from difflib import get_close_matches
 
 
 # 排序算法
