@@ -486,6 +486,8 @@ import configparser
 import yaml
 # pip install toml
 import toml   
+# pip install nacos-sdk-python
+import nacos                        # alibaba 开发，配置管理中心
 
 
 # 命令行相关
