@@ -53,12 +53,18 @@ class FetchDataFromDB(object):
     which_db: TypeVar("db", str, int)
     db_name = None
 
+    # don't need set
+    _connection_pool = None
+    _use_pool = None
+
     def __post_init__(self):
         self.user = self.config.get("user")
         self.ip = self.config.get("ip") or self.config.get("host")
         self.port = self.config.get("port")
         self.db = self.config.get("db") or self.config.get("database")
         self.passwd = self.config.get("passwd") or self.config.get("password")
+        self._connection_pool = None
+        self._use_pool = None
 
     def connect_oracle(self):
         url = self.ip + ":" + self.port + "/" + self.db
@@ -80,14 +86,28 @@ class FetchDataFromDB(object):
         )
         return connection
 
-    def connect_postgresql(self):
-        connection = psycopg2.connect(
+    def connect_postgresql(self, use_pool=True):
+        """use connection pool for reuse"""
+
+        db_cfg = dict(
             host=self.ip,
             port=self.port,
             database=self.db,
             user=self.user,
             password=self.passwd,
         )
+
+        if self._connection_pool is None:
+            self._connection_pool = ThreadedConnectionPool(
+                minconn=10,
+                maxconn=100,
+                **db_cfg,
+            )
+        if use_pool:
+            self._use_pool = True
+            connection = self._connection_pool.getconn()
+        else:
+            connection = psycopg2.connect(**db_cfg)
         return connection
 
     def connect(self):
@@ -99,70 +119,210 @@ class FetchDataFromDB(object):
         connection = getattr(self, "connect_" + which_db)()
         return connection
 
+    @Elapsed
     def query(
-                self,
-                sql: str,
-                nums: Optional[int] = None,
-                style: str = "lower"
-                ) -> List[Dict]:
+            self,
+            sql: str,
+            nums: Optional[int] = None,
+            style: str = "lower"
+    ) -> List[Dict]:
         """sql attention:
         don't end with a semicolon or get a error.
         """
+
+        # 2019-12-02   add special treatment for connection pool
         connection = self.connect()
-        with connection as conn:
-            if self.db_name == "mysql":
-                cursor = conn
-            else:
-                cursor = conn.cursor()
+        conn = connection
+        # with connection as conn:
+        try:
+            cursor = conn.cursor()
             try:
+                with lock:
+                    logger.info(sql)
                 cursor.execute(sql)
-                logger.info(sql)
             except Exception as e:
-                logger.exception(sql, exc_info=True)
-            if self.db_name in ["mysql", "oracle"]:
-                columns = [getattr(obj[0], style)() for obj in cursor.description]
+                with lock:
+                    logger.exception(sql, exc_info=True)
+            if cursor.description and list(cursor.description):
+                if self.db_name in ["mysql", "oracle"]:
+                    columns = [getattr(obj[0], style)() for obj in cursor.description]
+                else:
+                    columns = [getattr(obj.name, style)() for obj in cursor.description]
+                if nums is None:
+                    rets = cursor.fetchall()
+                else:
+                    rets = cursor.fetchmany(nums)
+                rets = [dict(zip(columns, objs)) for objs in rets]
+                with lock:
+                    logger.info("--fetch end--".center(60, "*"))
             else:
-                columns = [getattr(obj.name, style)() for obj in cursor.description]
-            if nums is None:
-                rets = cursor.fetchall()
-            else:
-                rets = cursor.fetchmany(nums)
-            rets = [dict(zip(columns, objs)) for objs in rets]
-            return rets
+                rets = []
+                with lock:
+                    logger.critical("no results get! check this")
+        finally:
+            flag = self._handle_connection_pool(conn)
+            if not flag:
+                conn.close()
+        return rets
+
+    def _handle_connection_pool(self, conn):
+        if self._use_pool:
+            if self._connection_pool is not None:
+                try:
+                    self._connection_pool.putconn(conn)
+                except psycopg2.pool.PoolError:
+                    logger.debug("just ignore ===> for future debug")
+                    # logger.exception("just ignore ===> for future debug",
+                    #                  exc_info=True)
+                return True
+        return False
+
+    def closeall(self):
+        if self.db_name == "postgresql":
+            if self._connection_pool is not None:
+                self._connection_pool.closeall()
+                print("\n\n\nclose all connection\n\n\n")
 
     def insertmany(
-                self, table_name: str,
-                cols: Union[list, tuple],
-                values: List[Union[list, tuple]],
-                batch_size: int = 2000
-                ) -> None:
+            self, table_name: str,
+            cols: Union[list, tuple],
+            values: List[Union[list, tuple]],
+            batch_size: int = 2000
+    ) -> None:
+        print("db_name  ==>  ", self.db_name)
+        if self.db_name == "postgresql":
+            self.gp_insertmany(table_name=table_name,
+                               cols=cols,
+                               values=values,
+                               batch_size=batch_size)
+        elif self.db_name == "oracle":
+            self.oracle_insertmany(table_name=table_name,
+                                   cols=cols,
+                                   values=values,
+                                   batch_size=batch_size)
+        elif self.db_name == "mysql":
+            self.mysql_insertmany(table_name=table_name,
+                                  cols=cols,
+                                  values=values,
+                                  batch_size=batch_size)
+        else:
+            raise TypeError("just support Oracle and GP(PG)")
+
+    def oracle_insertmany(
+            self, table_name: str,
+            cols: Union[list, tuple],
+            values: List[Union[list, tuple]],
+            batch_size: int = 2000
+    ) -> None:
         conn = self.connect()
 
-        assert self.db_name == "oracle", "just support for Oracle"
+        # assert self.db_name in ("oracle", "gp", "pg"), "just support for Oracle and PG(GP)"
 
-        with conn:
+        try:
+            cursor = conn.cursor()
             _insert_sql = """
             INSERT INTO {table_name} ({columns}) VALUES ({placeholder})
             """
             nums = len(cols)
             columns = ", ".join(cols)
-            placeholder = (", ".join([":{}".format(i) for i in range(1, nums+1)]))
+            placeholder = (", ".join([":{}".format(i) for i in range(1, nums + 1)]))
+
             insert_sql = _insert_sql.format(table_name=table_name,
                                             columns=columns,
                                             placeholder=placeholder,
                                             )
             i = 0
-            _start = time.perf_counter()
             while i < len(values):
-               
                 i += batch_size
-                curcor.executemany(insert_sql, values[i-batch_size:i])
-                logger.info("{}: from:{} to {}".format(insert_sql, i-batch_size, i))
-                conn.commmit()
-           
+                cursor.executemany(insert_sql, values[i - batch_size:i])
+                with lock:
+                    logger.info("from:{} to {}".format(i - batch_size, i))
+                conn.commit()
+                
             print("insert into {} with {} rows success".format(table_name,
                                                                len(values)))
-            
+        finally:
+            flag = self._handle_connection_pool(conn)
+            if not flag:
+                conn.close()
+
+    def mysql_insertmany(
+            self, table_name: str,
+            cols: Union[list, tuple],
+            values: List[Union[list, tuple]],
+            batch_size: int = 10000
+    ) -> None:
+        conn = self.connect()
+        try:
+            cursor = conn.cursor()
+            _insert_sql = """
+            INSERT INTO {table_name} ({columns}) VALUES ({placeholder})
+            """
+            nums = len(cols)
+            columns = ", ".join(cols)
+            placeholder = (", ".join(["%s".format(i) for i in range(1, nums + 1)]))
+
+            insert_sql = _insert_sql.format(table_name=table_name,
+                                            columns=columns,
+                                            placeholder=placeholder,
+                                            )
+            i = 0
+            while i < len(values):
+                i += batch_size
+                cursor.executemany(insert_sql, values[i - batch_size:i])
+                with lock:
+                    logger.info("from:{} to {}".format(i - batch_size, i))
+                conn.commit()
+               
+            print("insert into {} with {} rows success".format(table_name,
+                                                               len(values)))
+        except:
+            conn.rollback()
+            logger.fatal("向mysql插入数据失败，已回退~")
+        finally:
+            flag = self._handle_connection_pool(conn)
+            if not flag:
+                conn.close()
+
+    def gp_insertmany(
+            self, table_name: str,
+            cols: Union[list, tuple],
+            values: List[Union[list, tuple]],
+            batch_size: int = 2000
+    ) -> None:
+        conn = self.connect()
+
+        assert self.db_name in ("postgresql",), "just support for PG(GP)"
+
+        nums = len(cols)
+        columns = ", ".join(cols)
+        _insert_sql = """
+                    INSERT INTO {table_name} ({columns}) VALUES {placeholder}
+                    """
+        placeholder = ", ".join(["%s"] * nums)
+        placeholder = "%s"
+        insert_sql = _insert_sql.format(table_name=table_name,
+                                        columns=columns,
+                                        placeholder=placeholder,
+                                        )
+        try:
+            cursor = conn.cursor()
+            i = 0
+            while i < len(values):
+                i += batch_size
+                placeholders = values[i - batch_size:i]
+                # cursor.executemany(insert_sql, placeholders)
+                execute_values(cursor, insert_sql, placeholders)
+                with lock:
+                    logger.info("from:{} to {}".format(i - batch_size, i))
+                conn.commit()
+               
+            print("insert into {} with {} rows success".format(table_name,
+                                                               len(values)))
+        finally:
+            flag = self._handle_connection_pool(conn)
+            if not flag:
+                conn.close()
             
             
             
