@@ -584,6 +584,13 @@ import SimpleHTTPServer
 import Cookie
 import cookielib
 
+# pip install updog
+# cmd 
+# >>> updog 
+# >>> updog your/another/workdir
+# >>> dudog --password your-can-set-a-password
+
+
 
 
 
