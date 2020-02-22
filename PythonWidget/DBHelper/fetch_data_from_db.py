@@ -154,18 +154,12 @@ class FetchDataFromDB(object):
             i = 0
             _start = time.perf_counter()
             while i < len(values):
-                start = time.perf_counter()
+               
                 i += batch_size
                 curcor.executemany(insert_sql, values[i-batch_size:i])
                 logger.info("{}: from:{} to {}".format(insert_sql, i-batch_size, i))
                 conn.commmit()
-                end = time.perf_counter()
-                progressbar(
-                    i,
-                    len(values),
-                    cur_consume_time=end - start,
-                    total_consume_time=end - _start,
-                            )
+           
             print("insert into {} with {} rows success".format(table_name,
                                                                len(values)))
             
