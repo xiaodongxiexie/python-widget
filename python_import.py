@@ -983,11 +983,13 @@ from databases import Database                  # 异步操作数据库
 
 
 
+
+
 # 抽象
 # ==============================================================
 import abc
 from abc import abstractmethod
 
-# 面向对象（实现别的语言的interface）
-""" 接口在编程语言中指的是一个抽象类型，是抽象方法的集合，特点如下：
-1、类通过继承接口的方式，来继承接口的抽象
+# 标注工具
+# ==============================================================
+# pip installl labelme          #  https://github.com/wkentaro/labelme
