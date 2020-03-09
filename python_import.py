@@ -818,6 +818,9 @@ import torch
 # pip install visdom
 from visdom import Visdom                      # pytorch 可视化工具
 
+# pip install featuretools                     # 特征处理库
+import featuretools
+
 import keras
 
 # Autograd can automatically differentiate native Python and Numpy code
