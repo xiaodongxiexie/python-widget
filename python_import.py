@@ -952,6 +952,8 @@ import memcache
 import flask
 from flask import Flask, request
 
+from jinja2 import Template
+
 # pip install pipenv                         # 用来创建虚拟环境
 # pip install python-dotenv                  # 用来设置环境变量
 # ------------
