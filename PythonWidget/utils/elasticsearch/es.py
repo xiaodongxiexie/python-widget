@@ -2,6 +2,7 @@
 
 import os
 import glob
+import random
 
 from elasticsearch import Elasticsearch
 
@@ -68,7 +69,9 @@ if __name__ == "__main__":
     index = "novel"
     es = Elasticsearch()
     #es = main(paths, index=index)
-    print(es.search(index=index)["hits"]["total"])
+    num = es.search(index=index)["hits"]["total"]["value"]
+    
+    has_seen = set()
     
     dsl = {
             "query": {
@@ -77,8 +80,19 @@ if __name__ == "__main__":
                     }
                 }
     }
-    #print(es.search(index="novel")["hits"]["hits"][1]["_source"]["text"])
-    print(es.search(index=index, body=dsl)["hits"]["hits"][1]["_source"]["text"])
+    dsl = {"size": num}
+    while True:
+        i = random.randint(0, num)
+        if i not in has_seen:
+            has_seen.add(i)
+        else:
+            continue
+        print(es.search(index=index, body=dsl)["hits"]["hits"][i]["_source"]["text"])
+        
+        _next = input("继续[y/n]~")
+        if not _next.lower().startswith("y"):
+            break
+    #print(es.search(index=index, body=dsl)["hits"]["hits"][1]["_source"]["text"])
     
     
 
