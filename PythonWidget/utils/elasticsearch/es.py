@@ -87,7 +87,14 @@ if __name__ == "__main__":
             has_seen.add(i)
         else:
             continue
-        print(es.search(index=index, body=dsl)["hits"]["hits"][i]["_source"]["text"])
+        txt = es.search(index=index, body=dsl)["hits"]["hits"][i]["_source"]["text"]
+        row = 10
+        for i in range(row, len(txt.split("\n")), row):
+            print("\n".join(txt.split("\n")[i-row:i]))
+            next_page = input("下一页: [y/n]")
+            if not next_page.lower().startswith("y"):
+                break
+            os.system("cls")
         
         _next = input("继续[y/n]~")
         if not _next.lower().startswith("y"):
