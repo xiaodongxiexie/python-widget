@@ -674,6 +674,12 @@ from dask import bag as db
 # pip install dask-ml[xgboost]
 # pip install dask-ml[tensorflow]
 
+import pyspark
+from pyspark.sql import SparkSession
+
+# spark = SparkSession.builder.appName("your app name").getOrCreate()
+# sc = spark.sparkContext
+
 
 
 # pip install modin
