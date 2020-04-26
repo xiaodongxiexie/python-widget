@@ -500,6 +500,8 @@ import fire                             # 生成命令行界面工具
 
 # pip install click
 import click                            # 通过装饰器进行命令行界面生成
+# 跨平台console打印带颜色字体
+# click.style(text, fg="red", bg="green", bold=True)
 
 
 # 枚举
@@ -872,6 +874,9 @@ from email.header import Header
 from email.utils import formatdate
 from email import encoders
 from smtplib import SMTP_SSL
+# pip install pydantic[email_validator]
+# 邮件地址检查
+import email_validator
 
 
 # token 令牌等
