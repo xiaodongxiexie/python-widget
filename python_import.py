@@ -925,6 +925,9 @@ from sqlalchemy import Column, Integer, String, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
+# pip install sqlacodegen
+# 用来对已经存在的表进行sqlalchemy表结构设计，输出为python代码
+
 # pip install influxdb
 from influxdb import InfluxDBClient        # 时序数据库
 
