@@ -5,7 +5,9 @@
 使用pyspark进行数据库增量更新，可用于ETL作业
 """
 
-from typing import Union, List
+from typing import Union, List, TypeVar
+
+from enum import Enum
 
 from pyspark.sql import functions as F
 from pyspark.sql import types
@@ -52,20 +54,23 @@ class IncrementUpdateByPyspark:
                       key: str,
                       include: list = None,
                       exclude: list = None,
-                      ascending: bool = False
+                      ascending: bool = False,
+                      update_only: bool = True,
                       ) -> DataFrame:
-        return (
+        r = (
             IncrementUpdateByPyspark.take_by_key(
                 IncrementUpdateByPyspark.union(pre_dataframe, post_dataframe),
                 key, include, exclude, ascending
                                      )
-                                    .subtract(pre_dataframe)
                 )
+        if update_only:
+            r = r.subtract(pre_dataframe)
+        return r
 
 
 if __name__ == '__main__':
 
-    """doc
+    """readme
     >>> properties = {...}
     >>> url = "..."
     >>> table = "..."
@@ -77,17 +82,21 @@ if __name__ == '__main__':
                                     pre_dataframe,
                                     post_dataframe,
                                     key: <排序键>,
-                                    include: <哪些键如果变化则更新>,
-                                    exclude: <除哪些键外的所有键变化则更新>, --> 注意，只需要设定include或者exclude其一即可
-                                    ascending: <排序键是按递增还是递减>
+                                    include: <主键或联合主键>,
+                                    exclude: <除指定外全部作为联合主键>, --> 注意，只需要设定include或者exclude其一即可
+                                    ascending: <排序键是按递增还是递减>,
             )
+    # 清空中间表            
+    # 写入中间表
     >>> dataframe_to_update.write.jdbc(..., mode="append")
+    # 根据中间表主键删除主表数据
+    # 将中间表数据append到主表
     """
 
     spark = SparkSession.builder.appName("test increament update").getOrCreate()
     schema = types.StructType(
         [
-            types.StructField("num1", types.IntegerType()),
+            types.StructField("id", types.IntegerType()),
             types.StructField("num2", types.IntegerType()),
             types.StructField("num3", types.IntegerType()),
             types.StructField("date", types.StringType()),
@@ -98,7 +107,7 @@ if __name__ == '__main__':
         [2, 2, 5, "2020-10-01"],
         [3, 2, 7, "2019-01-01"],
     ]
-    d2 =[
+    d2 = [
         [1, 2, 5, "2020-02-01"],
         [2, 2, 7, "2020-12-01"],
         [3, 2, 7, "2018-01-01"],
@@ -107,6 +116,6 @@ if __name__ == '__main__':
     dataframe2 = spark.createDataFrame(d2, schema=schema)
     IncrementUpdateByPyspark.update_by_key(dataframe1, dataframe2,
                                            "date",
-                                           exclude=["date", "num3"],
-                                           ascending=False,
+                                           include=["id"],
+                                           ascending=True,
                                            ).show()
