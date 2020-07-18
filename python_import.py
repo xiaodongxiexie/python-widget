@@ -340,6 +340,9 @@ import schedule
 # pip install apscheduler
 from apscheduler.schedulers.blocking import BlockingScheduler
 
+# 分布式消息队列（多用于异步执行任务--> 异步邮件发送等）
+from celery import Celery
+
 import sched
 
 
@@ -919,6 +922,11 @@ import cx_Oracle as oracle
 # pip install py2neo 
 import py2neo
 
+# GraphQL
+# https://docs.graphene-python.org/en/latest/quickstart/
+# pip install "graphene>=2.0"
+from graphene import ObjectType, String, Schema
+
 # pip install SQLAlchemy
 from sqlalchemy import create_engine
 from sqlalchemy import Column, Integer, String, DateTime
@@ -977,6 +985,20 @@ from flask_wtf.csrf import validate_csrf
 from wtforms import ValidatoionError
 # pip install flask_socketio                 # 用于websockets，由服务端通知(触发)客户端数据的更新
 from flask_socketio import SocketIO, emit, send
+from flask_alembic import Alembic
+from flask_allows import Allows
+from flask_babelplus import Babel
+from flask_caching import Cache
+from flask_debugtoolbar import DebugToolbarExtension
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
+from flask_login import LoginManager
+from flask_mail import Mail
+from flask_redis import FlaskRedis
+from flask_sqlalchemy import SQLAlchemy
+from flask_themes2 import Themes
+from flask_whooshee import Whooshee
+from flask_wtf.csrf import CSRFProtect
 # ------------
 
 import django
