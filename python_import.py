@@ -203,7 +203,7 @@ from importlib import reload
 # IO 相关
 # ==============================================================
 # pip install colorama
-import colorma                  # 改变输出流背景颜色等
+import colorama                  # 改变输出流背景颜色等
 import fileinput
 from io import StringIO
 import readline
