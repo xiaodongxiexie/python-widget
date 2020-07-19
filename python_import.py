@@ -930,8 +930,10 @@ from graphene import ObjectType, String, Schema
 # pip install SQLAlchemy
 from sqlalchemy import create_engine
 from sqlalchemy import Column, Integer, String, DateTime
+from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import sessionmaker, relationship, scoped_session
+from sqlalchemy.pool import NullPool
 
 # pip install sqlacodegen
 # 用来对已经存在的表进行sqlalchemy表结构设计，输出为python代码
