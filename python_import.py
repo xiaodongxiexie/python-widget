@@ -951,6 +951,8 @@ from elasticsearch.exceptions import NotFoundError, RequestError, TransportError
 from whoosh import fields
 from whoosh import index
 from whoosh.fields import SchemaClass, TEXT, KEYWORD, ID, STORED
+from whoosh import highlight, analysis, qparser
+from whoosh.support.charset import accent_map
 
 # pip install pylibmc
 import pylibmc                              # for Memcache
