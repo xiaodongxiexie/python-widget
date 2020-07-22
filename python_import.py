@@ -935,6 +935,13 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship, scoped_session
 from sqlalchemy.pool import NullPool
 
+# pip install sqlalchemy-utils 
+# sqlalchemy 强化工具
+from sqlalchemy_utils import JSONType
+from sqlalchemy_utils import IPAddressType
+from sqlalchemy_utils import ArrowType
+from sqlalchemy_utils import ChoiceType
+
 # pip install sqlacodegen
 # 用来对已经存在的表进行sqlalchemy表结构设计，输出为python代码
 
