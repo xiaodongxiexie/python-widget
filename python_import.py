@@ -948,6 +948,8 @@ from sqlalchemy_utils import ChoiceType
 # pip install influxdb
 from influxdb import InfluxDBClient        # 时序数据库
 
+# pip install pysolr
+
 # pip install elasticsearch
 import elasticsearch
 from elasticsearch import helpers          # helpers.bulk(...) 批量插入
