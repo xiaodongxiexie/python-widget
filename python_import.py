@@ -53,6 +53,10 @@ from collections import OrderedDict
 import logging
 from logging.handlers import RotatingFileHandler
 
+# pip install concurrent-log-handler
+# 多进程下日志使用
+from concurrent_log_handler import ConcurrentRotatingFileHandler
+
 import functools
 from functools import wraps, update_wrapper
 from functools import partial
