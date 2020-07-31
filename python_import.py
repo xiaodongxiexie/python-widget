@@ -923,6 +923,10 @@ import redis
 # pip install iredis                        # 一个带提示的redis终端
 import cx_Oracle as oracle
 
+# 基于sqlalchemy|tablib实现的一个便捷数据库通过sql语句操作
+# pip install records
+import records
+
 # pip install py2neo 
 import py2neo
 
