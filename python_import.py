@@ -120,6 +120,11 @@ from functools import singledispatchmethod               # python3.8+ 支持，�
 from multipledispatch import dispatch                    # python3.7 及以下版本可以用这个在'class'中使用
 
 
+# 插件化
+# ==============================================================
+# pip install pluggy
+from pluggy import PluginManager, HookimplMarker, HookspecMarker
+
 
 
 # Python方法、属性操作
