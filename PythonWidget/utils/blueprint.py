@@ -5,6 +5,8 @@
 import sys
 import types
 
+from functools import wraps
+
 
 class FuncAlreadyExistError(Exception):
     def __init__(self, func_name):
@@ -41,6 +43,7 @@ class blueprint(metaclass=Blueprint):
 class customization:
 
     def __init__(self, func: callable):
+        wraps(func)(self)
         self.func = func
         self.__customization_name__ = "customization"
 
@@ -63,16 +66,17 @@ if __name__ == '__main__':
     class T2(blueprint):
         @customization
         def test(a, b=10):
+            """
+            aha
+            """
             return a, b
 
         def aha(self):
             return "will not been executed"
 
     config = {
-        "T.test": {"args": (1, 2, 3), "kwargs": {"a": 1, "b": 2}},
-        "T2.test": {"args": (100, ), "kwargs": {"b": -100}}
+        "T.test" : {"args": (1, 2, 3), "kwargs": {"a": 1, "b": 2}},
+        "T2.test": {"args": (100, ),   "kwargs": {"b": -100}}
     }
     for func_name, func in (Blueprint.__customization_storage__).items():
         print(func(*config[func_name]["args"], **config[func_name]["kwargs"]))
-
-
