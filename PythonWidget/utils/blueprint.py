@@ -44,8 +44,8 @@ class customization:
         self.func = func
         self.__customization_name__ = "customization"
 
-    def __call__(self):
-        return self.func()
+    def __call__(self, *args, **kwargs):
+        return self.func(*args, **kwargs)
 
     def __get__(self, instance, cls):
         if instance is None:
@@ -57,11 +57,22 @@ if __name__ == '__main__':
 
     class T(blueprint):
         @customization
-        def test():
-            return 0
+        def test(*args, **kwargs):
+            return args, kwargs
 
+    class T2(blueprint):
+        @customization
+        def test(a, b=10):
+            return a, b
 
+        def aha(self):
+            return "will not been executed"
+
+    config = {
+        "T.test": {"args": (1, 2, 3), "kwargs": {"a": 1, "b": 2}},
+        "T2.test": {"args": (100, ), "kwargs": {"b": -100}}
+    }
     for func_name, func in (Blueprint.__customization_storage__).items():
-        print(func())
+        print(func(*config[func_name]["args"], **config[func_name]["kwargs"]))
 
 
