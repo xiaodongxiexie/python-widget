@@ -2,7 +2,7 @@ def get_last_month_end(date):
     """
     :param date: 格式 20200101
     """
-    from datetime import date as _date
+    from datetime import date as _date, timedelta
 
     date = str(date)
     year, month, day = date[:4], date[4:6], "01"
