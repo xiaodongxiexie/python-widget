@@ -14,9 +14,9 @@
 	比如我的是：
 	
 		# 其中/usr/local/python3/bin 是第2步钟的下载路径
-		ls -s /usr/local/python3/bin/echo_supervisord_conf /usr/bin/echo_supervisord_conf
-		ls -s /usr/local/python3/bin/supervisord /usr/bin/supervisord
-		ls -s /usr/local/python3/bin/supervisorctl /usr/bin/supervisorctl
+		ln -s /usr/local/python3/bin/echo_supervisord_conf /usr/bin/echo_supervisord_conf
+		ln -s /usr/local/python3/bin/supervisord /usr/bin/supervisord
+		ln -s /usr/local/python3/bin/supervisorctl /usr/bin/supervisorctl
 
 
 ### 4、建立配置文件
