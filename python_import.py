@@ -923,6 +923,8 @@ import stomp                                # MQ
 import sqlite3
 import pymongo
 import pymysql
+# pip install mysqlclient
+import MySQLdb
 import psycopg2
 import redis
 # pip install iredis                        # 一个带提示的redis终端
