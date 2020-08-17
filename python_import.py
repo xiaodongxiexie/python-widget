@@ -427,6 +427,9 @@ import colorma                  # 改变输出流背景颜色等
 # pip install fuzzywuzzy
 import fuzzywuzzy
 
+# pip install simhash
+from simhash import Simhash
+
 # pip install pangu
 import pangu                    # 分词处理
 
