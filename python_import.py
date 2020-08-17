@@ -620,6 +620,13 @@ from itertools import accumulate, chain, product
 
 from collections import defaultdict, OrderedDict, namedtuple
 
+# dict的扩展版，对key的大小写不敏感
+from multidict import (
+    CIMultiDict,
+    CIMultiDictProxy,
+    MultiDict,
+    MultiDictProxy)
+
 
 
 # 安全执行操作
