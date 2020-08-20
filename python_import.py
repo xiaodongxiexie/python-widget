@@ -564,6 +564,9 @@ import simplejson
 # pip install ujson
 import ujson
 
+# It's like JSON，but fast and small.
+import msgpack
+
 import pickle
 import cPickle
 import shelve
