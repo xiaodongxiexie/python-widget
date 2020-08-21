@@ -553,6 +553,9 @@ from pydantic.dataclasses import dataclass
 
 from dataclasses import dataclass
 
+# pip install attr 
+import attr
+
 
 # 序列化 相关
 # ==============================================================
