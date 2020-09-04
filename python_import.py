@@ -146,6 +146,15 @@ import base64
 import hmac
 
 
+# word,pdf 解析
+# ==============================================================
+import docxfrom win32com import client
+from pdfminer.converter import TextConverter
+from pdfminer.layout import LAParams
+from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
+from pdfminer.pdfpage import PDFPage
+
+
 # 文件路径处理
 # ==============================================================
 import os.path
