@@ -64,7 +64,6 @@ class AC:
                     if self.end not in d[char]:
                         d = d[char]
                     else:
-                        start += exist - 1
                         return True
             start += 1
         return False
