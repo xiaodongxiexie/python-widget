@@ -944,6 +944,13 @@ from hashlib import md5, sha1, sha224, sha256, sha384, sha512
 # ==============================================================
 from queue import PriorityQueue, LifoQueue
 
+# 推荐系统
+# ==============================================================
+# python实现的局部敏感哈希，可用于内容推荐系统中的相似比较
+from lshash import LSHash                   # pip install lshash
+from pyspark.ml.feature import MinHashLSH, BucketedRandomProjectionLSH
+from pyspark.ml.recommendation import ALS
+
 
 # 数据库
 # ==============================================================
