@@ -1087,6 +1087,9 @@ import fastapi
 import databases
 from databases import Database                  # 异步操作数据库
 
+# pip install aiosql
+import aiosql                                   # 支持pg，sqlite
+
 
 # 规则引擎
 # ==============================================================
