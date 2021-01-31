@@ -298,7 +298,9 @@ import tqdm                   # 便捷查看循环执行进度
 from goto import with_goto    # python实现的goto跳转（不适合多层循环）
 
 # pip install fabirc -i https://mirror.baidu.com/pypi/simple
-from fabir import Connection
+from fabric import Connection
+# pip install fabric2   # offical for python3
+# pip install fabric3   # fork by offical
 # .get
 # .put
 
