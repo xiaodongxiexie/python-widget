@@ -142,6 +142,12 @@ import mimetypes                 # 检测文件MIME类型
 import filetype                  # 类型推断
 from unidedata import normalize, name
 
+# pip install langdetect -i https://mirror.baidu.com/pypi/simple  
+# or 
+# pip install langdetect -i https://mirrors.cloud.tencent.com/pypi/simple
+import langdetect                # 检测文本语言（speak language)
+
+
 import base64
 import hmac
 
