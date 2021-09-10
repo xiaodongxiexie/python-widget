@@ -961,6 +961,10 @@ from lshash import LSHash                   # pip install lshash
 from pyspark.ml.feature import MinHashLSH, BucketedRandomProjectionLSH
 from pyspark.ml.recommendation import ALS
 
+# pip install deepctr                    
+# pip install deepmatch                
+
+
 
 # 数据库
 # ==============================================================
@@ -1017,6 +1021,9 @@ import elasticsearch
 from elasticsearch import helpers          # helpers.bulk(...) 批量插入
 from elasticsearch.serializer import JSONSerializer
 from elasticsearch.exceptions import NotFoundError, RequestError, TransportError
+
+# pip install elasticsearch-dsl
+import elasticsearch_dsl
 
 # pip install Whoosh
 from whoosh import fields
